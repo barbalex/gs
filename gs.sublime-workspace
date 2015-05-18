@@ -1,0 +1,1272 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"obj",
+				"objectToSave"
+			],
+			[
+				"o",
+				"objectToSave"
+			],
+			[
+				"acti",
+				"activeObjects"
+			],
+			[
+				"ac",
+				"activeObjects"
+			],
+			[
+				"snap",
+				"snappableLayers"
+			],
+			[
+				"rem",
+				"remoteDbUrl"
+			],
+			[
+				"hie",
+				"hierarchy"
+			],
+			[
+				"hi",
+				"hierarchies"
+			],
+			[
+				"pro",
+				"projectName"
+			],
+			[
+				"proj",
+				"projHierarchy"
+			],
+			[
+				"projO",
+				"projObject"
+			],
+			[
+				"fir",
+				"firstSync"
+			],
+			[
+				"fi",
+				"firstSync"
+			],
+			[
+				"first",
+				"firstOnceThenLive"
+			],
+			[
+				"userD",
+				"userDbName"
+			],
+			[
+				"get",
+				"getUserDbName"
+			],
+			[
+				"fist",
+				"firstsync"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"sele",
+				"selectInteraction"
+			],
+			[
+				"sel",
+				"selectedFeatures"
+			],
+			[
+				"feaut",
+				"featureCoordinates"
+			],
+			[
+				"vec",
+				"vectorLayerFeatureCoordinates"
+			],
+			[
+				"fe",
+				"featureGeometry"
+			],
+			[
+				"ve",
+				"vectorLayerFeature"
+			],
+			[
+				"feat",
+				"featureCoordinates"
+			],
+			[
+				"feature",
+				"featureGeom"
+			],
+			[
+				"fea",
+				"featureId"
+			],
+			[
+				"layer",
+				"layerName"
+			],
+			[
+				"se",
+				"selectedObj"
+			],
+			[
+				"geomF",
+				"geomFeatures"
+			],
+			[
+				"pr",
+				"previousConfig"
+			],
+			[
+				"ge",
+				"geometryType"
+			],
+			[
+				"str",
+				"stringify"
+			],
+			[
+				"ext",
+				"extentEnlarged"
+			],
+			[
+				"d",
+				"dataObject"
+			],
+			[
+				"la",
+				"layerTitle"
+			],
+			[
+				"coll",
+				"collapseSelector"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"templ",
+				"templateObject"
+			],
+			[
+				"ret",
+				"returnValue"
+			],
+			[
+				"re",
+				"returnValue"
+			],
+			[
+				"pass",
+				"passedObject"
+			],
+			[
+				"ob",
+				"object"
+			],
+			[
+				"loc",
+				"localDb"
+			],
+			[
+				"hier",
+				"hierarchies"
+			],
+			[
+				"rootO",
+				"rootObject"
+			],
+			[
+				"proje",
+				"projectDbName"
+			],
+			[
+				"user",
+				"userDocnameKeys"
+			],
+			[
+				"userDo",
+				"userDocnames"
+			],
+			[
+				"gulp",
+				"gulp-tasks"
+			],
+			[
+				"jquer",
+				"jquery-ui"
+			],
+			[
+				"signin",
+				"signindata"
+			],
+			[
+				"sign",
+				"signindata"
+			],
+			[
+				"pa",
+				"password2"
+			],
+			[
+				"js",
+				"jstreeObject"
+			],
+			[
+				"des",
+				"descendantHierarchies"
+			],
+			[
+				"che",
+				"checkboxGroup"
+			],
+			[
+				"field",
+				"fieldValueList"
+			],
+			[
+				"value",
+				"valueObjectList"
+			],
+			[
+				"val",
+				"valueList"
+			],
+			[
+				"adj",
+				"adjustedHeight"
+			],
+			[
+				"temp",
+				"templateObject"
+			],
+			[
+				"map",
+				"mapHierarchyToJstreeData"
+			],
+			[
+				"he",
+				"hierarchy"
+			],
+			[
+				"tpop",
+				"tpopkontrzaehl"
+			],
+			[
+				"del",
+				"deltaY"
+			],
+			[
+				"tpo",
+				"tpopArray"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"Pop",
+				"PopMassnBerId"
+			],
+			[
+				"lee",
+				"leereZaehleinheit"
+			],
+			[
+				"massnb",
+				"massnberText"
+			],
+			[
+				"erstell",
+				"erstelleTree"
+			],
+			[
+				"latl",
+				"latlng2"
+			],
+			[
+				"ak",
+				"aktiverNode"
+			],
+			[
+				"info",
+				"infowindow_beob"
+			],
+			[
+				"Con",
+				"Content-Type"
+			],
+			[
+				"ini",
+				"initiiereIndex"
+			],
+			[
+				"nodeT",
+				"nodeText2"
+			],
+			[
+				"Inser",
+				"insertIntoTblAktionsplan"
+			],
+			[
+				"feldkontr",
+				"feldkontrZaehleinheit"
+			],
+			[
+				"node",
+				"nodeText"
+			],
+			[
+				"tpopf",
+				"tpopFeldkontrListe"
+			],
+			[
+				"tpopm",
+				"tpopMassnBerListe"
+			],
+			[
+				"initiiereT",
+				"initiiereTPopFeldkontr"
+			],
+			[
+				"massnber",
+				"massnberVonPop"
+			],
+			[
+				"vor",
+				"voranzustellendeNullen"
+			],
+			[
+				"Z",
+				"ZielId"
+			],
+			[
+				"legene",
+				"legende_url"
+			],
+			[
+				"eigene_",
+				"eigene_ebenen_string"
+			],
+			[
+				"strc",
+				"strict"
+			],
+			[
+				"rb",
+				"rgba()"
+			],
+			[
+				"popu",
+				"popup_id_array"
+			],
+			[
+				"overl",
+				"overlays"
+			],
+			[
+				"zeigeF",
+				"zeigeFeatureInfo"
+			],
+			[
+				"entfern",
+				"entferneApfloraLayer"
+			],
+			[
+				"my",
+				"my_label"
+			],
+			[
+				"marker_s",
+				"marker_style_markiert"
+			],
+			[
+				"zus",
+				"zusammenfassend"
+			],
+			[
+				"Ur",
+				"Ursprungsdatensammlung"
+			],
+			[
+				"beste",
+				"bestehende_es"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"hPr",
+				"hProjektListe"
+			],
+			[
+				"op",
+				"option"
+			],
+			[
+				"htmlC",
+				"HtmlContainerBody"
+			],
+			[
+				"ind",
+				"indexpos_hierarchisch"
+			],
+			[
+				"index",
+				"indexpos_einfach"
+			],
+			[
+				"sess",
+				"sessionStorage"
+			],
+			[
+				"table",
+				"table_id"
+			],
+			[
+				"löschePro",
+				"löscheProjekt_2"
+			],
+			[
+				"strin",
+				"stringify"
+			],
+			[
+				"qry",
+				"qryLrMethode"
+			],
+			[
+				"LrD",
+				"LrDocs"
+			],
+			[
+				"und",
+				"undelete"
+			],
+			[
+				"apziel_von",
+				"apziel_von_ordner_apziel"
+			],
+			[
+				"insertTPopFe",
+				"insertTPopFeldKontrKopie_3"
+			],
+			[
+				"deleteTPop",
+				"deleteTPopFeldKontr"
+			],
+			[
+				"insert",
+				"insertTPopFeldKontr_3"
+			],
+			[
+				"insertTPop",
+				"insertTPopFeldKontrKopie_2"
+			],
+			[
+				"ordne",
+				"ordneBeobachtungZu_3"
+			],
+			[
+				"ordn",
+				"ordneBeobachtungZu_2"
+			],
+			[
+				"fuege",
+				"fuegeTPopEin_3"
+			],
+			[
+				"getTPo",
+				"getTPopMassnBer"
+			],
+			[
+				"berj_",
+				"berj_ber_id"
+			],
+			[
+				"indber",
+				"indber_ind_kuerzel"
+			],
+			[
+				"löschen_m",
+				"löschen_meldung_meldung"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 996,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/router.js",
+			"settings":
+			{
+				"buffer_size": 161,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/app.js",
+			"settings":
+			{
+				"buffer_size": 366,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "remove",
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"deinstall",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 491.0,
+		"history":
+		[
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/alex/gs",
+		"/C/Users/alex/gs/src",
+		"/C/Users/alex/gs/src/styles"
+	],
+	"file_history":
+	[
+		"/C/Users/alex/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/alex/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/alex/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/alex/oi/src/modules/deleteObjectAndChildren.js",
+		"/C/Users/alex/oi/src/modules/event/onClickAskYesNoWithModalYes.js",
+		"/C/Users/alex/oi/src/modules/form/saveObjectValue.js",
+		"/C/Users/alex/oi/src/modules/objectWithoutUiState.js",
+		"/C/Users/alex/oi/package.json",
+		"/C/Users/alex/oi/src/modules/configuration.js",
+		"/C/Users/alex/oi/src/modules/createFirstProject.js",
+		"/C/Users/alex/oi/src/modules/nav/signin.js",
+		"/C/Users/alex/oi/src/modules/getObject.js",
+		"/C/Users/alex/oi/src/modules/nav/getDataFromDb.js",
+		"/C/Users/alex/oi/templates/layertoolLayerCollapse.hdb",
+		"/C/Users/alex/oi/src/modules/map/addSnapInteraction.js",
+		"/C/Users/alex/oi/src/modules/map/getSnappableLayers.js",
+		"/C/Users/alex/oi/src/modules/getActiveObjects.js",
+		"/C/Users/alex/oi/src/modules/form/showMap.js",
+		"/C/Users/alex/oi/src/modules/form/createHtmlForField.js",
+		"/C/Users/alex/oi/src/modules/form/initiateForObject.js",
+		"/C/Users/alex/oi/src/modules/form/initiateForHierarchy.js",
+		"/C/Users/alex/oi/src/modules/form/initiateForm.js",
+		"/C/Users/alex/oi/src/modules/map/onEndDraw.js",
+		"/C/Users/alex/oi/src/modules/map/addDrawInteraction.js",
+		"/C/Users/alex/oi/src/modules/map/addSnapInteractions.js",
+		"/C/Users/alex/oi/src/modules/map/addDragboxInteraction.js",
+		"/C/Users/alex/oi/src/oi_browserified.js",
+		"/C/Users/alex/oi/src/modules/nav/createTree.js",
+		"/C/Users/alex/oi/src/modules/setActiveObject.js",
+		"/C/Users/alex/oi/src/modules/map/removeSnapInteractions.js",
+		"/C/Users/alex/oi/src/modules/setupEvents.js",
+		"/C/Users/alex/oi/src/modules/map/createLayerForData.js",
+		"/C/Users/alex/oi/src/modules/event/onChangeLytSnapLayer.js",
+		"/C/Users/alex/oi/src/modules/map/removeAllInteractions.js",
+		"/C/Users/alex/oi/src/modules/_draft.js",
+		"/C/Users/alex/apflora/src/apflora_browserified.js",
+		"/C/Users/alex/oi/src/modules/map/getEditingLayer.js",
+		"/C/Users/alex/oi/src/modules/event/onChangeLytEditLayer.js",
+		"/C/Users/alex/oi/src/modules/map/addLayerToLayertool.js",
+		"/C/Users/alex/oi_testdata/index.js",
+		"/C/Users/alex/oi/src/modules/event/onClickFormNew.js",
+		"/C/Users/alex/oi/src/modules/createNewObjectFromObject.js",
+		"/C/Users/alex/oi/src/modules/createNewObject.js",
+		"/C/Users/alex/oi/server.js",
+		"/C/Users/alex/oi/src/modules/getHierarchy.js",
+		"/C/Users/alex/oi/src/modules/nav/createTreeNodeObject.js",
+		"/C/Users/alex/oi/src/modules/nav/getModelData.js",
+		"/C/Users/alex/oi/src/modules/initiateUi.js",
+		"/C/Users/alex/oi/src/modules/handleExternalObjectChanges.js",
+		"/C/Users/alex/oi/src/modules/event/onChangeEditLayerType.js",
+		"/C/Users/alex/oi/src/modules/map/addModifyInteraction.js",
+		"/C/Users/alex/oi/src/modules/map/onRemoveSelectedFeatures.js",
+		"/C/Users/alex/oi/src/modules/map/onAddSelectedFeatures.js",
+		"/C/Users/alex/oi/src/modules/map/toggleEditButtons.js",
+		"/C/Users/alex/oi/src/modules/nav/treeContextmenuItems.js",
+		"/C/Users/alex/oi/src/modules/nav/getProjectNamesToInitiateUi.js",
+		"/C/Users/alex/oi/src/modules/initiateApp.js",
+		"/C/Users/alex/oi/src/modules/map/createLayerSwisstopoPixelFarbe.js",
+		"/C/Users/alex/oi/src/modules/handleUserChanges.js",
+		"/C/Users/alex/oi/src/modules/addRoleToUserDb.js",
+		"/C/Users/alex/oi/src/proj4.js",
+		"/C/Users/alex/oi/src/jquery-ui.js",
+		"/C/Users/alex/oi/src/jstree.js",
+		"/C/Users/alex/oi/style/perfect-scrollbar.css",
+		"/C/Users/alex/oi/src/bootstrap.js",
+		"/C/Users/alex/oi/gulp-tasks/watch.js",
+		"/C/Users/alex/oi/src/jquery.js",
+		"/C/Users/alex/oi/src/modules/nav/generateDataForTree.js",
+		"/C/Users/alex/oi/src/modules/nav/signUp.js",
+		"/C/Users/alex/oi/src/modules/syncUserDb.js",
+		"/C/Users/alex/oi/src/modules/nav/getLogin.js",
+		"/C/Users/alex/oi/src/modules/getUserDbName.js",
+		"/C/Users/alex/oi/src/modules/syncProjectDb.js",
+		"/C/Users/alex/oi/src/modules/form/addCheckedToValueList.js",
+		"/C/Users/alex/artendb/node_modules/gulp-minify-html/package.json",
+		"/C/Users/alex/oi/service-worker.js",
+		"/C/Users/alex/oi/src/modules/handleChanges.js",
+		"/C/Users/alex/oi/src/oi.js",
+		"/C/Users/alex/oi/src/modules/nav/initiateNav.js",
+		"/C/Users/alex/oi/src/modules/fuckYou.js",
+		"/C/Users/alex/oi/src/modules/syncProjectDbs.js",
+		"/C/Users/alex/oi/src/modules/event/onClickNavFormSort.js",
+		"/C/Users/alex/oi/src/modules/form/saveHierarchy.js",
+		"/C/Users/alex/oi/src/modules/nav/signInOrUp.js",
+		"/C/Users/alex/oi/src/modules/form/updateUiAfterSavingValue.js",
+		"/C/Users/alex/oi/src/modules/event/onChangeElement.js",
+		"/C/Users/alex/oi/src/modules/replicateUserDbOnceFromRemoteToLocal.js",
+		"/C/Users/alex/oi/src/modules/createNewObjectFromHierarchy.js",
+		"/C/Users/alex/oi/src/modules/event/onClickSigninWithModalSignupCheckbox.js",
+		"/C/Users/alex/oi/src/modules/event/onClickNavLogin.js",
+		"/C/Users/alex/oi/src/modules/initiateResizables.js",
+		"/C/Users/alex/oi/src/modules/refreshScrollbar.js",
+		"/C/Users/alex/oi/src/perfect-scrollbar.js",
+		"/C/Users/alex/oi/style/jquery-ui.structure.css",
+		"/C/Users/alex/oi/style/jquery-ui.css",
+		"/C/Users/alex/oi/src/modules/syncWithRemoteDbs.js",
+		"/C/Users/alex/oi/src/modules/nav/openSigninModal.js",
+		"/C/Users/alex/oi/src/modules/tellWithModal.js",
+		"/C/Users/alex/oi/src/modules/map/styleSelected.js",
+		"/C/Users/alex/oi/src/modules/map/styleRed.js",
+		"/C/Users/alex/oi/src/modules/map/addSelectInteraction.js",
+		"/C/Users/alex/oi/templates/layertoolProjectPanel.hdb",
+		"/C/Users/alex/oi/src/modules/map/deleteSelectedFeatures.js",
+		"/C/Users/alex/oi/src/modules/map/initiateMap.js",
+		"/C/Users/alex/oi/templates/geoJson.hdb",
+		"/C/Users/alex/oi/src/modules/nav/selectObjectNode.js",
+		"/C/Users/alex/oi/src/modules/event/onChangeLytShowLayer.js",
+		"/C/Users/alex/oi/src/modules/map/saveFeatureData.js",
+		"/C/Users/alex/oi/src/modules/map/getFeatureById.js",
+		"/C/Users/alex/oi/src/modules/map/getLayerByName.js",
+		"/C/Users/alex/oi/src/modules/map/addProjectLayers.js",
+		"/C/Users/alex/oi/src/modules/event/onClickGeometryField.js",
+		"/C/Users/alex/oi/src/modules/map/zoomToFeatures.js",
+		"/C/Users/alex/oi/src/modules/saveResizablesConfig.js",
+		"/C/Users/alex/oi/src/modules/setWidthOfTabs.js",
+		"/C/Users/alex/oi/src/modules/showTab.js",
+		"/C/Users/alex/oi/src/modules/toggleTab.js",
+		"/C/Users/alex/oi/src/modules/setVisibilityOfTabSeparators.js",
+		"/C/Users/alex/oi/src/modules/setWidthOfTabsWithoutPrevious.js",
+		"/C/Users/alex/oi/src/modules/nav/setVisibilityOfTabSeparators.js",
+		"/C/Users/alex/oi/src/modules/map/removeFeatureData.js",
+		"/C/Users/alex/oi/src/modules/hideTab.js",
+		"/C/Users/alex/oi/src/modules/form/fitTextareaToContent.js",
+		"/C/Users/alex/oi/src/modules/map/createLayerSwisstopoAerial.js",
+		"/C/Users/alex/oi/src/modules/map/zoomToFeature.js",
+		"/C/Users/alex/oi/src/modules/map/addLayers.js",
+		"/C/Users/alex/oi/templates/layertoolThemesPanel.hdb",
+		"/C/Users/alex/oi/src/modules/form/getValueAfterChange.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 147.0,
+		"where_history":
+		[
+			"C:\\Users\\alex\\oi, -oi_browserified.js, -oi_built.js, -bootstrap.js, -jquery-ui.js, -jquery.js, -jstree.js, -bootstrap.css, -oi_built.css, -jstree.css, -perfect-scrollbar.css, -perfect-scrollbar.js, -npm-debug.log, -font-awesome.css, -jquery-ui.css, -jquery-ui.structure.css, -workspace.xml, -service-worker.js, -proj4.js",
+			"C:\\Users\\alex\\oi, -oi_browserified.js, -oi_built.js, -bootstrap.js, -jquery-ui.js, -jquery.js, -jstree.js, -bootstrap.css, -oi_built.css, -jstree.css, -perfect-scrollbar.css, -perfect-scrollbar.js, -npm-debug.log, -font-awesome.css, -jquery-ui.css, -jquery-ui.structure.css, -workspace.xml, -service-worker.js",
+			", ../service-worker.js",
+			"C:\\Users\\alex\\oi, -oi_browserified.js, -oi_built.js, -bootstrap.js, -jquery-ui.js, -jquery.js, -jstree.js, -bootstrap.css, -oi_built.css, -jstree.css, -perfect-scrollbar.css, -perfect-scrollbar.js, -npm-debug.log, -font-awesome.css, -jquery-ui.css, -jquery-ui.structure.css, -workspace.xml",
+			"C:\\Users\\alex\\oi, -oi_browserified.js, -oi_built.js, -bootstrap.js, -jquery-ui.js, -jquery.js, -jstree.js, -bootstrap.css, -oi_built.css, -jstree.css, -perfect-scrollbar.css, -perfect-scrollbar.js, -npm-debug.log, -font-awesome.css, -jquery-ui.css, -jquery-ui.structure.css",
+			"C:\\Users\\alex\\oi, -oi_browserified.js, -oi_built.js, -bootstrap.js, -jquery-ui.js, -jquery.js, -jstree.js, -bootstrap.css, -oi_built.css, -jstree.css, -perfect-scrollbar.css, -perfect-scrollbar.js, -npm-debug.log, -font-awesome.css, -jquery-ui.css",
+			"C:\\Users\\alex\\oi, -oi_browserified.js, -oi_built.js, -bootstrap.js, -jquery-ui.js, -jquery.js, -jstree.js, -bootstrap.css, -oi_built.css, -jstree.css, -perfect-scrollbar.css, -perfect-scrollbar.js, -npm-debug.log, -font-awesome.css",
+			"C:\\Users\\alex\\oi, -oi_browserified.js, -oi_built.js, -bootstrap.js, -jquery-ui.js, -jquery.js, -jstree.js, -bootstrap.css, -oi_built.css, -jstree.css, -perfect-scrollbar.css, -perfect-scrollbar.js, -npm-debug.log",
+			"C:\\Users\\alex\\oi, -oi_browserified.js, -oi_built.js, -bootstrap.js, -jquery-ui.js, -jquery.js, -jstree.js, -bootstrap.css, -oi_built.css, -jstree.css, -perfect-scrollbar.css, -perfect-scrollbar.js, npm-debug.log",
+			"C:\\Users\\alex\\oi, -oi_browserified.js, -oi_built.js, -bootstrap.js, -jquery-ui.js, -jquery.js, -jstree.js, -bootstrap.css, -oi_built.css, -jstree.css, -perfect-scrollbar.css, -perfect-scrollbar.js",
+			"C:\\Users\\alex\\oi, -oi_browserified.js, -oi_built.js, -bootstrap.js, -jquery-ui.js, -jquery.js, -jstree.js, -bootstrap.css, -oi_built.css, -jstree.css, -perfect-scrollbar.css",
+			"C:\\Users\\alex\\oi, -oi_browserified.js, -oi_built.js, -bootstrap.js, -jquery-ui.js, -jquery.js, -jstree.js, -bootstrap.css, -oi_built.css, -jstree.css",
+			"C:\\Users\\alex\\oi, -oi_browserified.js, -oi_built.js, -bootstrap.js, -jquery-ui.js, -jquery.js, -jstree.js, -bootstrap.css",
+			"C:\\Users\\alex\\oi, -oi_browserified.js, -oi_built.js, -bootstrap.js, -jquery-ui.js, -jquery.js, -jstree.js",
+			"C:\\Users\\alex\\oi, -oi_browserified.js, -oi_built.js",
+			"C:\\Users\\alex\\oi -oi_browserified.js, -oi_built.js",
+			"C:\\Users\\alex\\oi",
+			"C:\\Users\\alex\\apflora, -apflora_built.js, -apflora_browserified.js, -apflora_built.css, -main_built.css, -jquery-ui.js, -jquery.hotkeys.js, -jquery.js, -jquery.jstree.js, -markerwithlabel.js, -underscore.js, -hammer.js, -jquery-migrate.js, -jquery.cookie.js, -jquery.fileDownload.js, -jquery.hammer.js, -jquery.qtip.js, -jquery.ui.touch-punch.js, -jsuri.js, -markerclusterer.js, -proj4.js, -ruler.js, -ApFloraAdmin.accdb, -ApFloraAdminNeu.accdb, -workspace.xml, -backbone.js, -alex.xml, -EvabGeoDB_apflora.mdb, -EvabGeoDB_Template.mdb, -apflora.qgs, -tabellenUmbenennen.sql, -FileSaver.js, -handlebars.js, -apflora_struktur.sql, -20141221NeueNamenDbUndTabellen.txt, -renameTables.sql",
+			"C:\\Users\\alex\\apflora, -apflora_built.js, -apflora_browserified.js, -apflora_built.css, -main_built.css, -jquery-ui.js, -jquery.hotkeys.js, -jquery.js, -jquery.jstree.js, -markerwithlabel.js, -underscore.js, -hammer.js, -jquery-migrate.js, -jquery.cookie.js, -jquery.fileDownload.js, -jquery.hammer.js, -jquery.qtip.js, -jquery.ui.touch-punch.js, -jsuri.js, -markerclusterer.js, -proj4.js, -ruler.js, -ApFloraAdmin.accdb, -ApFloraAdminNeu.accdb, -workspace.xml, -backbone.js, -alex.xml, -Beziehungen.accdb, -EvabGeoDB_apflora.mdb, -EvabGeoDB_Template.mdb, -apflora.qgs, -tabellenUmbenennen.sql, -FileSaver.js, -handlebars.js, -apflora_struktur.sql, -20141221NeueNamenDbUndTabellen.txt, -renameTables.sql",
+			"C:\\Users\\alex\\apflora, -apflora_built.js, -apflora_browserified.js, -apflora_built.css, -main_built.css, -jquery-ui.js, -jquery.hotkeys.js, -jquery.js, -jquery.jstree.js, -markerwithlabel.js, -underscore.js, -hammer.js, -jquery-migrate.js, -jquery.cookie.js, -jquery.fileDownload.js, -jquery.hammer.js, -jquery.qtip.js, -jquery.ui.touch-punch.js, -jsuri.js, -markerclusterer.js, -proj4.js, -ruler.js, -ApFloraAdmin.accdb, -ApFloraAdminNeu.accdb, -workspace.xml, -backbone.js, -alex.xml, -Beziehungen.accdb, -EvabGeoDB_apflora.mdb, -EvabGeoDB_Template.mdb, -apflora.qgs, -tabellenUmbenennen.sql, -FileSaver.js, -handlebars.js, -apflora_struktur.sql, -20141221NeueNamenDbUndTabellen.txt",
+			"C:\\Users\\alex\\apflora, -apflora_built.js, -apflora_browserified.js, -apflora_built.css, -main_built.css, -jquery-ui.js, -jquery.hotkeys.js, -jquery.js, -jquery.jstree.js, -markerwithlabel.js, -underscore.js, -hammer.js, -jquery-migrate.js, -jquery.cookie.js, -jquery.fileDownload.js, -jquery.hammer.js, -jquery.qtip.js, -jquery.ui.touch-punch.js, -jsuri.js, -markerclusterer.js, -proj4.js, -ruler.js, -ApFloraAdmin.accdb, -ApFloraAdminNeu.accdb, -workspace.xml, -backbone.js, -alex.xml, -Beziehungen.accdb, -EvabGeoDB_apflora.mdb, -EvabGeoDB_Template.mdb, -apflora.qgs, -tabellenUmbenennen.sql, -FileSaver.js, -handlebars.js, -apflora_struktur.sql, -'2014 12 21 Neue Namen DB und Tabellen.txt'",
+			"C:\\Users\\alex\\apflora, -apflora_built.js, -apflora_browserified.js, -apflora_built.css, -main_built.css, -jquery-ui.js, -jquery.hotkeys.js, -jquery.js, -jquery.jstree.js, -markerwithlabel.js, -underscore.js, -hammer.js, -jquery-migrate.js, -jquery.cookie.js, -jquery.fileDownload.js, -jquery.hammer.js, -jquery.qtip.js, -jquery.ui.touch-punch.js, -jsuri.js, -markerclusterer.js, -proj4.js, -ruler.js, -ApFloraAdmin.accdb, -ApFloraAdminNeu.accdb, -workspace.xml, -backbone.js, -alex.xml, -Beziehungen.accdb, -EvabGeoDB_apflora.mdb, -EvabGeoDB_Template.mdb, -apflora.qgs, -tabellenUmbenennen.sql, -FileSaver.js, -handlebars.js, -apflora_struktur.sql",
+			"C:\\Users\\alex\\apflora, -apflora_built.js, -apflora_browserified.js, -apflora_built.css, -main_built.css, -jquery-ui.js, -jquery.hotkeys.js, -jquery.js, -jquery.jstree.js, -markerwithlabel.js, -underscore.js, -hammer.js, -jquery-migrate.js, -jquery.cookie.js, -jquery.fileDownload.js, -jquery.hammer.js, -jquery.qtip.js, -jquery.ui.touch-punch.js, -jsuri.js, -markerclusterer.js, -proj4.js, -ruler.js, -ApFloraAdmin.accdb, -ApFloraAdminNeu.accdb, -workspace.xml, -backbone.js, -alex.xml, -Beziehungen.accdb, -EvabGeoDB_apflora.mdb, -EvabGeoDB_Template.mdb, -apflora.qgs, -tabellenUmbenennen.sql, -FileSaver.js, -handlebars.js",
+			"C:\\Users\\alex\\apflora, -apflora_built.js, -apflora_browserified.js, -apflora_built.css, -main_built.css, -jquery-ui.js, -jquery.hotkeys.js, -jquery.js, -jquery.jstree.js, -markerwithlabel.js, -underscore.js, -hammer.js, -jquery-migrate.js, -jquery.cookie.js, -jquery.fileDownload.js, -jquery.hammer.js, -jquery.qtip.js, -jquery.ui.touch-punch.js, -jsuri.js, -markerclusterer.js, -proj4.js, -ruler.js, -ApFloraAdmin.accdb, -ApFloraAdminNeu.accdb, -workspace.xml, -backbone.js, -alex.xml, -Beziehungen.accdb, -EvabGeoDB_apflora.mdb, -EvabGeoDB_Template.mdb, -apflora.qgs, -tabellenUmbenennen.sql, -react.js, -FileSaver.js",
+			"C:\\Users\\alex\\apflora, -apflora_built.js, -apflora_browserified.js, -apflora_built.css, -main_built.css, -jquery-ui.js, -jquery.hotkeys.js, -jquery.js, -jquery.jstree.js, -markerwithlabel.js, -underscore.js, -hammer.js, -jquery-migrate.js, -jquery.cookie.js, -jquery.fileDownload.js, -jquery.hammer.js, -jquery.qtip.js, -jquery.ui.touch-punch.js, -jsuri.js, -markerclusterer.js, -proj4.js, -ruler.js, -ApFloraAdmin.accdb, -ApFloraAdminNeu.accdb, -workspace.xml, -backbone.js, -alex.xml, -Beziehungen.accdb, -EvabGeoDB_apflora.mdb, -EvabGeoDB_Template.mdb, -apflora.qgs, -tabellenUmbenennen.sql, -react.js",
+			"C:\\Users\\alex\\apflora, -apflora_built.js, -apflora_browserified.js, -apflora_built.css, -main_built.css, -jquery-ui.js, -jquery.hotkeys.js, -jquery.js, -jquery.jstree.js, -markerwithlabel.js, -underscore.js, -hammer.js, -jquery-migrate.js, -jquery.cookie.js, -jquery.fileDownload.js, -jquery.hammer.js, -jquery.qtip.js, -jquery.ui.touch-punch.js, -jsuri.js, -markerclusterer.js, -proj4.js, -ruler.js, -ApFloraAdmin.accdb, -ApFloraAdminNeu.accdb, -workspace.xml, -backbone.js, -alex.xml, -Beziehungen.accdb, -EvabGeoDB_apflora.mdb, -EvabGeoDB_Template.mdb, -apflora.qgs, -tabellenUmbenennen.sql",
+			"C:\\Users\\alex\\apflora, -apflora_built.js, -apflora_browserified.js, -apflora_built.css, -main_built.css, -jquery-ui.js, -jquery.hotkeys.js, -jquery.js, -jquery.jstree.js, -markerwithlabel.js, -underscore.js, -hammer.js, -jquery-migrate.js, -jquery.cookie.js, -jquery.fileDownload.js, -jquery.hammer.js, -jquery.qtip.js, -jquery.ui.touch-punch.js, -jsuri.js, -markerclusterer.js, -proj4.js, -ruler.js, -ApFloraAdmin.accdb, -workspace.xml, -backbone.js, -alex.xml, -Beziehungen.accdb, -EvabGeoDB_apflora.mdb, -EvabGeoDB_Template.mdb, -apflora.qgs, -tabellenUmbenennen.sql",
+			"C:\\Users\\alex\\apflora, -apflora_built.js, -apflora_browserified.js, -apflora_built.css, -main_built.css, -jquery-ui.js, -jquery.hotkeys.js, -jquery.js, -jquery.jstree.js, -markerwithlabel.js, -underscore.js, -hammer.js, -jquery-migrate.js, -jquery.cookie.js, -jquery.fileDownload.js, -jquery.hammer.js, -jquery.qtip.js, -jquery.ui.touch-punch.js, -jsuri.js, -markerclusterer.js, -proj4.js, -ruler.js, -ApFloraAdmin.accdb, -workspace.xml, -backbone.js, -alex.xml, -Beziehungen.accdb, -EvabGeoDB_apflora.mdb, -EvabGeoDB_Template.mdb, -apflora.qgs",
+			"C:\\Users\\alex\\apflora, -apflora_built.js, -apflora_browserified.js, -apflora_built.css, -main_built.css, -jquery-ui.js, -jquery.hotkeys.js, -jquery.js, -jquery.jstree.js, -markerwithlabel.js, -underscore.js, -hammer.js, -jquery-migrate.js, -jquery.cookie.js, -jquery.fileDownload.js, -jquery.hammer.js, -jquery.qtip.js, -jquery.ui.touch-punch.js, -jsuri.js, -markerclusterer.js, -proj4.js, -ruler.js, -ApFloraAdmin.accdb, -workspace.xml, -backbone.js, -alex.xml, -Beziehungen.accdb, -EvabGeoDB_apflora.mdb, -EvabGeoDB_Template.mdb",
+			"C:\\Users\\alex\\apflora",
+			"C:\\Users\\alex\\apflora\\queries",
+			"C:\\Users\\alex\\apflora\\src\\modules",
+			"C:\\Users\\alex\\apflora",
+			"C:\\Users\\alex\\apflora\\src\\modules",
+			"C:\\Users\\alex\\apflora",
+			"C:\\Users\\alex\\apflora, -'\\.idea\\workspace.xml'",
+			"C:\\Users\\alex\\apflora, -\\.idea\\workspace.xml",
+			"C:\\Users\\alex\\apflora, -/.idea/workspace.xml",
+			"C:\\Users\\alex\\apflora, -'/.idea/workspace.xml'",
+			"C:\\Users\\alex\\apflora, -'/.idea/*'",
+			"C:\\Users\\alex\\apflora, -'/.idea*'",
+			"C:\\Users\\alex\\apflora, -'.idea\\workspace.xml'",
+			"C:\\Users\\alex\\apflora, -'/.idea\\workspace.xml'",
+			"C:\\Users\\alex\\apflora, -/.idea\\workspace.xml",
+			"C:\\Users\\alex\\apflora, -.idea\\workspace.xml",
+			"C:\\Users\\alex\\apflora -.idea\\workspace.xml",
+			"C:\\Users\\alex\\apflora",
+			"C:\\Users\\alex\\EvabMobile",
+			"C:\\Users\\alex\\ab",
+			"C:\\Users\\alex\\apflora, -main.js, -jquery.js, -jquery.jstree.js",
+			"C:\\Users\\alex\\apflora, -main.js, -jquery.js",
+			"C:\\Users\\alex\\apflora, -main.js, -jqery.js",
+			"C:\\Users\\alex\\apflora, -main.js",
+			"C:\\Users\\alex\\apflora\\php, -main.js",
+			"C:\\Users\\alex\\apflora, -main.js",
+			"C:\\Users\\alex\\apflora, -main.js, -C:\\Users\\alex\\apflora\\node_modules",
+			"C:\\Users\\alex\\apflora, -main.js, -\\node_modules",
+			"C:\\Users\\alex\\apflora, -main.js, -/node_modules",
+			"C:\\Users\\alex\\apflora, -main.js, -node_modules",
+			"C:\\Users\\alex\\apflora, -main.js",
+			"C:\\Users\\alex\\apflora",
+			"C:\\Users\\alex\\apflora,-main.js",
+			"C:\\Users\\alex\\apflora",
+			"C:\\Users\\alex\\artendb\\views",
+			"C:\\Users\\alex\\artendb",
+			"C:\\Users\\alex\\EvabMobile",
+			"C:\\Users\\alex\\artendb/views",
+			"C:\\Users\\alex\\EvabMobile",
+			"C:\\Users\\alex\\artendb",
+			"C:\\Users\\alex\\EvabMobile",
+			"C:\\Users\\alex\\artendb",
+			"C:\\Users\\alex\\artendb_import",
+			"C:\\Users\\alex\\apflora",
+			"C:\\Users\\alex\\apflora\\php",
+			"C:\\Users\\alex\\apflora",
+			"C:\\Users\\alex\\EvabMobile",
+			"C:\\Users\\alex\\apflora",
+			"C:\\Users\\alex\\artendb\\lists",
+			"C:\\Users\\alex\\artendb\\views",
+			"C:\\Users\\alex\\artendb"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"objectWithoutUiState",
+			"getObject",
+			"deleteObjectFromModel",
+			"dateformat",
+			"objectId",
+			"object",
+			"tree",
+			"parentNodeId",
+			"localDbName",
+			"localDb",
+			"dateformat",
+			"askYesNoWithModal",
+			"tellWithModal",
+			"objectWithoutUistate",
+			"objectToSave",
+			".put",
+			"object",
+			"$.extend(",
+			"saveObjectValue: error:",
+			"couchUrl",
+			"signin: error instantiating remote oi db:",
+			"http://localhost:5984",
+			"select feature",
+			"js-geometryField",
+			"formButtonToolbar",
+			"positionFormBtngroup",
+			"resizeTextareas",
+			"refreshScrollbar",
+			"capitalizeFirstLetter",
+			"showMap",
+			"setActiveObject",
+			"createHtmlForField",
+			"formContent",
+			"$",
+			"ol",
+			"input",
+			"checkbox",
+			"optionGroup",
+			"checkboxGroup",
+			"select",
+			"geoJson",
+			"formButtonToolbar",
+			"addCheckedToValueList",
+			"positionFormBtngroup",
+			"resizeTextareas",
+			"refreshScrollbar",
+			"capitalizeFirstLetter",
+			"showTab",
+			"showMap",
+			"zoomToFeatures",
+			"setActiveObject",
+			"textareaIds",
+			"formContent",
+			"geomFeatures",
+			"geomFeature",
+			"selectedFeatures",
+			"formButtonToolbar",
+			"ol",
+			"_",
+			"$",
+			"positionFormBtngroup",
+			"getObject",
+			"getHierarchy",
+			"resizeTextareas",
+			"refreshScrollbar",
+			"capitalizeFirstLetter",
+			"showTab",
+			"showMap",
+			"zoomToFeatures",
+			"setActiveObject",
+			"textareaIds",
+			"object",
+			"geoJson",
+			"object",
+			"hierarchy",
+			"formContent",
+			"geomFeature",
+			"boxend",
+			".on('boxend'",
+			"dragBoxInteraction",
+			"createFirstProject",
+			"createFirstProject: setting up first project",
+			"_local",
+			"objId       = $('#navContent').jstree(true).get_selected(true)[0].id;",
+			"_",
+			"$",
+			"onChangeLytEditLayer",
+			"addSnapInteraction",
+			"editing",
+			"editControlId",
+			"addSnapInteraction",
+			"newObject2",
+			"$.extend",
+			".put",
+			"saveObjectValue",
+			"projectDb.put",
+			"window.oi.objects",
+			"vorne links",
+			"mitte",
+			"h121",
+			"o12o",
+			"formNew",
+			"addDrawInteraction",
+			"drawInteraction",
+			"window.oi.olMap.map.drawInteraction",
+			"layer.get",
+			"utilsEditDrawLine",
+			"drawInteraction",
+			"addModifyInteraction",
+			"Punkt zeichnen",
+			"featuresLength:",
+			"styleRed",
+			"toggleEditButtons",
+			"onAddSelectedFeatures",
+			"styleRed",
+			"styleSelected",
+			"deleteSelectedFeatures",
+			"selectObjectNode",
+			"toggleEditButtons",
+			"removeFeatureData",
+			"saveFeatureData",
+			"ol",
+			"$",
+			"saveFeatureData",
+			"removeFeatureData",
+			"removeAllInteractions",
+			"addDragboxInteraction",
+			"deleteSelectedFeatures"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"objectWithoutUiState",
+			"object",
+			"objectToSave",
+			"http://barbalex:dLhdMg12@localhost:5984",
+			"addSnapInteractions",
+			"newObject",
+			"snapInteraction",
+			"onEndDraw",
+			"initiateUi",
+			"getProjectNamesToInitiateUi",
+			"addRoleToUserDb",
+			"fuckYou",
+			"projectDb",
+			"createFirstProject",
+			"",
+			"replicationOptions",
+			"syncOptions",
+			"replicationOption",
+			"remoteDbUrl",
+			"project_a9f270be-9465-806a-525f-822666fd9284",
+			"oiDb",
+			"firstSync",
+			"projectName",
+			"remoteDbUrl",
+			"userDoc",
+			"handleUserChanges",
+			"userDbName",
+			"syncUserDb",
+			"syncProjectDb",
+			"syncProjectDbs",
+			"oiDb",
+			"selectInteraction",
+			"data('object').layerName",
+			" ",
+			"value",
+			"featuresExtentEnlarged",
+			"window.oi.eventCounter",
+			"window.oi.changeCounter",
+			"tabs",
+			"$(window).width()",
+			"$('window').width()",
+			"nowName",
+			"utils",
+			"map",
+			"previous",
+			";",
+			"object.c",
+			"c",
+			"",
+			"showTab",
+			"$jstree",
+			"saveFeatureData",
+			"sourceFeatureId",
+			"sourceFeature",
+			"layerFeatures",
+			"selectedFeature",
+			"selectedFeatureId",
+			"sourceFeature",
+			"sourceFeatureId",
+			"layerFeatures",
+			"selectedFeatures",
+			"modifyInteraction",
+			"drawInteraction",
+			"selectInteraction",
+			"layer",
+			"utilsEditLayerType",
+			"utilsEditPanelGroupHeading",
+			"utilsEditAccordion",
+			"radio",
+			"utilsEditPanelCollapse",
+			"utilsEditPanelGroupHeadingHintergrund",
+			"utilsLayertoolPanelGroupHeadingHintergrund",
+			"utilsEditAccordionCollapse",
+			"utilsEditAccordion",
+			"utilsEditPanelGroupHeading",
+			"utilsLayertoolPanelGroupHeading",
+			"js-utilsPanelGroupTitel",
+			"utilsEditLayerPanelGroup",
+			"utilsEditLayer",
+			"headingLytEdit",
+			"passedData",
+			"feature",
+			"extentEnlarged",
+			"extent",
+			"removeLayerFromLayertool",
+			"addLayerToLayertool",
+			"projectHierarchy",
+			"obj",
+			"layertoolLayerCollapse",
+			"getVisible()",
+			"layertoolListGroup",
+			"layertoolListGroupCheckbox",
+			"collapseSelector",
+			"collapseBackground",
+			"collapseThemes",
+			"collapseProjects",
+			"extendedExtent",
+			"selectedObject",
+			"collapseProjekte",
+			"headingProjekte",
+			"collapseThemen",
+			"headingThemen",
+			"collapseHintergrund",
+			"headingHintergrund",
+			"utilsLayertoolPanelGroup",
+			"layerPanel",
+			"utilsLayertoolAccordion",
+			"    <",
+			"        <",
+			"            <",
+			"            ",
+			"                ",
+			"        ",
+			"            ",
+			"                ",
+			"list-group",
+			"addLayers",
+			" ",
+			"mousePositionControl",
+			"wmtsS3Swissimage",
+			"srcWmtsS3Swissimage",
+			"wmtsS3PixelFarbe",
+			"srcWmtsS3PixelFarbe",
+			"createLayerSwisstopoPixelFarbe",
+			"\"",
+			"\",",
+			"",
+			"js-geometryField"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 996,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								186,
+								186
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/router.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 161,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								86,
+								86
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 366,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								86,
+								86
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 34.0
+	},
+	"pinned_build_system": "",
+	"project": "gs.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 416.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 383.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
