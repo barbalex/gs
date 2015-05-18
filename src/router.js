@@ -1,8 +1,10 @@
 /*jslint node: true, browser: true, nomen: true, todo: true, asi: true */
 'use strict'
 
+import app              from 'ampersand-app'
 import React            from 'react'
 import Router           from 'ampersand-router'
+import Layout           from './layout'
 import PublicPage       from './pages/public'
 import LeitbildPage     from './pages/leitbild'
 import ProjektePage     from './pages/projekte'
@@ -10,6 +12,16 @@ import TechnologienPage from './pages/technologien'
 import KontaktPage      from './pages/kontakt'
 
 export default Router.extend({
+    renderPage (page) {
+        page = (
+            <Layout>
+                {page}
+            </Layout>
+        )
+
+        React.render(page, document.body)
+    },
+
     routes: {
         '':             'public',
         'leitbild':     'leitbild',
@@ -19,22 +31,22 @@ export default Router.extend({
     },
 
     public () {
-        React.render(<PublicPage/>, document.body)
+        this.renderPage(<PublicPage/>)
     },
 
     leitbild () {
-        React.render(<LeitbildPage/>, document.body)
+        this.renderPage(<LeitbildPage/>)
     },
 
     projekte () {
-        React.render(<ProjektePage/>, document.body)
+        this.renderPage(<ProjektePage/>)
     },
 
     technologien () {
-        React.render(<TechnologienPage/>, document.body)
+        this.renderPage(<TechnologienPage/>)
     },
 
     kontakt () {
-        React.render(<KontaktPage/>, document.body)
+        this.renderPage(<KontaktPage/>)
     }
 })

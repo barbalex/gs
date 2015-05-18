@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ampersand-app": "^1.0.4",
     "ampersand-router": "^3.0.2",
     "autoprefixer-core": "5.1.11",
     "babel": "5.4.3",
