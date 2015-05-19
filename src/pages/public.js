@@ -2,6 +2,7 @@
 'use strict'
 
 import React     from 'react'
+import accessImg from '../../images/access2.png'  // TODO ERROR: Unexpected character '´┐¢' (1:0)
 
 export default React.createClass({
     displayName: 'PublicPage',
