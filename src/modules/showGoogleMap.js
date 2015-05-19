@@ -25,9 +25,8 @@ export default function () {
                 google.maps.MapTypeId.HYBRID
             ]
         }
-    };
-    window.map = new google.maps.Map(document.getElementById('google_karten_div'), options);
-    // google.maps.event.trigger(window.map, 'resize');
+    }
+    window.map = new google.maps.Map(document.getElementById('google_karten_div'), options)
     marker = new google.maps.Marker({
         position: new google.maps.LatLng(47.283873, 8.563963),
         map: window.map

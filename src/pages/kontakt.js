@@ -3,14 +3,14 @@
 
 import React         from 'react'
 //import GoogleMap     from '../components/googleMap'
-import resizeImg     from '../styles/images/resize.png'
-import showGoogleMap from '../modules/showGoogleMap'
+import resizeImg        from '../styles/images/resize.png'
+import prepareGoogleMap from '../modules/prepareGoogleMap'
 
 export default React.createClass({
     displayName: 'KontaktPage',
 
     componentDidMount () {
-        showGoogleMap()
+        prepareGoogleMap()
     },
 
     render () {
