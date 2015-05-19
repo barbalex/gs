@@ -43,5 +43,6 @@ Temporary Items
 .apdisk
 
 node_modules
-oi.sublime-workspace
 public
+npm-debug.log
+gs.sublime-workspace
