@@ -1,8 +1,7 @@
 /*jslint node: true, browser: true, nomen: true, todo: true, asi: true */
 'use strict'
 
-import React         from 'react'
-//import GoogleMap     from '../components/googleMap'
+import React            from 'react'
 import resizeImg        from '../styles/images/resize.png'
 import prepareGoogleMap from '../modules/prepareGoogleMap'
 
