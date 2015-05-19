@@ -5,7 +5,7 @@ require('babel/register')    // verwandelt required jsx in html
 var getConfig = require('hjs-webpack')
 var React     = require('react')
 var Layout    = require('./src/layout')
-var Public    = require('./src/public')
+var Public    = require('./src/pages/public')
 
 module.exports = getConfig({
     in: 'src/app.js',
