@@ -2,6 +2,7 @@
 'use strict';
 
 import app    from 'ampersand-app'
+import script from 'scriptjs'
 import styles from './styles/main.styl'
 import Router from './router'
 
@@ -11,6 +12,9 @@ app.extend({
     init () {
         this.router = new Router
         this.router.history.start()
+        script('https://maps.googleapis.com/maps/api/js?sensor=false', function () {
+            console.log('google maps api is ready')
+        });
     }
 })
 

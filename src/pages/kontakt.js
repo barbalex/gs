@@ -1,11 +1,17 @@
 /*jslint node: true, browser: true, nomen: true, todo: true, asi: true */
 'use strict'
 
-import React     from 'react'
-import resizeImg from '../styles/images/resize.png'
+import React         from 'react'
+//import GoogleMap     from '../components/googleMap'
+import resizeImg     from '../styles/images/resize.png'
+import showGoogleMap from '../modules/showGoogleMap'
 
 export default React.createClass({
     displayName: 'KontaktPage',
+
+    componentDidMount () {
+        showGoogleMap()
+    },
 
     render () {
         return (

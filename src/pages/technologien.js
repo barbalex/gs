@@ -39,7 +39,7 @@ export default React.createClass({
                         <div style={{fontStyle: 'oblique', fontSize: 16 + 'px', fontWeight: 600, marginTop: 9 + 'px', color: 'grey'}}>{'if ( ... ) then \u007B ... \u007D'}</div>
                         <h4 style={{marginTop: 3 + 'px'}}>Programmiersprachen</h4>
                         <ul>
-                            <li><a href='http://en.wikipedia.org/wiki/JavaScript' target='_blank'>JavaScript</a></li>
+                            <li><a href='http://en.wikipedia.org/wiki/JavaScript' target='_blank'>JavaScript / ES6</a></li>
                             <li><a href='http://de.wikipedia.org/wiki/JavaScript_Object_Notation' target='_blank'>JSON</a></li>
                             <li><a href='http://de.wikipedia.org/wiki/Cascading_Style_Sheets' target='_blank'>CSS</a></li>
                             <li><a href='http://de.wikipedia.org/wiki/Hypertext_Markup_Language' target='_blank'>HTML</a></li>
@@ -53,9 +53,10 @@ export default React.createClass({
                         <h4 style={{marginTop: 0}}>Werkzeuge <small>(Auswahl)</small></h4>
                         <ul>
                             <li><a href='http://http://nodejs.org' target='_blank'>node.js</a></li>
-                            <li><a href='http://hapijs.com/' target='_blank'>hapi</a></li>
-                            <li><a href='http://yeoman.io/' target='_blank'>Yeoman</a>, <a href='http://gruntjs.com/' target='_blank'>Grunt</a>, <a href='https://github.com/bower/bower' target='_blank'>Bower</a> und <a href='http://gulpjs.com/' target='_blank'>gulp.js</a></li>
-                            <li><a href='http://phonegap.com/' target='_blank'>Phonegap</a></li>
+                            <li><a href='http://hapijs.com' target='_blank'>hapi</a></li>
+                            <li><a href='http://yeoman.io' target='_blank'>Yeoman</a>, <a href='http://gruntjs.com' target='_blank'>Grunt</a>, <a href='https://github.com/bower/bower' target='_blank'>Bower</a>, <a href='http://gulpjs.com' target='_blank'>gulp.js</a> und <a href='http://webpack.github.io' target='_blank'>webpack</a></li>
+                            <li><a href='http://ampersandjs.com/' target='_blank'>ampersand.js</a></li>
+                            <li><a href='https://facebook.github.io/react' target='_blank'>React</a></li>
                             <li><a href='http://jquery.com/' target='_blank'>jQuery</a></li>
                             <li><a href='http://jquerymobile.com/' target='_blank'>jQuery mobile</a></li>
                             <li><a href='http://getbootstrap.com/' target='_blank'>Bootstrap</a></li>
