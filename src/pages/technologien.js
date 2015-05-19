@@ -54,7 +54,7 @@ export default React.createClass({
                         <ul>
                             <li><a href='http://http://nodejs.org' target='_blank'>node.js</a></li>
                             <li><a href='http://hapijs.com' target='_blank'>hapi</a></li>
-                            <li><a href='http://yeoman.io' target='_blank'>Yeoman</a>, <a href='http://gruntjs.com' target='_blank'>Grunt</a>, <a href='https://github.com/bower/bower' target='_blank'>Bower</a>, <a href='http://gulpjs.com' target='_blank'>gulp.js</a> und <a href='http://webpack.github.io' target='_blank'>webpack</a></li>
+                            <li><a href='http://gulpjs.com' target='_blank'>gulp.js</a> und <a href='http://webpack.github.io' target='_blank'>webpack</a></li>
                             <li><a href='http://ampersandjs.com/' target='_blank'>ampersand.js</a></li>
                             <li><a href='https://facebook.github.io/react' target='_blank'>React</a></li>
                             <li><a href='http://jquery.com/' target='_blank'>jQuery</a></li>
