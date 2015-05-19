@@ -1,7 +1,7 @@
 /*jslint node: true, browser: true, nomen: true, todo: true, asi: true */
 'use strict'
 
-import React from 'react'
+import React     from 'react'
 
 export default React.createClass({
     displayName: 'PublicPage',
@@ -30,7 +30,6 @@ export default React.createClass({
                         </ul>
                     </div>
                     <div className='col-lg-4'>
-                        <img src='/images/access.png' alt='' height='82' width='82'/>
                         <h4>Access-Anwendungen</h4>
                         <ul>
                             <li>firmenintern</li>

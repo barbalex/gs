@@ -56,6 +56,6 @@ export default Router.extend({
     },
 
     fourOhFour () {
-        this.renderPage(<MessagePage title = 'Hoppla: Seite nicht gefunden :-('/>)
+        this.renderPage(<MessagePage title = 'Hoppla: diese Seite gibt es nicht :-('/>)
     }
 })

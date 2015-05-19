@@ -2,6 +2,7 @@
 'use strict'
 
 import React from 'react'
+import kroneImage from '../../images/krone.png'
 
 export default React.createClass({
     displayName: 'LeitbildPage',
@@ -43,7 +44,7 @@ export default React.createClass({
                         <p>Oder lerne zu schrauben. Und freue mich über die angewandte Weiterbildung. Natürlich auf meine Kosten.</p>
                     </div>
                     <div className='col-lg-4'>
-                        <img src='/images/krone.png' height='38' width='50' style={{marginTop: 3 + 'px'}}/>
+                        <img src={kroneImage} height='38' width='50' style={{marginTop: 3 + 'px'}}/>
                         <h4 style={{marginTop: 13 + 'px'}}>Der Kunde ist König</h4>
                         <p>Damit Sie zufrieden sind, braucht es mehr als eine gute Anwendung. Ich bin bestrebt:</p>
                         <ul>

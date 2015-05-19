@@ -1,7 +1,51 @@
 /*jslint node: true, browser: true, nomen: true, todo: true, asi: true */
 'use strict'
 
-import React from 'react'
+import React                            from 'react'
+import apfImg                           from '../../images/apflora.png'
+import apfAnmeldenImg                   from '../../images/apflora_anmelden.png'
+import apfTpopImg                       from '../../images/apflora_tpop.png'
+import apfFeldkontrImg                  from '../../images/apflora_feldkontr.png'
+import apfGoogleKartenImg               from '../../images/apflora_google_karten.png'
+import apfChkartenImg                   from '../../images/apflora_chkarten.png'
+import apfUeberlagernImg                from '../../images/apflora_ueberlagern.png'
+import apfRaeumlichAuswertenImg         from '../../images/apflora_raeumlich_auswerten.png'
+import apfZuordnenKarteImg              from '../../images/apflora_zuordnen_karte.png'
+import apfExportierenImg                from '../../images/apflora_exportieren.png'
+import apfMenuImg                       from '../../images/apflora_menue.png'
+import adbWeb01GruppeWaehlenImg         from '../../images/artendb_web_01_gruppe_waehlen.png'
+import adbWeb02ArtSuchenImg             from '../../images/artendb_web_02_art_suchen.png'
+import adbWeb03AnzeigenEigenschaftenImg from '../../images/artendb_web_03_anzeigen_eigenschaften.png'
+import adbWeb04AnzeigenTaxonomieImg     from '../../images/artendb_web_04_anzeigen_taxonomie.png'
+import adbWeb05AnzeigenDatensammlungImg from '../../images/artendb_web_05_anzeigen_datensammlung.png'
+import adbWeb06AnzeigenBezsammlungImg   from '../../images/artendb_web_06_anzeigen_beziehungssammlung.png'
+import adbWeb07ExportierenImg           from '../../images/artendb_web_07_exportieren.png'
+import adbWeb08ExportSchrittweiseImg    from '../../images/artendb_web_08_export_schrittweise.png'
+import adbWeb09ExportGruppeWaehlenImg   from '../../images/artendb_web_09_export_gruppe_waehlen.png'
+import adbWeb10ExportEigenschWaehlenImg from '../../images/artendb_web_10_export_eigenschaften_waehlen.png'
+import adbWeb11ExportdateiHerunterlaImg from '../../images/artendb_web_11_exportdatei_herunterladen.png'
+import adbWeb12ImportierenImg           from '../../images/artendb_web_12_importieren.png'
+import adbWeb13ImportierenSchrittwImg   from '../../images/artendb_web_13_importieren_schrittweise.png'
+import adb01GruppeWaehlenImg            from '../../images/artendb_access_01_gruppe_waehlen.png'
+import adb02ArtSuchenImg                from '../../images/artendb_access_02_art_suchen.png'
+import adb03TaxonomieAnzeigenImg        from '../../images/artendb_access_03_taxonomie_anzeigen.png'
+import adb04DatensammlungAnzeigenImg    from '../../images/artendb_access_04_datensammlung_anzeigen.png'
+import adb05BeziehungenAnzeigenImg      from '../../images/artendb_access_05_beziehungen_anzeigen.png'
+import adb06ExportierenImg              from '../../images/artendb_access_06_exportieren.png'
+import adb07ExportdatenWaehlenImg       from '../../images/artendb_access_07_exportdaten_waehlen.png'
+import evm01EinfacheListenAnzeigenImg   from '../../images/evab_mobile_01_einfache_listen_anzeigen.png'
+import evm02EinfachErfassenImg          from '../../images/evab_mobile_02_einfach_erfassen.png'
+import evm03HierarchischErfassenImg     from '../../images/evab_mobile_03_hierarchisch_erfassen.png'
+import evm04ArtgruppeWaehlenImg         from '../../images/evab_mobile_04_artgruppe_waehlen.png'
+import evm05ArtWaehlenImg               from '../../images/evab_mobile_05_art_waehlen.png'
+import evm06ArtFilternImg               from '../../images/evab_mobile_06_art_filtern.png'
+import evm07VerortenImg                 from '../../images/evab_mobile_07_verorten.png'
+import evm08FelderWaehlenImg            from '../../images/evab_mobile_08_felder_waehlen.png'
+import evm09FelderAuflistenImg          from '../../images/evab_mobile_09_felder_auflisten.png'
+import evm10EigeneFelderVerwaltenImg    from '../../images/evab_mobile_10_eigene_felder_verwalten.png'
+import evm11ExportierenImg              from '../../images/evab_mobile_11_exportieren.png'
+import evm12DatenschutzBestimmenImg     from '../../images/evab_mobile_12_datenschutz_bestimmen.png'
+import evm13UndMehrImg                  from '../../images/evab_mobile_13_und_mehr.png'
 
 export default React.createClass({
     displayName: 'ProjektePage',
@@ -24,7 +68,7 @@ export default React.createClass({
                         <p className='lead'>Eine Auswahl von Projekten:</p>
                         <div id='projekte_scrollspy'>
                             <section id='apflora' className='projekt sektion anchor'>
-                                <img src='/images/apflora.png' alt='' height='51'/>
+                                <img src={apfImg} alt='' height='51'/>
                                 <h4>ApFlora <small>(Web-Anwendung)</small></h4>
                                 <h5>Aktionsplan Flora der Fachstelle Naturschutz des Kantons Zürich</h5>
                                 <p style={{marginBottom: 0}}>Grösste Stärken:</p>
@@ -48,61 +92,61 @@ export default React.createClass({
 
                                     <div className='carousel-inner'>
                                         <div className='item active'>
-                                            <img src='images/apflora_anmelden.png' alt='anmelden'/>
+                                            <img src={apfAnmeldenImg} alt='anmelden'/>
                                             <div className='carousel-caption'>
                                                 <h2>anmelden</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/apflora_tpop.png' alt='Teilpopulationen beschreiben'/>
+                                            <img src={apfTpopImg} alt='Teilpopulationen beschreiben'/>
                                             <div className='carousel-caption'>
                                                 <h2>Teilpopulationen beschreiben</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/apflora_feldkontr.png' alt='Feldkontrollen beschreiben'/>
+                                            <img src={apfFeldkontrImg} alt='Feldkontrollen beschreiben'/>
                                             <div className='carousel-caption'>
                                                 <h2>Feldkontrollen beschreiben</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/apflora_google_karten.png' alt='Teilpopulationen auf Google-Luftbildern darstellen'/>
+                                            <img src={apfGoogleKartenImg} alt='Teilpopulationen auf Google-Luftbildern darstellen'/>
                                             <div className='carousel-caption'>
                                                 <h2>auf Google-Luftbildern darstellen</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/apflora_chkarten.png' alt='...oder auf CH-Karten'/>
+                                            <img src={apfChkartenImg} alt='...oder auf CH-Karten'/>
                                             <div className='carousel-caption'>
                                                 <h2>auf CH-Karten darstellen</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/apflora_ueberlagern.png' alt='Layer überlagern'/>
+                                            <img src={apfUeberlagernImg} alt='Layer überlagern'/>
                                             <div className='carousel-caption'>
                                                 <h2>Layer überlagern</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/apflora_raeumlich_auswerten.png' alt='räumlich auswerten'/>
+                                            <img src={apfRaeumlichAuswertenImg} alt='räumlich auswerten'/>
                                             <div className='carousel-caption'>
                                                 <h2>räumlich auswerten</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/apflora_zuordnen_karte.png' alt='Beobachtungen zuordnen'/>
+                                            <img src={apfZuordnenKarteImg} alt='Beobachtungen zuordnen'/>
                                             <div className='carousel-caption'>
                                                 <h2>Beobachtungen zuordnen</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/apflora_exportieren.png' alt='exportieren'/>
+                                            <img src={apfExportierenImg} alt='exportieren'/>
                                             <div className='carousel-caption'>
                                                 <h2>exportieren</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/apflora_menue.png' alt='Kontext-Menü'/>
+                                            <img src={apfMenuImg} alt='Kontext-Menü'/>
                                             <div className='carousel-caption'>
                                                 <h2>...und mehr</h2>
                                             </div>
@@ -149,79 +193,79 @@ export default React.createClass({
                                     </ol>
                                     <div className='carousel-inner'>
                                         <div className='item active'>
-                                            <img src='images/artendb_web_01_gruppe_waehlen.png' alt='Gruppe wählen'/>
+                                            <img src={adbWeb01GruppeWaehlenImg} alt='Gruppe wählen'/>
                                             <div className='carousel-caption'>
                                                 <h2>Gruppe wählen</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/artendb_web_02_art_suchen.png' alt='Art suchen'/>
+                                            <img src={adbWeb02ArtSuchenImg} alt='Art suchen'/>
                                             <div className='carousel-caption'>
                                                 <h2>Art suchen</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/artendb_web_03_anzeigen_eigenschaften.png' alt='Eigenschaften anzeigen'/>
+                                            <img src={adbWeb03AnzeigenEigenschaftenImg} alt='Eigenschaften anzeigen'/>
                                             <div className='carousel-caption'>
                                                 <h2>Eigenschaften anzeigen</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/artendb_web_04_anzeigen_taxonomie.png' alt='Taxonomie anzeigen'/>
+                                            <img src={adbWeb04AnzeigenTaxonomieImg} alt='Taxonomie anzeigen'/>
                                             <div className='carousel-caption'>
                                                 <h2>Taxonomie anzeigen</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/artendb_web_05_anzeigen_datensammlung.png' alt='Datensammlung anzeigen'/>
+                                            <img src={adbWeb05AnzeigenDatensammlungImg} alt='Datensammlung anzeigen'/>
                                             <div className='carousel-caption'>
                                                 <h2>Datensammlung anzeigen</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/artendb_web_06_anzeigen_beziehungssammlung.png' alt='Beziehungssammlung anzeigen'/>
+                                            <img src={adbWeb06AnzeigenBezsammlungImg} alt='Beziehungssammlung anzeigen'/>
                                             <div className='carousel-caption'>
                                                 <h2>Beziehungssammlung anzeigen</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/artendb_web_07_exportieren.png' alt='exportieren'/>
+                                            <img src={adbWeb07ExportierenImg} alt='exportieren'/>
                                             <div className='carousel-caption'>
                                                 <h2>exportieren</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/artendb_web_08_export_schrittweise.png' alt='... Schritt für Schritt'/>
+                                            <img src={adbWeb08ExportSchrittweiseImg} alt='... Schritt für Schritt'/>
                                             <div className='carousel-caption'>
                                                 <h2>... Schritt für Schritt</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/artendb_web_09_export_gruppe_waehlen.png' alt='Gruppe wählen'/>
+                                            <img src={adbWeb09ExportGruppeWaehlenImg} alt='Gruppe wählen'/>
                                             <div className='carousel-caption'>
                                                 <h2>Gruppe wählen</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/artendb_web_10_export_eigenschaften_waehlen.png' alt='Eigenschaften wählen'/>
+                                            <img src={adbWeb10ExportEigenschWaehlenImg} alt='Eigenschaften wählen'/>
                                             <div className='carousel-caption'>
                                                 <h2>Eigenschaften wählen</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/artendb_web_11_exportdatei_herunterladen.png' alt='Datei herunterladen'/>
+                                            <img src={adbWeb11ExportdateiHerunterlaImg} alt='Datei herunterladen'/>
                                             <div className='carousel-caption'>
                                                 <h2>Datei herunterladen</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/artendb_web_12_importieren.png' alt='importieren'/>
+                                            <img src={adbWeb12ImportierenImg} alt='importieren'/>
                                             <div className='carousel-caption'>
                                                 <h2>importieren</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/artendb_web_13_importieren_schrittweise.png' alt='... Schritt für Schritt'/>
+                                            <img src={adbWeb13ImportierenSchrittwImg} alt='... Schritt für Schritt'/>
                                             <div className='carousel-caption'>
                                                 <h2>... Schritt für Schritt</h2>
                                             </div>
@@ -257,43 +301,43 @@ export default React.createClass({
                                     </ol>
                                     <div className='carousel-inner'>
                                         <div className='item active'>
-                                            <img src='images/artendb_access_01_gruppe_waehlen.png' alt='Gruppe wählen'/>
+                                            <img src={adb01GruppeWaehlenImg} alt='Gruppe wählen'/>
                                             <div className='carousel-caption'>
                                                 <h2>Gruppe wählen</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/artendb_access_02_art_suchen.png' alt='Art suchen'/>
+                                            <img src={adb02ArtSuchenImg} alt='Art suchen'/>
                                             <div className='carousel-caption'>
                                                 <h2>Art suchen</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/artendb_access_03_taxonomie_anzeigen.png' alt='Taxonomie anzeigen'/>
+                                            <img src={adb03TaxonomieAnzeigenImg} alt='Taxonomie anzeigen'/>
                                             <div className='carousel-caption'>
                                                 <h2>Taxonomie anzeigen</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/artendb_access_04_datensammlung_anzeigen.png' alt='Datensammlung anzeigen'/>
+                                            <img src={adb04DatensammlungAnzeigenImg} alt='Datensammlung anzeigen'/>
                                             <div className='carousel-caption'>
                                                 <h2>Datensammlung anzeigen</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/artendb_access_05_beziehungen_anzeigen.png' alt='Beziehungen anzeigen'/>
+                                            <img src={adb05BeziehungenAnzeigenImg} alt='Beziehungen anzeigen'/>
                                             <div className='carousel-caption'>
                                                 <h2>Beziehungen anzeigen</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/artendb_access_06_exportieren.png' alt='exportieren'/>
+                                            <img src={adb06ExportierenImg} alt='exportieren'/>
                                             <div className='carousel-caption'>
                                                 <h2>exportieren</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/artendb_access_07_exportdaten_waehlen.png' alt='Felder zum exportieren wählen'/>
+                                            <img src={adb07ExportdatenWaehlenImg} alt='Felder zum exportieren wählen'/>
                                             <div className='carousel-caption'>
                                                 <h2>Felder zum exportieren wählen</h2>
                                             </div>
@@ -331,79 +375,79 @@ export default React.createClass({
                                     </ol>
                                     <div className='carousel-inner'>
                                         <div className='item active'>
-                                            <img src='images/evab_mobile_01_einfache_listen_anzeigen.png' alt='Einfache Liste anzeigen'/>
+                                            <img src={evm01EinfacheListenAnzeigenImg} alt='Einfache Liste anzeigen'/>
                                             <div className='carousel-caption'>
                                                 <h2>einfache Liste anzeigen</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/evab_mobile_02_einfach_erfassen.png' alt='Im einfachen Modus erfassen'/>
+                                            <img src={evm02EinfachErfassenImg} alt='Im einfachen Modus erfassen'/>
                                             <div className='carousel-caption'>
                                                 <h2>im einfachen Modus erfassen</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/evab_mobile_03_hierarchisch_erfassen.png' alt='Im hierarchischen Modus erfassen'/>
+                                            <img src={evm03HierarchischErfassenImg} alt='Im hierarchischen Modus erfassen'/>
                                             <div className='carousel-caption'>
                                                 <h2>im hierarchischen Modus erfassen</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/evab_mobile_04_artgruppe_waehlen.png' alt='Artgruppe wählen'/>
+                                            <img src={evm04ArtgruppeWaehlenImg} alt='Artgruppe wählen'/>
                                             <div className='carousel-caption'>
                                                 <h2>Artgruppe wählen</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/evab_mobile_05_art_waehlen.png' alt='Art wählen'/>
+                                            <img src={evm05ArtWaehlenImg} alt='Art wählen'/>
                                             <div className='carousel-caption'>
                                                 <h2>Art wählen</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/evab_mobile_06_art_filtern.png' alt='Art filtern'/>
+                                            <img src={evm06ArtFilternImg} alt='Art filtern'/>
                                             <div className='carousel-caption'>
                                                 <h2>Art filtern</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/evab_mobile_07_verorten.png' alt='auf Luftbild anzeigen / verorten'/>
+                                            <img src={evm07VerortenImg} alt='auf Luftbild anzeigen / verorten'/>
                                             <div className='carousel-caption'>
                                                 <h2>auf Luftbild anzeigen / verorten</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/evab_mobile_08_felder_waehlen.png' alt='Felder wählen'/>
+                                            <img src={evm08FelderWaehlenImg} alt='Felder wählen'/>
                                             <div className='carousel-caption'>
                                                 <h2>Felder wählen</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/evab_mobile_09_felder_auflisten.png' alt='Felder auflisten'/>
+                                            <img src={evm09FelderAuflistenImg} alt='Felder auflisten'/>
                                             <div className='carousel-caption'>
                                                 <h2>Felder auflisten</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/evab_mobile_10_eigene_felder_verwalten.png' alt='Eigene Felder erstellen'/>
+                                            <img src={evm10EigeneFelderVerwaltenImg} alt='Eigene Felder erstellen'/>
                                             <div className='carousel-caption'>
                                                 <h2>eigene Felder erstellen</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/evab_mobile_11_exportieren.png' alt='Beobachtungen exportieren'/>
+                                            <img src={evm11ExportierenImg} alt='Beobachtungen exportieren'/>
                                             <div className='carousel-caption'>
                                                 <h2>Beobachtungen exportieren</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/evab_mobile_12_datenschutz_bestimmen.png' alt='Datenschutz bestimmen'/>
+                                            <img src={evm12DatenschutzBestimmenImg} alt='Datenschutz bestimmen'/>
                                             <div className='carousel-caption'>
                                                 <h2>Datenschutz bestimmen</h2>
                                             </div>
                                         </div>
                                         <div className='item'>
-                                            <img src='images/evab_mobile_13_und_mehr.png' alt='... und mehr'/>
+                                            <img src={evm13UndMehrImg} alt='... und mehr'/>
                                             <div className='carousel-caption'>
                                                 <h2>... und mehr</h2>
                                             </div>

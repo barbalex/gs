@@ -1,7 +1,11 @@
 /*jslint node: true, browser: true, nomen: true, todo: true, asi: true */
 'use strict'
 
-import React from 'react'
+import React       from 'react'
+import linuxSwImg  from '../../images/linux_sw.png'
+import appleImg    from '../../images/apple.png'
+import windowsImg  from '../../images/windows_sw.png'
+import databaseImg from '../../images/database.png'
 
 export default React.createClass({
     displayName: 'TechnologienPage',
@@ -12,16 +16,16 @@ export default React.createClass({
                 <p className='lead'>Mit diesen Technologien kenne ich mich aus:</p>
                 <div className='row marketing'>
                     <div className='col-lg-4'>
-                        <img src='/images/linux_sw.png' alt='' height='30' width='30'/>
-                        <img src='/images/apple.png' alt='' height='30' width='30'/>
-                        <img src='/images/windows_sw.png' alt='' height='30' width='30'/>
+                        <img src={linuxSwImg} alt='Linux' height='30' width='30'/>
+                        <img src={appleImg} alt='MaxOs' height='30' width='30'/>
+                        <img src={windowsImg} alt='Windows' height='30' width='30'/>
                         <h4>Betriebssysteme</h4>
                         <ul>
                             <li><a href='http://de.wikipedia.org/wiki/Microsoft_Windows' target='_blank'>Windows</a></li>
                             <li><a href='http://de.wikipedia.org/wiki/Ubuntu' target='_blank'>Ubuntu Linux</a></li>
                             <li><a href='http://de.wikipedia.org/wiki/Mac_OS_X' target='_blank'>Mac OS X</a></li>
                         </ul>
-                        <img src='/images/database.png' alt='' height='30' width='30' style={{marginTop: 30 + 'px', marginLeft: -4 + 'px'}}/>
+                        <img src={databaseImg} alt='Datenbanken' height='30' width='30' style={{marginTop: 30 + 'px', marginLeft: -4 + 'px'}}/>
                         <h4 style={{marginTop: 5 + 'px'}}>Datenbanken</h4>
                         <ul>
                             <li><a href='http://couchdb.apache.org/' target='_blank'>CouchDB</a></li>
