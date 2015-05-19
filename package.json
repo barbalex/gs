@@ -35,6 +35,6 @@
     "url-loader": "0.5.5",
     "webpack": "1.9.7",
     "webpack-dev-server": "1.8.2",
-    "yeticss": "6.0.6"
+    "yeticss": "6.0.7"
   }
 }
