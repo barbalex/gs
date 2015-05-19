@@ -19,16 +19,16 @@ export default React.createClass({
                                     <span className='icon-bar'></span>
                                     <span className='icon-bar'></span>
                                 </button>
-                                <a className='navbar-brand' href='#'>Gabriel Software</a>
+                                <a className='navbar-brand' href='/'>Gabriel Software</a>
                             </div>
                             <div className='collapse navbar-collapse'>
                                 <ul className='nav navbar-nav'>
-                                  <li><a href='#' className='leitbild_menu'>Leitbild</a></li>
-                                  <li><a href='#' className='projekte_menu'>Projekte</a></li>
-                                  <li><a href='#' className='technologien_menu'>Technologien</a></li>
+                                  <li><a href='/leitbild' className='leitbild_menu'>Leitbild</a></li>
+                                  <li><a href='/projekte' className='projekte_menu'>Projekte</a></li>
+                                  <li><a href='/technologien' className='technologien_menu'>Technologien</a></li>
                                 </ul>
                                 <ul className='nav navbar-nav navbar-right'>
-                                  <li><a href='#' className='kontakt_menu'>Kontakt</a></li>
+                                  <li><a href='/kontakt' className='kontakt_menu'>Kontakt</a></li>
                                 </ul>
                             </div>
                         </div>

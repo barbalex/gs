@@ -9,14 +9,18 @@ import PublicPage       from './pages/public'
 import LeitbildPage     from './pages/leitbild'
 import ProjektePage     from './pages/projekte'
 import TechnologienPage from './pages/technologien'
+import NavHelper        from './components/nav-helper'
 import KontaktPage      from './pages/kontakt'
+import MessagePage      from './pages/message'
 
 export default Router.extend({
     renderPage (page) {
         page = (
-            <Layout>
-                {page}
-            </Layout>
+            <NavHelper>
+                <Layout>
+                    {page}
+                </Layout>
+            </NavHelper>
         )
 
         React.render(page, document.body)
@@ -27,7 +31,8 @@ export default Router.extend({
         'leitbild':     'leitbild',
         'projekte':     'projekte',
         'technologien': 'technologien',
-        'kontakt':      'kontakt'
+        'kontakt':      'kontakt',
+        '*fourohfour':  'fourOhFour'
     },
 
     public () {
@@ -48,5 +53,9 @@ export default Router.extend({
 
     kontakt () {
         this.renderPage(<KontaktPage/>)
+    },
+
+    fourOhFour () {
+        this.renderPage(<MessagePage title = 'Hoppla: Seite nicht gefunden :-('/>)
     }
 })
