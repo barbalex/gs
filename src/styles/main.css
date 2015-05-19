@@ -109,11 +109,6 @@ body {
     padding-right: 30px;
 }
 
-/* alle pages die nicht home sind, ausgeblendet starten */
-.not_home {
-    display: none;
-}
-
 /* Google-Luftbild: Den Bereich, den man ziehen kann, unten rechts ausrichten */
 .ui-resizable-s {
     bottom: 0;

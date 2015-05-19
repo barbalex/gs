@@ -8,13 +8,15 @@ export default React.createClass({
 
     render () {
         return (
-            <div id='leitbild' className='page leitbild not_home'>
+            <div id='leitbild' className='page leitbild'>
                 <p className='lead'>Ich richte mich nach diesen Leitlinien:</p>
                 <div className='row marketing'>
                     <div className='col-lg-4'>
                         <div className='glyphicon glyphicon-question-sign' style={{fontSize: 40 + 'px'}}/>
                         <h4>Verstehen, wie Sie arbeiten</h4>
-                        <p>Je mehr ich Ihre Arbeit verstehe, je genauer die Anwendung Ihre Arbeit abbildet, desto besser "passt" sie.</p>
+                        <p>Je mehr ich Ihre Arbeit verstehe,<br/>
+                            je genauer die Anwendung Ihre Arbeit abbildet,<br/>
+                            desto besser "passt" sie.</p>
                         <p>Und desto kleiner ist das Risiko bei der Einführung.</p>
                         <p>Wenn Menschen vom selben sprechen, verstehen nicht immer alle dasselbe. Klappt etwas nicht? Oft liegt der Hund hier begraben.</p>
                     </div>
@@ -26,7 +28,8 @@ export default React.createClass({
                     </div>
                     <div className='col-lg-4'>
                         <div className='glyphicon glyphicon-ok-circle' style={{fontSize: 40 + 'px'}}/>
-                        <h4>So einfach wie möglich, so vollständig wie nötig</h4>
+                        <h4>So einfach wie möglich,<br/>
+                            so vollständig wie nötig</h4>
                         <p>Ist die Anwendung klar und übersichtlich, arbeiten Sie effizient.</p>
                         <p>Beansprucht sie zu viel Aufmerksamkeit, passieren Fehler.</p>
                         <p>Eine elegante Architektur beschleunigt die Entwicklung und reduziert den Unterhalt.</p>
