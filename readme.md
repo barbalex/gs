@@ -1,4 +1,4 @@
-Webseite von (gabriel-software)[http://gabriel-software.ch]
+Webseite von [gabriel-software](http://gabriel-software.ch)
 
 Gebaut mit:
 
