@@ -9,14 +9,14 @@ export default function () {
     options = {
         zoom: 19,
         // Gebäude zentral stellen
-        center: new google.maps.LatLng(47.283746, 8.563820),
-        streetViewControl: false,
-        rotateControl: false,
+        center:             new google.maps.LatLng(47.283746, 8.563820),
+        streetViewControl:  false,
+        rotateControl:      false,
         overviewMapControl: false,
-        panControl: false,
-        zoomControl: false,
-        mapTypeControl: true,
-        mapTypeId: google.maps.MapTypeId.HYBRID,
+        panControl:         false,
+        zoomControl:        false,
+        mapTypeControl:     true,
+        mapTypeId:          google.maps.MapTypeId.HYBRID,
         mapTypeControlOptions: {
             // Gelände nicht anzeigen
             mapTypeIds: [
