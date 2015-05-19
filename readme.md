@@ -8,4 +8,3 @@ Gebaut mit:
 - ampersand.js
 - React
 - JavaScript/ES6
-- MVC
