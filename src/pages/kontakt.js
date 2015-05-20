@@ -1,8 +1,8 @@
 /*jslint node: true, browser: true, nomen: true, todo: true, asi: true */
 'use strict'
 
-import React from 'react'
-import resizeImg from '../styles/images/resize.png'
+import React            from 'react'
+import resizeImg        from '../styles/images/resize.png'
 import prepareGoogleMap from '../modules/prepareGoogleMap'
 
 export default React.createClass({

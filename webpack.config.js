@@ -3,14 +3,14 @@
 
 require('babel/register')    // verwandelt required jsx in html
 var getConfig = require('hjs-webpack')
-// var React = require('react')
-// var Layout = require('./src/layout')
-// var Public = require('./src/pages/public')
+var React     = require('react')
+var Layout    = require('./src/layout')
+var Public    = require('./src/pages/public')
 var config
 
 config = getConfig({
-  in: 'src/app.js',
-  out: 'public',
+  in:   'src/app.js',
+  out:  'public',
   isDev: process.env.NODE_ENV !== 'production'/*,
   html: function (context) {
     // prerender on Server
@@ -29,7 +29,7 @@ config = getConfig({
   // hostname: 'local_machine_hostname.local'
 })
 
-// console.log('config.module.loaders:', config.module.loaders)
+//console.log('config.module.loaders:', config.module.loaders)
 
 // add loader for png files
 config.module.loaders.push(
@@ -39,6 +39,6 @@ config.module.loaders.push(
   }
 )
 
-// console.log('config.module.loaders after adding:', config.module.loaders)
+//console.log('config.module.loaders after adding:', config.module.loaders)
 
-module.exports = config
+module.exports = config;

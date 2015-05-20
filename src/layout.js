@@ -6,14 +6,6 @@ import React from 'react'
 export default React.createClass({
   displayName: 'Layout',
 
-  propTypes: {
-    children: React.PropTypes.element
-  },
-
-  handleClick () {
-
-  },
-
   render () {
     return (
       <div>
