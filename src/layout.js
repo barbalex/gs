@@ -2,6 +2,7 @@
 'use strict'
 
 import React from 'react'
+import Navbar from 'react-bootstrap/lib/Navbar'
 
 export default React.createClass({
   displayName: 'Layout',
@@ -18,7 +19,7 @@ export default React.createClass({
     return (
       <div>
         <div className='header'>
-          <nav className='navbar navbar-inverse navbar-fixed-top' role='navigation'>
+          <Navbar inverse fixedTop>
             <div className='container'>
               <div className='navbar-header'>
                 <button type='button' className='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>
@@ -40,7 +41,7 @@ export default React.createClass({
                 </ul>
               </div>
             </div>
-          </nav>
+          </Navbar>
         </div>
         <div className='container'>
           {this.props.children}

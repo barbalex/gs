@@ -171,8 +171,8 @@ body {
   text-shadow: 0 1px 0 #FFF
   border-radius: 5px
   
-/*.projekte .affix.nav > li > a
-    padding: 0 0*/
+.projekte .affix.nav > li > a
+  padding: 0 0
 
 .projekte .affix.nav > li > a.nav-a
   display: block
@@ -199,3 +199,8 @@ body {
     width: 160px
   .leitbild .col-lg-4
     min-height: 254px
+    
+/* correct for double containers of react */
+.container .container
+  padding-right: 0
+  padding-left: 0
