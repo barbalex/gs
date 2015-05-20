@@ -14,48 +14,48 @@ import KontaktPage      from './pages/kontakt'
 import MessagePage      from './pages/message'
 
 export default Router.extend({
-    renderPage (page) {
-        page = (
-            <NavHelper>
-                <Layout>
-                    {page}
-                </Layout>
-            </NavHelper>
-        )
+  renderPage (page) {
+    page = (
+      <NavHelper>
+        <Layout>
+          {page}
+        </Layout>
+      </NavHelper>
+    )
 
-        React.render(page, document.body)
-    },
+    React.render(page, document.body)
+  },
 
-    routes: {
-        '':             'public',
-        'leitbild':     'leitbild',
-        'projekte':     'projekte',
-        'technologien': 'technologien',
-        'kontakt':      'kontakt',
-        '*fourohfour':  'fourOhFour'
-    },
+  routes: {
+    '':             'public',
+    'leitbild':     'leitbild',
+    'projekte':     'projekte',
+    'technologien': 'technologien',
+    'kontakt':      'kontakt',
+    '*fourohfour':  'fourOhFour'
+  },
 
-    public () {
-        this.renderPage(<PublicPage/>)
-    },
+  public () {
+    this.renderPage(<PublicPage/>)
+  },
 
-    leitbild () {
-        this.renderPage(<LeitbildPage/>)
-    },
+  leitbild () {
+    this.renderPage(<LeitbildPage/>)
+  },
 
-    projekte () {
-        this.renderPage(<ProjektePage/>)
-    },
+  projekte () {
+    this.renderPage(<ProjektePage/>)
+  },
 
-    technologien () {
-        this.renderPage(<TechnologienPage/>)
-    },
+  technologien () {
+    this.renderPage(<TechnologienPage/>)
+  },
 
-    kontakt () {
-        this.renderPage(<KontaktPage/>)
-    },
+  kontakt () {
+    this.renderPage(<KontaktPage/>)
+  },
 
-    fourOhFour () {
-        this.renderPage(<MessagePage title = 'Hoppla: diese Seite gibt es nicht :-('/>)
-    }
+  fourOhFour () {
+    this.renderPage(<MessagePage title = 'Hoppla: diese Seite gibt es nicht :-('/>)
+  }
 })
