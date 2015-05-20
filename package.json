@@ -7,7 +7,8 @@
     "start": "webpack-dev-server",
     "build": "set NODE_ENV=production&& webpack",
     "deploy": "surge -p public -d gs.surge.sh",
-    "yolo": "npm run build && npm run deploy"
+    "yolo": "npm run build && npm run deploy",
+    "test": "standard"
   },
   "author": "",
   "license": "ISC",
@@ -29,6 +30,7 @@
     "react": "0.13.3",
     "react-hot-loader": "1.2.7",
     "reactify": "1.1.1",
+    "standard": "3.11.0",
     "style-loader": "0.12.2",
     "stylus-loader": "1.1.1",
     "surge": "0.12.0",
@@ -36,5 +38,8 @@
     "webpack": "1.9.7",
     "webpack-dev-server": "1.8.2",
     "yeticss": "6.0.7"
+  },
+  "standard": {
+    "ignore": ["public/*"]
   }
 }

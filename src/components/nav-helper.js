@@ -6,22 +6,22 @@ import app        from 'ampersand-app'
 import localLinks from 'local-links'
 
 export default React.createClass({
-    displayName: 'NavHelper',
+  displayName: 'NavHelper',
 
-    onClick (event) {
-        const localpath = localLinks.getLocalPathname(event)
+  onClick (event) {
+    const localpath = localLinks.getLocalPathname(event)
 
-        if (localpath) {
-            event.preventDefault()
-            app.router.history.navigate(localpath)
-        }
-    },
-
-    render () {
-        return (
-            <div onClick={this.onClick}>
-                {this.props.children}
-            </div>
-        )
+    if (localpath) {
+      event.preventDefault()
+      app.router.history.navigate(localpath)
     }
+  },
+
+  render () {
+    return (
+      <div onClick={this.onClick}>
+        {this.props.children}
+      </div>
+    )
+  }
 })
