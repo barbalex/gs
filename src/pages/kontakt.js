@@ -3,6 +3,7 @@
 
 import React from 'react'
 import resizeImg from '../styles/images/resize.png'
+import Resizable  from 'react-component-resizable'
 import prepareGoogleMap from '../modules/prepareGoogleMap'
 
 export default React.createClass({
@@ -28,7 +29,7 @@ export default React.createClass({
           </div>
           <div className='col-lg-9'>
             <div id='google_karte' style={{width: 100 + '%', height: 370 + 'px', position: 'relative'}}>
-              <div id='google_karten_div' style={{width: 100 + '%', height: 100 + '%'}}></div>
+              <Resizable className="via transferPropsTo" id='google_karten_div' style={{width: 100 + '%', height: 100 + '%'}} onResize={this.onResize}></Resizable >
               <div style={{position: 'absolute', bottom: 0, right: 0}}><img src={resizeImg} height='22' width='22'/></div>
             </div>
             <div><small><a href='https://maps.google.ch/maps/ms?msa=0&amp;msid=217393511380700194313.0004ec28f717b23f56ca5&amp;ie=UTF8&amp;t=h&amp;ll=47.283873,8.563963&amp;spn=0,0&amp;source=embed' style={{color: '#0000FF', textAlign: 'left'}} target='_blank'>in Google Maps öffnen</a></small></div>
