@@ -10,9 +10,9 @@ export default function () {
     showGoogleMap()
   } else {
     const script = document.createElement('script')
-    script.type  = 'text/javascript'
+    script.type = 'text/javascript'
     // load google maps api script then show the map
-    script.src   = 'https://maps.googleapis.com/maps/api/js?sensor=false&callback=showGoogleMap'
+    script.src = 'https://maps.googleapis.com/maps/api/js?sensor=false&callback=showGoogleMap'
     document.body.appendChild(script)
   }
 }

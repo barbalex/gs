@@ -1,8 +1,9 @@
 /*jslint node: true, browser: true, nomen: true, todo: true, asi: true */
 'use strict'
 
-import React     from 'react'
-//import accessImg from '../../images/access2.png'  // TODO ERROR: Unexpected character '´┐¢' (1:0)
+import React from 'react'
+import Jumbotron from 'react-bootstrap/lib/Jumbotron'
+// import accessImg from '../../images/access2.png'  // TODO ERROR: Unexpected character '´┐¢' (1:0)
 
 export default React.createClass({
   displayName: 'PublicPage',
@@ -10,7 +11,7 @@ export default React.createClass({
   render () {
     return (
       <div id='home' className='page home'>
-        <div className='jumbotron'>
+        <Jumbotron>
           <h1>Gabriel Software</h1>
           <ul>
             <li>einfach</li>
@@ -18,7 +19,7 @@ export default React.createClass({
             <li>zuverlässig</li>
           </ul>
           <p className='lead'>...damit Sie sich auf Ihre Arbeit konzen&shy;trieren können</p>
-        </div>
+        </Jumbotron>
 
         <div className='row marketing'>
           <div className='col-lg-4'>

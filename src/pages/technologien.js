@@ -1,10 +1,10 @@
 /*jslint node: true, browser: true, nomen: true, todo: true, asi: true */
 'use strict'
 
-import React       from 'react'
-import linuxSwImg  from '../../images/linux_sw.png'
-import appleImg    from '../../images/apple.png'
-import windowsImg  from '../../images/windows_sw.png'
+import React from 'react'
+import linuxSwImg from '../../images/linux_sw.png'
+import appleImg from '../../images/apple.png'
+import windowsImg from '../../images/windows_sw.png'
 import databaseImg from '../../images/database.png'
 
 export default React.createClass({
