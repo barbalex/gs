@@ -7,7 +7,8 @@ export default React.createClass({
     displayName: 'MessagePage',
 
     propTypes: {
-        title: React.PropTypes.string
+        title: React.PropTypes.string,
+        body: React.PropTypes.string
     },
 
     render () {
