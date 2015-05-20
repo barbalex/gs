@@ -60,10 +60,10 @@ export default React.createClass({
         <div className='row'>
           <div className='col-lg-2'>
             <Nav id='proj_sidebar_id' className='proj_sidebar affix'>
-              <NavItem className='active'><a href='#apflora'>ApFlora</a></NavItem>
-              <NavItem><a href='#artendb_web'>ArtenDb Web</a></NavItem>
-              <NavItem><a href='#artendb_access'>ArtenDb Access</a></NavItem>
-              <NavItem><a href='#evab_mobile'>evab mobile</a></NavItem>
+              <NavItem className='active'><a href='#apflora' className='nav-a'>ApFlora</a></NavItem>
+              <NavItem><a href='#artendb_web' className='nav-a'>ArtenDb Web</a></NavItem>
+              <NavItem><a href='#artendb_access' className='nav-a'>ArtenDb Access</a></NavItem>
+              <NavItem><a href='#evab_mobile' className='nav-a'>evab mobile</a></NavItem>
             </Nav>
           </div>
 
