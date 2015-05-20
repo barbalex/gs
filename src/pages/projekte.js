@@ -59,14 +59,12 @@ export default React.createClass({
       <div id='projekte' className='page projekte'>
         <div className='row'>
           <div className='col-lg-2'>
-            <nav id='proj_sidebar_id' className='proj_sidebar affix'>
-              <ul id='proj_sidenav' className='nav proj_sidenav' role='complementary'>
-                <li className='active'><a href='#apflora'>ApFlora</a></li>
-                <li><a href='#artendb_web'>ArtenDb Web</a></li>
-                <li><a href='#artendb_access'>ArtenDb Access</a></li>
-                <li><a href='#evab_mobile'>evab mobile</a></li>
-              </ul>
-            </nav>
+            <Nav id='proj_sidebar_id' className='proj_sidebar affix'>
+              <NavItem className='active'><a href='#apflora'>ApFlora</a></NavItem>
+              <NavItem><a href='#artendb_web'>ArtenDb Web</a></NavItem>
+              <NavItem><a href='#artendb_access'>ArtenDb Access</a></NavItem>
+              <NavItem><a href='#evab_mobile'>evab mobile</a></NavItem>
+            </Nav>
           </div>
 
           <div className='col-lg-10 marketing'>
