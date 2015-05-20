@@ -2,6 +2,8 @@
 'use strict'
 
 import React from 'react'
+import Nav from 'react-bootstrap/lib/Nav'
+import NavItem from 'react-bootstrap/lib/NavItem'
 import Carousel from 'react-bootstrap/lib/Carousel'
 import CarouselItem from 'react-bootstrap/lib/CarouselItem'
 import apfImg from '../../images/apflora.png'
@@ -57,14 +59,15 @@ export default React.createClass({
       <div id='projekte' className='page projekte'>
         <div className='row'>
           <div className='col-lg-2'>
-          <nav id='proj_sidebar_id' className='proj_sidebar affix'>
+            <nav id='proj_sidebar_id' className='proj_sidebar affix'>
               <ul id='proj_sidenav' className='nav proj_sidenav' role='complementary'>
                 <li className='active'><a href='#apflora'>ApFlora</a></li>
                 <li><a href='#artendb_web'>ArtenDb Web</a></li>
                 <li><a href='#artendb_access'>ArtenDb Access</a></li>
                 <li><a href='#evab_mobile'>evab mobile</a></li>
               </ul>
-            </nav></div>
+            </nav>
+          </div>
 
           <div className='col-lg-10 marketing'>
             <p className='lead'>Eine Auswahl von Projekten:</p>
