@@ -22,6 +22,7 @@ export default React.createClass({
     const classesProjekte = cx({'projekte_menu': true, 'js-menu': true, 'active': this.props.pageName === 'projekte'})
     const classesTechnologien = cx({'technologien_menu': true, 'js-menu': true, 'active': this.props.pageName === 'technologien'})
     const classesKontakt = cx({'kontakt_menu': true, 'js-menu': true, 'active': this.props.pageName === 'kontakt'})
+
     return (
       <div>
         <div className='header'>
