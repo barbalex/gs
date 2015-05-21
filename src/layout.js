@@ -2,13 +2,15 @@
 'use strict'
 
 import React from 'react'
+import cx from 'classnames'
 import Navbar from 'react-bootstrap/lib/Navbar'
 
 export default React.createClass({
   displayName: 'Layout',
 
   propTypes: {
-    children: React.PropTypes.element
+    children: React.PropTypes.element,
+    pageName: React.PropTypes.string
   },
 
   handleClick () {
@@ -16,6 +18,10 @@ export default React.createClass({
   },
 
   render () {
+    const classesLeitbild = cx({'leitbild_menu': true, 'js-menu': true, 'active': this.props.pageName === 'leitbild'})
+    const classesProjekte = cx({'projekte_menu': true, 'js-menu': true, 'active': this.props.pageName === 'projekte'})
+    const classesTechnologien = cx({'technologien_menu': true, 'js-menu': true, 'active': this.props.pageName === 'technologien'})
+    const classesKontakt = cx({'kontakt_menu': true, 'js-menu': true, 'active': this.props.pageName === 'kontakt'})
     return (
       <div>
         <div className='header'>
@@ -32,12 +38,12 @@ export default React.createClass({
               </div>
               <div className='collapse navbar-collapse'>
                 <ul className='nav navbar-nav'>
-                  <li className='leitbild_menu js-menu'><a href='/leitbild'>Leitbild</a></li>
-                  <li className='projekte_menu js-menu'><a href='/projekte'>Projekte</a></li>
-                  <li className='technologien_menu js-menu'><a href='/technologien'>Technologien</a></li>
+                  <li className={classesLeitbild}><a href='/leitbild'>Leitbild</a></li>
+                  <li className={classesProjekte}><a href='/projekte'>Projekte</a></li>
+                  <li className={classesTechnologien}><a href='/technologien'>Technologien</a></li>
                 </ul>
                 <ul className='nav navbar-nav navbar-right'>
-                  <li className='kontakt_menu js-menu'><a href='/kontakt'>Kontakt</a></li>
+                  <li className={classesKontakt}><a href='/kontakt'>Kontakt</a></li>
                 </ul>
               </div>
             </div>
