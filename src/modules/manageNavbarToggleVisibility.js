@@ -1,3 +1,8 @@
+/*
+ * manages if the navbar toggle (hamburger menu) opens or closes
+ * TODO: do this the react way
+ */
+
 /*jslint node: true, browser: true, nomen: true, todo: true, asi: true */
 'use strict'
 

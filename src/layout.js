@@ -32,12 +32,12 @@ export default React.createClass({
               </div>
               <div className='collapse navbar-collapse'>
                 <ul className='nav navbar-nav'>
-                  <li><a href='/leitbild' className='leitbild_menu'>Leitbild</a></li>
-                  <li><a href='/projekte' className='projekte_menu'>Projekte</a></li>
-                  <li><a href='/technologien' className='technologien_menu'>Technologien</a></li>
+                  <li className='leitbild_menu js-menu'><a href='/leitbild'>Leitbild</a></li>
+                  <li className='projekte_menu js-menu'><a href='/projekte'>Projekte</a></li>
+                  <li className='technologien_menu js-menu'><a href='/technologien'>Technologien</a></li>
                 </ul>
                 <ul className='nav navbar-nav navbar-right'>
-                  <li><a href='/kontakt' className='kontakt_menu'>Kontakt</a></li>
+                  <li className='kontakt_menu js-menu'><a href='/kontakt'>Kontakt</a></li>
                 </ul>
               </div>
             </div>
