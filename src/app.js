@@ -35,6 +35,22 @@ app.extend({
       const $navbarCollapse = $(this).parent().parent().find('.navbar-collapse')
       closeNavbarCollapse($navbarCollapse)
     })
+
+    // animiert scrollen, wenn in Projekte ein Seitenmenu gewählt wird
+    $(".projekte nav ul li a[href^='#']").on('click', function (e) {
+      // prevent default anchor click behavior
+      e.preventDefault()
+      // store hash
+      var hash = this.hash
+      // animate
+      $('html, body').animate({
+        scrollTop: $(this.hash).offset().top
+      }, 300, function () {
+        // when done, add hash to url
+        // (default click behaviour)
+        window.location.hash = hash
+      })
+    })
   }
 })
 
