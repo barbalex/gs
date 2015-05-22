@@ -3,7 +3,7 @@
 
 import React from 'react'
 import Jumbotron from 'react-bootstrap/lib/Jumbotron'
-import accessImg from '../../images/access2.png'  // TODO ERROR: Unexpected character '´┐¢' (1:0)
+import accessImg from '../../images/access2.png'
 
 export default React.createClass({
   displayName: 'PublicPage',

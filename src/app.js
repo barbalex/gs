@@ -4,6 +4,7 @@
 import app from 'ampersand-app'
 // this import seems not used but is necessary for styling
 import styles from './styles/main.styl'
+import faviconImg from '../favicon.ico'
 import Router from './router'
 import manageNavbarToggleVisibility from './modules/manageNavbarToggleVisibility'
 import manageProjectScrolling from './modules/manageProjectScrolling'
