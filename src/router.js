@@ -13,10 +13,10 @@ import KontaktPage from './pages/kontakt'
 import MessagePage from './pages/message'
 
 export default Router.extend({
-  renderPage (page) {
+  renderPage (page, pageName) {
     page = (
       <NavHelper>
-        <Layout>
+        <Layout pageName={pageName}>
           {page}
         </Layout>
       </NavHelper>
@@ -39,19 +39,19 @@ export default Router.extend({
   },
 
   leitbild () {
-    this.renderPage(<LeitbildPage/>)
+    this.renderPage(<LeitbildPage/>, 'leitbild')
   },
 
   projekte () {
-    this.renderPage(<ProjektePage/>)
+    this.renderPage(<ProjektePage/>, 'projekte')
   },
 
   technologien () {
-    this.renderPage(<TechnologienPage/>)
+    this.renderPage(<TechnologienPage/>, 'technologien')
   },
 
   kontakt () {
-    this.renderPage(<KontaktPage/>)
+    this.renderPage(<KontaktPage/>, 'kontakt')
   },
 
   fourOhFour () {
