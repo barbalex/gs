@@ -13,10 +13,6 @@ export default React.createClass({
     pageName: React.PropTypes.string
   },
 
-  handleClick () {
-
-  },
-
   render () {
     const classesLeitbild = cx({'leitbild_menu': true, 'js-menu': true, 'active': this.props.pageName === 'leitbild'})
     const classesProjekte = cx({'projekte_menu': true, 'js-menu': true, 'active': this.props.pageName === 'projekte'})
