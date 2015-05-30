@@ -2,7 +2,7 @@
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-Die Webseite von [gabriel-software](http://gabriel-software.ch) 
+Die Webseite von [Gabriel Software](http://gabriel-software.ch) 
 
 Gebaut mit:
 
