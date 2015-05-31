@@ -3,7 +3,6 @@
  * TODO: do this the react way
  */
 
-/*jslint node: true, browser: true, nomen: true, todo: true, asi: true */
 'use strict'
 
 import $ from 'jquery'

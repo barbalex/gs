@@ -1,4 +1,3 @@
-/*jslint node: true, browser: true, nomen: true, todo: true, asi: true */
 'use strict'
 
 import React from 'react'
@@ -63,11 +62,11 @@ export default React.createClass({
       <div id='projekte' className='page projekte'>
         <div className='row'>
           <div className='col-lg-2'>
-            <Nav id='proj_sidebar_id' className='proj_sidebar affix' activeKey={1}>
-              <NavItem eventKey={1}><a href='#apflora' className='nav-a'>ApFlora</a></NavItem>
-              <NavItem eventKey={2}><a href='#artendb_web' className='nav-a'>ArtenDb Web</a></NavItem>
-              <NavItem eventKey={3}><a href='#artendb_access' className='nav-a'>ArtenDb Access</a></NavItem>
-              <NavItem eventKey={4}><a href='#evab_mobile' className='nav-a'>evab mobile</a></NavItem>
+            <Nav id='proj_sidebar_id' className='proj_sidebar affix'>
+              <NavItem eventKey={1}><a href='projekte#apflora' className='nav-a'>ApFlora</a></NavItem>
+              <NavItem eventKey={2}><a href='projekte#artendb_web' className='nav-a'>ArtenDb Web</a></NavItem>
+              <NavItem eventKey={3}><a href='projekte#artendb_access' className='nav-a'>ArtenDb Access</a></NavItem>
+              <NavItem eventKey={4}><a href='projekte#evab_mobile' className='nav-a'>evab mobile</a></NavItem>
             </Nav>
           </div>
 

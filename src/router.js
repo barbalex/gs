@@ -1,60 +1,74 @@
-/*jslint node: true, browser: true, nomen: true, todo: true, asi: true */
 'use strict'
 
 import React from 'react'
-import Router from 'ampersand-router'
-import Layout from './layout'
+import Router from 'react-router'
+import Navbar from 'react-bootstrap/lib/Navbar'
 import PublicPage from './pages/public'
 import LeitbildPage from './pages/leitbild'
 import ProjektePage from './pages/projekte'
 import TechnologienPage from './pages/technologien'
-import NavHelper from './components/nav-helper'
 import KontaktPage from './pages/kontakt'
-import MessagePage from './pages/message'
+import FourOhFourPage from './pages/fourOhFour'
 
-export default Router.extend({
-  renderPage (page, pageName) {
-    page = (
-      <NavHelper>
-        <Layout pageName={pageName}>
-          {page}
-        </Layout>
-      </NavHelper>
-    )
+const DefaultRoute = Router.DefaultRoute
+const NotFoundRoute = Router.NotFoundRoute
+const Link = Router.Link
+const Route = Router.Route
+const RouteHandler = Router.RouteHandler
 
-    React.render(page, document.body)
-  },
+export default function () {
+  const App = React.createClass({
+    displayName: 'HomePage',
 
-  routes: {
-    '': 'public',
-    'leitbild': 'leitbild',
-    'projekte': 'projekte',
-    'technologien': 'technologien',
-    'kontakt': 'kontakt',
-    '*fourohfour': 'fourOhFour'
-  },
+    render () {
+      return (
+        <div>
+          <div className='header'>
+            <Navbar inverse fixedTop>
+              <div className='container'>
+                <div className='navbar-header'>
+                  <button type='button' className='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>
+                    <span className='sr-only'>Toggle navigation</span>
+                    <span className='icon-bar'></span>
+                    <span className='icon-bar'></span>
+                    <span className='icon-bar'></span>
+                  </button>
+                  <Link to='app' className='navbar-brand'>Gabriel Software</Link>
+                </div>
+                <div className='collapse navbar-collapse'>
+                  <ul className='nav navbar-nav'>
+                    <li><Link to='leitbild'>Leitbild</Link></li>
+                    <li><Link to='projekte'>Projekte</Link></li>
+                    <li><Link to='technologien'>Technologien</Link></li>
+                  </ul>
+                  <ul className='nav navbar-nav navbar-right'>
+                    <li><Link to='kontakt'>Kontakt</Link></li>
+                  </ul>
+                </div>
+              </div>
+            </Navbar>
+          </div>
+          <div className='container'>
+            <RouteHandler/>
+          </div>
+        </div>
+      )
+    }
+  })
 
-  public () {
-    this.renderPage(<PublicPage/>)
-  },
+  const routes = (
+    <Route name='app' path='/' handler={App}>
+      <Route name='public' handler={PublicPage}/>
+      <Route name='leitbild' handler={LeitbildPage}/>
+      <Route name='projekte' handler={ProjektePage}/>
+      <Route name='technologien' handler={TechnologienPage}/>
+      <Route name='kontakt' handler={KontaktPage}/>
+      <NotFoundRoute handler={FourOhFourPage}/>
+      <DefaultRoute handler={PublicPage}/>
+    </Route>
+  )
 
-  leitbild () {
-    this.renderPage(<LeitbildPage/>, 'leitbild')
-  },
-
-  projekte () {
-    this.renderPage(<ProjektePage/>, 'projekte')
-  },
-
-  technologien () {
-    this.renderPage(<TechnologienPage/>, 'technologien')
-  },
-
-  kontakt () {
-    this.renderPage(<KontaktPage/>, 'kontakt')
-  },
-
-  fourOhFour () {
-    this.renderPage(<MessagePage title = 'Hoppla: diese Seite gibt es nicht :-('/>)
-  }
-})
+  Router.run(routes, Router.HistoryLocation, function (Handler) {
+    React.render(<Handler/>, document.body)
+  })
+}
