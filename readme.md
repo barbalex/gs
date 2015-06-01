@@ -8,7 +8,19 @@ Die Webseite von [Gabriel Software](http://gabriel-software.ch)
 Gebaut mit:
 
 - [node.js](https://nodejs.org)
+- [hapi.js](http://hapijs.com)
 - [webpack](http://webpack.github.io)
 - [ampersand.js](http://ampersandjs.com)
 - [React](https://facebook.github.io/react/index.html)
 - [JavaScript](http://en.wikipedia.org/wiki/JavaScript) / [ES6](https://github.com/lukehoban/es6features)
+
+Eigenschaften:
+
+- Abhängigkeiten werden mit [npm](https://www.npmjs.com) verwaltet
+- mit [webpack](http://webpack.github.io) werden für die Publikation statische Dateien erzeugt
+- [webpack](http://webpack.github.io) aktualisiert während der Entwicklung laufend die Seite im Browser
+- die App wird zu 100% im Browser ausgeführt. Der Server liefert nur die dazu nötigen Ressourcen. Es handelt sich um eine (Native Web App)[https://blog.andyet.com/2015/01/22/native-web-apps]
+- [hapi.js](http://hapijs.com) wird in der Produktion als Webserver verwendet
+- [React](https://facebook.github.io/react/index.html) vereinfacht die Programmierung der Benutzeroberfläche und macht sie effizient
+- [ES6](https://github.com/lukehoban/es6features) ermöglicht es, effizienter und lesbarer zu programmieren
+- [standard](https://github.com/feross/standard) erzwingt einen guten Programmierstil und macht den Code lesbarer
