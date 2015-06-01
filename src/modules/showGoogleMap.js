@@ -22,8 +22,8 @@ export default function () {
     }
   }
   window.map = new window.google.maps.Map(document.getElementById('google_karten_div'), options)
-  const marker = new window.google.maps.Marker({
+  const marker = new window.google.maps.Marker({ // eslint-disable-line no-unused-vars
     position: new window.google.maps.LatLng(47.283873, 8.563963),
     map: window.map
-  });
+  })
 }

@@ -2,11 +2,11 @@
 
 import app from 'ampersand-app'
 // this import seems not used but is necessary for styling
-import styles from './styles/main.styl'
+import styles from './styles/main.styl' // eslint-disable-line
 // favicon needs to be imported to be provided by webpack
-import faviconImg from 'file?name=favicon.ico!../favicon.ico'
+import faviconImg from 'file?name=favicon.ico!../favicon.ico' // eslint-disable-line
 // a 200.html page redirects to other pages
-import twohundredPage from 'copy!./200.html'
+import twohundredPage from 'copy!./200.html' // eslint-disable-line
 // import twohundredPage from 'file?name=200.html!./200.html'
 
 import Router from './router'

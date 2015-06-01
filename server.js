@@ -4,12 +4,12 @@
 
 'use strict'
 
-var serverOptionsDevelopment = {    // wird nur in Entwicklung genutzt
+var /*serverOptionsDevelopment = {    // wird nur in Entwicklung genutzt
     debug: {
       log: ['error'],
       request: ['error']
     }
-  },
+  },*/
   Hapi = require('hapi'),
   server = new Hapi.Server()
 
