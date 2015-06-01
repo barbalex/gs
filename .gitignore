@@ -46,3 +46,4 @@ node_modules
 public
 npm-debug.log
 gs.sublime-workspace
+sftpPass.json
