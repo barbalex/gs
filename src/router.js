@@ -42,7 +42,7 @@ export default function () {
                     <li><Link to='technologien'>Technologien</Link></li>
                   </ul>
                   <ul className='nav navbar-nav navbar-right'>
-                    <li><Link to='kontakt'>Kontakt</Link></li>
+                    <li className='kontaktNav'><Link to='kontakt'>Kontakt</Link></li>
                   </ul>
                 </div>
               </div>
