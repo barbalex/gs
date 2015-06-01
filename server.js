@@ -73,22 +73,7 @@ server.route({
   }
 })
 
-server.route({
-  method: 'GET',
-  path: '/gs.1.0.0.css',
-  handler: function (request, reply) {
-    reply.file('gs.1.0.0.css')
-  }
-})
-
-server.route({
-  method: 'GET',
-  path: '/gs.1.0.0.js',
-  handler: function (request, reply) {
-    reply.file('gs.1.0.0.js')
-  }
-})
-
+// serve all static files in the root directory
 server.route({
   method: 'GET',
   path: '/{path*}',
@@ -99,20 +84,15 @@ server.route({
   }
 })
 
+// show 404 page if file not found
 server.ext('onPreResponse', function (request, reply) {
   if (request.response.isBoom) {
-    // Inspect the response here, perhaps see if it's a 404?
-    console.log('request.response.isBoom:', request.response.isBoom)
-    console.log('request.response:', request.response)
-    return reply.redirect('/')
+    // Inspect the response here, see if it's a 404
+    if (request.response.output.statusCode === 404) {
+      return reply.file('200.html')
+    } else {
+      return reply.redirect('/')
+    }
   }
   return reply.continue()
 })
-
-/*server.route({
-  method: 'GET',
-  path: '/{p*}',
-  handler: function (request, reply) {
-    reply.file('200.html')
-  }
-})*/
