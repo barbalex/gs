@@ -13,5 +13,5 @@ Eigenschaften:
 - [webpack](http://webpack.github.io) aktualisiert während der Entwicklung laufend die App im Browser - jede Änderung ist direkt sichtbar
 - [React](https://facebook.github.io/react/index.html) vereinfacht die Programmierung der Benutzeroberfläche und baut sie effizient auf
 - mit [webpack](http://webpack.github.io) werden für den produktiven Webserver statische Dateien erzeugt...
-- ...die dann von [hapi.js](http://hapijs.com) "geservt" werden
-- die App wird zu 100% im Browser ausgeführt. Der Server liefert nur beim erstmaligen Laden die dazu nötigen Ressourcen. Es handelt sich um eine [Native Web App](https://blog.andyet.com/2015/01/22/native-web-apps)
+- ...die dann von [hapi.js](http://hapijs.com) an den Browser geliefert werden...
+- ...der dann die App ohne weitere Hilfe des Servers ausführt. Es handelt sich daher um eine reine ["Native Web App"](https://blog.andyet.com/2015/01/22/native-web-apps)
