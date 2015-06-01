@@ -2,6 +2,7 @@
 
 import React from 'react'
 import Router from 'react-router'
+import Favicon from 'react-favicon'
 import Navbar from 'react-bootstrap/lib/Navbar'
 import PublicPage from './pages/public'
 import LeitbildPage from './pages/leitbild'
@@ -24,6 +25,7 @@ export default function () {
       return (
         <div>
           <div className='header'>
+          <Favicon url={['../favicon.ico']}/>
             <Navbar inverse fixedTop>
               <div className='container'>
                 <div className='navbar-header'>

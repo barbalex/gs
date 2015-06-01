@@ -2,13 +2,9 @@
 
 import app from 'ampersand-app'
 // this import seems not used but is necessary for styling
-import styles from './styles/main.styl' // eslint-disable-line
-// favicon needs to be imported to be provided by webpack
-import 'raw!../favicon.ico'
-// a 200.html page redirects to other pages (named 200 because )
-import 'raw!./200.html'
+import './styles/main.styl'
 // get server.js
-import 'raw!../server.js'
+import 'file?name=server.js!../server.js'
 
 import Router from './router'
 import manageNavbarToggleVisibility from './modules/manageNavbarToggleVisibility'
