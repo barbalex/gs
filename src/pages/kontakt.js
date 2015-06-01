@@ -3,6 +3,7 @@
 import React from 'react'
 import ImageLoader from 'react-imageloader'
 import prepareGoogleMap from '../modules/prepareGoogleMap'
+import alexImg from '../../images/alex.jpg'
 
 export default React.createClass({
   displayName: 'KontaktPage',
@@ -16,7 +17,7 @@ export default React.createClass({
       <div id='kontakt' className='page kontakt'>
         <div className='row marketing'>
           <div className='col-lg-3'>
-            <ImageLoader src={'../../images/alex.jpg'} className='js-alexImage'>Sorry, das Bild wurde nicht geladen</ImageLoader>
+            <ImageLoader src={alexImg} className='js-alexImage'>(Sorry, das Bild wurde nicht geladen)</ImageLoader>
             <address className='js-address'>
               <strong>Gabriel Software</strong><br/>
               Alexander Gabriel<br/>
