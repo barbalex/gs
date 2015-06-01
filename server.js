@@ -11,7 +11,7 @@ var serverOptionsDevelopment = {    // wird nur in Entwicklung genutzt
     }
   },
   Hapi = require('hapi'),
-  server = new Hapi.Server(serverOptionsDevelopment)
+  server = new Hapi.Server()
 
 server.connection({
   host: '0.0.0.0',
@@ -28,6 +28,14 @@ server.start(function (err) {
 server.route({
   method: 'GET',
   path: '/',
+  handler: function (request, reply) {
+    reply.file('index.html')
+  }
+})
+
+server.route({
+  method: 'GET',
+  path: '/index.html',
   handler: function (request, reply) {
     reply.file('index.html')
   }
@@ -67,8 +75,34 @@ server.route({
 
 server.route({
   method: 'GET',
+  path: '/gs.1.0.0.css',
+  handler: function (request, reply) {
+    reply.file('gs.1.0.0.css')
+  }
+})
+
+server.route({
+  method: 'GET',
+  path: '/gs.1.0.0.js',
+  handler: function (request, reply) {
+    reply.file('gs.1.0.0.js')
+  }
+})
+
+server.route({
+  method: 'GET',
+  path: '/{path*}',
+  handler: {
+    directory: {
+      path: '/'
+    }
+  }
+})
+
+/*server.route({
+  method: 'GET',
   path: '/{p*}',
   handler: function (request, reply) {
     reply.file('200.html')
   }
-})
+})*/
