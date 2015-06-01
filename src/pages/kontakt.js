@@ -1,6 +1,7 @@
 'use strict'
 
 import React from 'react'
+import ImageLoader from 'react-imageloader'
 import prepareGoogleMap from '../modules/prepareGoogleMap'
 
 export default React.createClass({
@@ -15,7 +16,8 @@ export default React.createClass({
       <div id='kontakt' className='page kontakt'>
         <div className='row marketing'>
           <div className='col-lg-3'>
-            <address>
+            <ImageLoader src={'../../images/alex.jpg'} className='js-alexImage'>Sorry, das Bild wurde nicht geladen</ImageLoader>
+            <address className='js-address'>
               <strong>Gabriel Software</strong><br/>
               Alexander Gabriel<br/>
               Bönirainstrasse 14<br/>
