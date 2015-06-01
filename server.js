@@ -89,7 +89,8 @@ server.ext('onPreResponse', function (request, reply) {
   if (request.response.isBoom) {
     // Inspect the response here, see if it's a 404
     if (request.response.output.statusCode === 404) {
-      return reply.file('200.html')
+      // let index.html handle this
+      return reply.file('index.html')
     } else {
       return reply.redirect('/')
     }
