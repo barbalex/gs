@@ -6,7 +6,6 @@
   "scripts": {
     "start": "webpack-dev-server",
     "build": "set NODE_ENV=production&& webpack",
-    "deploy_surge": "surge -p public -d gs.surge.sh",
     "deploy": "surge -p public -d gabriel-software.ch",
     "yolo": "npm run build && npm run deploy",
     "test": "standard"
@@ -21,7 +20,6 @@
     "babel-loader": "5.1.3",
     "bootstrap": "3.3.4",
     "classnames": "2.1.2",
-    "copy-loader": "^0.1.2",
     "css-loader": "0.14.4",
     "file-loader": "0.8.4",
     "hapi": "^8.6.0",
@@ -30,7 +28,6 @@
     "json-loader": "0.5.2",
     "node-libs-browser": "0.5.2",
     "postcss-loader": "0.4.3",
-    "raw-loader": "^0.5.1",
     "react": "0.13.3",
     "react-bootstrap": "0.23.0",
     "react-favicon": "0.0.3",
