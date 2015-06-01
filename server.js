@@ -94,9 +94,19 @@ server.route({
   path: '/{path*}',
   handler: {
     directory: {
-      path: '/'
+      path: './'
     }
   }
+})
+
+server.ext('onPreResponse', function (request, reply) {
+  if (request.response.isBoom) {
+    // Inspect the response here, perhaps see if it's a 404?
+    console.log('request.response.isBoom:', request.response.isBoom)
+    console.log('request.response:', request.response)
+    return reply.redirect('/')
+  }
+  return reply.continue()
 })
 
 /*server.route({
