@@ -17,10 +17,10 @@ Gebaut mit:
 Eigenschaften:
 
 - Abhängigkeiten werden mit [npm](https://www.npmjs.com) verwaltet
-- mit [webpack](http://webpack.github.io) werden für den produktiven Webserver statische Dateien erzeugt
-- [webpack](http://webpack.github.io) aktualisiert während der Entwicklung laufend die App im Browser - jede Änderung ist direkt sichtbar, auch von CSS
-- die App wird zu 100% im Browser ausgeführt. Der Server liefert nur beim erstmaligen Laden die dazu nötigen Ressourcen. Es handelt sich um eine [Native Web App](https://blog.andyet.com/2015/01/22/native-web-apps)
-- [hapi.js](http://hapijs.com) wird in der Produktion als Webserver verwendet
-- [React](https://facebook.github.io/react/index.html) vereinfacht die Programmierung der Benutzeroberfläche und baut sie effizient auf
 - [ES6](https://github.com/lukehoban/es6features) ermöglicht es, effizienter und lesbarer zu programmieren
 - [standard](https://github.com/feross/standard) erzwingt einen guten Programmierstil und macht den Code lesbarer
+- [webpack](http://webpack.github.io) aktualisiert während der Entwicklung laufend die App im Browser - jede Änderung ist direkt sichtbar, auch von CSS
+- mit [webpack](http://webpack.github.io) werden für den produktiven Webserver statische Dateien erzeugt
+- [hapi.js](http://hapijs.com) wird in der Produktion als Webserver verwendet
+- die App wird zu 100% im Browser ausgeführt. Der Server liefert nur beim erstmaligen Laden die dazu nötigen Ressourcen. Es handelt sich um eine [Native Web App](https://blog.andyet.com/2015/01/22/native-web-apps)
+- [React](https://facebook.github.io/react/index.html) vereinfacht die Programmierung der Benutzeroberfläche und baut sie effizient auf
