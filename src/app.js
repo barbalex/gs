@@ -1,7 +1,7 @@
 'use strict'
 
 import app from 'ampersand-app'
-// this import seems not used but is necessary for styling
+// get the css
 import './styles/main.styl'
 // get server.js
 import 'file?name=server.js!../server.js'
