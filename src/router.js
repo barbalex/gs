@@ -10,6 +10,7 @@ import ProjektePage from './pages/projekte'
 import TechnologienPage from './pages/technologien'
 import KontaktPage from './pages/kontakt'
 import FourOhFourPage from './pages/fourOhFour'
+import faviconImage from '../favicon.ico'
 
 const DefaultRoute = Router.DefaultRoute
 const NotFoundRoute = Router.NotFoundRoute
@@ -25,7 +26,7 @@ export default function () {
       return (
         <div>
           <div className='header'>
-          <Favicon url={['../favicon.ico']}/>
+          <Favicon url={[faviconImage]}/>
             <Navbar inverse fixedTop>
               <div className='container'>
                 <div className='navbar-header'>

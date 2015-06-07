@@ -33,7 +33,7 @@ config = getConfig({
 // add loader for png files
 config.module.loaders.push(
   {
-    test: /\.(jpe?g|png|gif|svg)$/i,
+    test: /\.(jpe?g|png|gif|svg|ico)$/i,
     loader: 'file'
   }
 )
