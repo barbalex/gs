@@ -6,7 +6,7 @@ import './styles/main.styl'
 // get server.js
 import 'file?name=server.js!../server.js'
 
-import Router from './router'
+import Router from './router.js'
 import manageNavbarToggleVisibility from './modules/manageNavbarToggleVisibility'
 
 window.app = app // expose app to the browser console
