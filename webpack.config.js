@@ -1,6 +1,6 @@
 'use strict'
 
-require('babel/register')    // verwandelt required jsx in html
+require('babel/register')    // converts required jsx to html
 var getConfig = require('hjs-webpack')
 /*var React = require('react')
 var fourOhFour = require('./src/pages/fourOhFour')
@@ -28,8 +28,6 @@ config = getConfig({
 // hostname: 'local_machine_hostname.local'
 })
 
-// console.log('config.module.loaders:', config.module.loaders)
-
 // add loader for png files
 config.module.loaders.push(
   {
@@ -37,15 +35,5 @@ config.module.loaders.push(
     loader: 'file'
   }
 )
-
-// add loader for html files
-config.module.loaders.push(
-  {
-    test: /\.(html)$/i,
-    loader: 'file'
-  }
-)
-
-// console.log('config.module.loaders after adding:', config.module.loaders)
 
 module.exports = config
