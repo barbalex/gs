@@ -8,7 +8,7 @@
 
 var gulp = require('gulp')
 
-gulp.task('copy_google_verif', function () {
+gulp.task('copyGoogleVerif', function () {
   return gulp.src('./google62104c6b2995c087.html')
     .pipe(gulp.dest('public/'))
 })

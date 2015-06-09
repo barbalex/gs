@@ -28,10 +28,10 @@ config = getConfig({
 // hostname: 'local_machine_hostname.local'
 })
 
-// add loader for png files
+// add a loader for ico files
 config.module.loaders.push(
   {
-    test: /\.(jpe?g|png|gif|svg|ico)$/i,
+    test: /\.(ico)$/i,
     loader: 'file'
   }
 )
