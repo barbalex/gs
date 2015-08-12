@@ -166,7 +166,8 @@ body {
 /* Menü (sidenav) stylen */
 /* Affix muss manuel positioniert werden; */
 .projekte .affix
-  top: 20
+  // top: 20px
+  position: static
   background-color: transparent
   border: 1px solid #D8D8D8
   margin-bottom: 15px
@@ -194,10 +195,8 @@ body {
   /* Space out content a bit */
   body
     padding-bottom: 20px
-  .projekte .affix.nav
+  .projekte .affix
     position: fixed
-    top: 73px
-    width: 160px
   .leitbild .col-lg-4
     min-height: 254px
     
