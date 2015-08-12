@@ -1,10 +1,7 @@
 'use strict'
 
 import React from 'react'
-import Nav from 'react-bootstrap/lib/Nav'
-import NavItem from 'react-bootstrap/lib/NavItem'
-import Carousel from 'react-bootstrap/lib/Carousel'
-import CarouselItem from 'react-bootstrap/lib/CarouselItem'
+import { Nav, NavItem, Carousel, CarouselItem } from 'react-bootstrap'
 import apfImg from '../../images/apflora.png'
 import apfAnmeldenImg from '../../images/apflora_anmelden.png'
 import apfTpopImg from '../../images/apflora_tpop.png'
@@ -62,11 +59,11 @@ export default React.createClass({
       <div id='projekte' className='page projekte'>
         <div className='row'>
           <div className='col-lg-2'>
-            <Nav id='proj_sidebar_id' className='proj_sidebar affix'>
-              <NavItem><a href='projekte#apflora' className='nav-a'>ApFlora</a></NavItem>
-              <NavItem><a href='projekte#artendb_web' className='nav-a'>ArtenDb Web</a></NavItem>
-              <NavItem><a href='projekte#artendb_access' className='nav-a'>ArtenDb Access</a></NavItem>
-              <NavItem><a href='projekte#evab_mobile' className='nav-a'>evab mobile</a></NavItem>
+            <Nav className='affix'>
+              <NavItem href='projekte#apflora' className='nav-a'>ApFlora</NavItem>
+              <NavItem href='projekte#artendb_web' className='nav-a'>ArtenDb Web</NavItem>
+              <NavItem href='projekte#artendb_access' className='nav-a'>ArtenDb Access</NavItem>
+              <NavItem href='projekte#evab_mobile' className='nav-a'>evab mobile</NavItem>
             </Nav>
           </div>
 
