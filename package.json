@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "prebuild": "gulp cleanPublic",
     "build": "set NODE_ENV=production&& webpack && gulp copyGoogleVerif",
     "deploy": "gulp sftp",
     "yolo": "npm run build && npm run deploy",
@@ -24,7 +23,6 @@
     "babel-preset-stage-0": "6.1.2",
     "bootstrap": "3.3.5",
     "css-loader": "0.22.0",
-    "del": "2.0.2",
     "file-loader": "0.8.4",
     "gulp": "3.9.0",
     "gulp-sftp": "0.1.5",

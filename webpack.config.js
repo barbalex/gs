@@ -6,6 +6,7 @@ var config
 config = getConfig({
   in: 'src/app.js',
   out: 'public',
+  clearBeforeBuild: '*',
   isDev: process.env.NODE_ENV !== 'production' /*,
   html: function (context) {
     // prerender on Server
