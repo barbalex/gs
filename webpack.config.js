@@ -1,10 +1,6 @@
 'use strict'
 
-// require('babel-core/register')    // converts required jsx to html
 var getConfig = require('hjs-webpack')
-/*var React = require('react')
-var fourOhFour = require('./src/pages/fourOhFour')
-var Public = require('./src/pages/public')*/
 var config
 
 config = getConfig({

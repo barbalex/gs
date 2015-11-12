@@ -55,20 +55,18 @@ export default function () {
     }
   })
 
-  const routes = (
-    <Route path='/' component={App}>
-      <IndexRoute component={PublicPage}/>
-      <Route path='leitbild' component={LeitbildPage}/>
-      <Route path='projekte' component={ProjektePage}/>
-      <Route path='technologien' component={TechnologienPage}/>
-      <Route path='kontakt' component={KontaktPage}/>
-      <Route path='*' component={FourOhFourPage}/>
-    </Route>
-  )
-
   let history = createBrowserHistory()
   render(
-    <Router history={history}>{routes}</Router>,
+    <Router history={history}>
+      <Route path='/' component={App}>
+        <IndexRoute component={PublicPage}/>
+        <Route path='leitbild' component={LeitbildPage}/>
+        <Route path='projekte' component={ProjektePage}/>
+        <Route path='technologien' component={TechnologienPage}/>
+        <Route path='kontakt' component={KontaktPage}/>
+        <Route path='*' component={FourOhFourPage}/>
+      </Route>
+    </Router>,
     document.body
   )
 }
