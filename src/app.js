@@ -5,6 +5,9 @@ import app from 'ampersand-app'
 import './styles/main.styl'
 // get server.js
 import 'file?name=server.js!../server.js'
+// get google verif and favicon file and keep its name as it is
+require('file?name=google62104c6b2995c087.html!../google62104c6b2995c087.html')
+require('file?name=favicon.ico!../favicon.ico')
 
 import Router from './router.js'
 import manageNavbarToggleVisibility from './modules/manageNavbarToggleVisibility'

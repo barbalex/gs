@@ -4,7 +4,6 @@ import React from 'react'
 import { render } from 'react-dom'
 import { Router, Route, Link, IndexRoute } from 'react-router'
 import createBrowserHistory from 'history/lib/createBrowserHistory'
-import Favicon from 'react-favicon'
 import Navbar from 'react-bootstrap/lib/Navbar'
 import PublicPage from './pages/public'
 import LeitbildPage from './pages/leitbild'
@@ -12,7 +11,6 @@ import ProjektePage from './pages/projekte'
 import TechnologienPage from './pages/technologien'
 import KontaktPage from './pages/kontakt'
 import FourOhFourPage from './pages/fourOhFour'
-import faviconImage from '../favicon.ico'
 
 export default function () {
   const App = React.createClass({
@@ -22,7 +20,6 @@ export default function () {
       return (
         <div>
           <div className='header'>
-          <Favicon url={[faviconImage]}/>
             <Navbar inverse fixedTop>
               <div className='container'>
                 <div className='navbar-header'>
