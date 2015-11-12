@@ -1,7 +1,9 @@
 'use strict'
 
 import React from 'react'
-import Router from 'react-router'
+import { render } from 'react-dom'
+import { Router, Route, Link, IndexRoute } from 'react-router'
+import createBrowserHistory from 'history/lib/createBrowserHistory'
 import Favicon from 'react-favicon'
 import Navbar from 'react-bootstrap/lib/Navbar'
 import PublicPage from './pages/public'
@@ -11,12 +13,6 @@ import TechnologienPage from './pages/technologien'
 import KontaktPage from './pages/kontakt'
 import FourOhFourPage from './pages/fourOhFour'
 import faviconImage from '../favicon.ico'
-
-const DefaultRoute = Router.DefaultRoute
-const NotFoundRoute = Router.NotFoundRoute
-const Link = Router.Link
-const Route = Router.Route
-const RouteHandler = Router.RouteHandler
 
 export default function () {
   const App = React.createClass({
@@ -36,23 +32,23 @@ export default function () {
                     <span className='icon-bar'></span>
                     <span className='icon-bar'></span>
                   </button>
-                  <Link to='app' className='navbar-brand'>Gabriel Software</Link>
+                  <Link to='/' className='navbar-brand'>Gabriel Software</Link>
                 </div>
                 <div className='collapse navbar-collapse'>
                   <ul className='nav navbar-nav'>
-                    <li><Link to='leitbild'>Leitbild</Link></li>
-                    <li><Link to='projekte'>Projekte</Link></li>
-                    <li><Link to='technologien'>Technologien</Link></li>
+                    <li><Link to='leitbild' activeClassName='active'>Leitbild</Link></li>
+                    <li><Link to='projekte' activeClassName='active'>Projekte</Link></li>
+                    <li><Link to='technologien' activeClassName='active'>Technologien</Link></li>
                   </ul>
                   <ul className='nav navbar-nav navbar-right'>
-                    <li className='kontaktNav'><Link to='kontakt'>Kontakt</Link></li>
+                    <li className='kontaktNav'><Link to='kontakt' activeClassName='active'>Kontakt</Link></li>
                   </ul>
                 </div>
               </div>
             </Navbar>
           </div>
           <div className='container'>
-            <RouteHandler/>
+            {this.props.children}
           </div>
         </div>
       )
@@ -60,18 +56,19 @@ export default function () {
   })
 
   const routes = (
-    <Route name='app' path='/' handler={App}>
-      <Route name='public' handler={PublicPage}/>
-      <Route name='leitbild' handler={LeitbildPage}/>
-      <Route name='projekte' handler={ProjektePage}/>
-      <Route name='technologien' handler={TechnologienPage}/>
-      <Route name='kontakt' handler={KontaktPage}/>
-      <NotFoundRoute handler={FourOhFourPage}/>
-      <DefaultRoute handler={PublicPage}/>
+    <Route path='/' component={App}>
+      <IndexRoute component={PublicPage}/>
+      <Route path='leitbild' component={LeitbildPage}/>
+      <Route path='projekte' component={ProjektePage}/>
+      <Route path='technologien' component={TechnologienPage}/>
+      <Route path='kontakt' component={KontaktPage}/>
+      <Route path='*' component={FourOhFourPage}/>
     </Route>
   )
 
-  Router.run(routes, Router.HistoryLocation, function (Handler) {
-    React.render(<Handler/>, document.body)
-  })
+  let history = createBrowserHistory()
+  render(
+    <Router history={history}>{routes}</Router>,
+    document.body
+  )
 }
