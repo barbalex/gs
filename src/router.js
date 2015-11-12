@@ -67,6 +67,6 @@ export default function () {
         <Route path='*' component={FourOhFourPage}/>
       </Route>
     </Router>,
-    document.body
+    document.getElementById('root')
   )
 }
