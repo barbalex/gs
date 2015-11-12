@@ -1,6 +1,6 @@
 'use strict'
 
-require('babel/register')    // converts required jsx to html
+// require('babel-core/register')    // converts required jsx to html
 var getConfig = require('hjs-webpack')
 /*var React = require('react')
 var fourOhFour = require('./src/pages/fourOhFour')
@@ -37,6 +37,22 @@ config.module.loaders.push(
   {
     test: /\.(ico)$/i,
     loader: 'file'
+  },
+  {
+    test: /\.jsx?$/,
+    exclude: /(node_modules|bower_components)/,
+    loader: 'babel',
+    query: {
+      presets: ['es2015', 'react', 'stage-0']
+    }
+  },
+  {
+    test: /\.js?$/,
+    exclude: /(node_modules|bower_components)/,
+    loader: 'babel',
+    query: {
+      presets: ['es2015', 'react', 'stage-0']
+    }
   }
 )
 
