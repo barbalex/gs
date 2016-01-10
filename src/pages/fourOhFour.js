@@ -8,7 +8,9 @@ export default React.createClass({
   render () {
     return (
       <div>
-        <h1>Hoppla: Für diese URL ist keine Seite vorgesehen  :-(</h1>
+        <h1>
+          Hoppla: Für diese URL ist keine Seite vorgesehen  :-(
+        </h1>
       </div>
     )
   }
