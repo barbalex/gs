@@ -36,7 +36,7 @@ config.module.loaders.push(
     exclude: /(node_modules|bower_components)/,
     loader: 'babel',
     query: {
-      presets: ['es2015', 'react', 'stage-0']
+      presets: ['es2015', 'react', 'stage-0', 'react-hmre']
     }
   },
   {
@@ -44,7 +44,7 @@ config.module.loaders.push(
     exclude: /(node_modules|bower_components)/,
     loader: 'babel',
     query: {
-      presets: ['es2015', 'react', 'stage-0']
+      presets: ['es2015', 'react', 'stage-0', 'react-hmre']
     }
   }
 )
