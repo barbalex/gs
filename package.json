@@ -33,7 +33,7 @@
     "inert": "3.2.0",
     "jquery": "2.2.0",
     "json-loader": "0.5.4",
-    "node-libs-browser": "0.5.3",
+    "node-libs-browser": "1.0.0",
     "postcss-loader": "0.8.0",
     "react": "0.14.6",
     "react-bootstrap": "0.28.2",
@@ -50,7 +50,7 @@
     "surge": "0.17.7",
     "underscore": "1.8.3",
     "url-loader": "0.5.7",
-    "webpack": "1.12.11",
+    "webpack": "1.12.12",
     "yeticss": "7.0.5"
   },
   "standard": {
