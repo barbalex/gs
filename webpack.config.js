@@ -35,11 +35,6 @@ config.module.loaders.push(
     test: /\.jsx?$/,
     exclude: /(node_modules|bower_components)/,
     loader: 'babel'
-  },
-  {
-    test: /\.js?$/,
-    exclude: /(node_modules|bower_components)/,
-    loader: 'babel'
   }
 )
 
