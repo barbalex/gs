@@ -88,14 +88,21 @@ export default React.createClass({
             <ul>
               <li>
                 <a
-                  href='http://couchdb.apache.org/'
+                  href='http://couchdb.apache.org'
                   target='_blank'>
                   CouchDB
                 </a>
               </li>
               <li>
                 <a
-                  href='http://www.mysql.de/'
+                  href='http://www.postgresql.org'
+                  target='_blank'>
+                  PostgreSQL
+                </a>
+              </li>
+              <li>
+                <a
+                  href='http://www.mysql.de'
                   target='_blank'
                 >
                   MySQL
@@ -107,14 +114,6 @@ export default React.createClass({
                   target='_blank'
                 >
                   SQLite
-                </a>
-              </li>
-              <li>
-                <a
-                  href='http://de.wikipedia.org/wiki/Oracle_(Datenbanksystem)'
-                  target='_blank'
-                >
-                  Oracle
                 </a>
               </li>
               <li>
@@ -223,6 +222,14 @@ export default React.createClass({
               </li>
               <li>
                 <a
+                  href='http://electron.atom.io'
+                  target='_blank'
+                >
+                  electron
+                </a>
+              </li>
+              <li>
+                <a
                   href='http://hapijs.com'
                   target='_blank'
                 >
@@ -242,14 +249,6 @@ export default React.createClass({
                   target='_blank'
                 >
                   webpack
-                </a>
-              </li>
-              <li>
-                <a
-                  href='http://ampersandjs.com/'
-                  target='_blank'
-                >
-                  ampersand.js
                 </a>
               </li>
               <li>
@@ -294,18 +293,10 @@ export default React.createClass({
               </li>
               <li>
                 <a
-                  href='http://couchapp.org/page/index'
+                  href='http://docs.couchdb.org/en/1.6.1/couchapp'
                   target='_blank'
                 >
                   CouchApp
-                </a>
-              </li>
-              <li>
-                <a
-                  href='http://www.jstree.com/'
-                  target='_blank'
-                >
-                  jsTree
                 </a>
               </li>
               <li>
