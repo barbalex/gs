@@ -873,7 +873,7 @@ export default React.createClass({
                   </CarouselItem>
                 </Carousel>
                 <p>
-                  Schauen Sie selber <a href='http://blue-borders.ch' target='_blank'>blue-borders.ch</a>
+                  Schauen Sie selber: <a href='http://blue-borders.ch' target='_blank'>blue-borders.ch</a>
                 </p>
               </section>
             </div>
