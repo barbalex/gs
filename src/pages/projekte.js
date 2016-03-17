@@ -46,6 +46,10 @@ import evm10EigeneFelderVerwaltenImg from '../../images/evab_mobile_10_eigene_fe
 import evm11ExportierenImg from '../../images/evab_mobile_11_exportieren.png'
 import evm12DatenschutzBestimmenImg from '../../images/evab_mobile_12_datenschutz_bestimmen.png'
 import evm13UndMehrImg from '../../images/evab_mobile_13_und_mehr.png'
+import bbImg from '../../images/bb.png'
+import bb1Img from '../../images/bb1.png'
+import bb2Img from '../../images/bb2.png'
+import bb3Img from '../../images/bb3.png'
 
 export default React.createClass({
   displayName: 'ProjektePage',
@@ -73,25 +77,31 @@ export default React.createClass({
                 href='projekte#apflora'
                 className='nav-a'
               >
-                ApFlora
+                apflora.ch
               </NavItem>
               <NavItem
                 href='projekte#artendb_web'
                 className='nav-a'
               >
-                ArtenDb Web
+                arteigenschaften.ch
               </NavItem>
               <NavItem
                 href='projekte#artendb_access'
                 className='nav-a'
               >
-                ArtenDb Access
+                ArtenDb
               </NavItem>
               <NavItem
                 href='projekte#evab_mobile'
                 className='nav-a'
               >
                 evab mobile
+              </NavItem>
+              <NavItem
+                href='projekte#blue-borders'
+                className='nav-a'
+              >
+                blue-borders.ch
               </NavItem>
             </Nav>
           </div>
@@ -117,7 +127,7 @@ export default React.createClass({
                   height='51' /
                 >
                 <h4>
-                  ApFlora <small>(Web-Anwendung)</small>
+                  apflora.ch
                 </h4>
                 <h5>
                   Aktionsplan Flora der Fachstelle Naturschutz des Kantons Zürich
@@ -281,7 +291,7 @@ export default React.createClass({
                 >
                 </div>
                 <h4>
-                  ArtenDb <small>(Web-Anwendung)</small>
+                  arteigenschaften.ch
                 </h4>
                 <h5>
                   Naturschutzrelevante Informationen über Arten aus den Gruppen Fauna, Flora, Moose, Pilze und von Lebensräumen:
@@ -515,96 +525,96 @@ export default React.createClass({
                 </ul>
                 <Carousel>
                   <CarouselItem>
-                      <img
-                        src={adb01GruppeWaehlenImg}
-                        alt='Gruppe wählen' /
-                      >
-                      <div
-                        className='carousel-caption'
-                      >
-                        <h2>
-                          Gruppe wählen
-                        </h2>
-                      </div>
-                    </CarouselItem>
-                    <CarouselItem>
-                      <img
-                        src={adb02ArtSuchenImg}
-                        alt='Art suchen' /
-                      >
-                      <div
-                        className='carousel-caption'
-                      >
-                        <h2>
-                          Art suchen
-                        </h2>
-                      </div>
-                    </CarouselItem>
-                    <CarouselItem>
-                      <img
-                        src={adb03TaxonomieAnzeigenImg}
-                        alt='Taxonomie anzeigen' /
-                      >
-                      <div
-                        className='carousel-caption'
-                      >
-                        <h2>
-                          Taxonomie anzeigen
-                        </h2>
-                      </div>
-                    </CarouselItem>
-                    <CarouselItem>
-                      <img
-                        src={adb04DatensammlungAnzeigenImg}
-                        alt='Datensammlung anzeigen' /
-                      >
-                      <div
-                        className='carousel-caption'
-                      >
-                        <h2>
-                          Datensammlung anzeigen
-                        </h2>
-                      </div>
-                    </CarouselItem>
-                    <CarouselItem>
-                      <img
-                        src={adb05BeziehungenAnzeigenImg}
-                        alt='Beziehungen anzeigen' /
-                      >
-                      <div
-                        className='carousel-caption'
-                      >
-                        <h2>
-                          Beziehungen anzeigen
-                        </h2>
-                      </div>
-                    </CarouselItem>
-                    <CarouselItem>
-                      <img
-                        src={adb06ExportierenImg}
-                        alt='exportieren' /
-                      >
-                      <div
-                        className='carousel-caption'
-                      >
-                        <h2>
-                          exportieren
-                        </h2>
-                      </div>
-                    </CarouselItem>
-                    <CarouselItem>
-                      <img
-                        src={adb07ExportdatenWaehlenImg}
-                        alt='Felder zum exportieren wählen' /
-                      >
-                      <div
-                        className='carousel-caption'
-                      >
-                        <h2>
-                          Felder zum exportieren wählen
-                        </h2>
-                      </div>
-                    </CarouselItem>
+                    <img
+                      src={adb01GruppeWaehlenImg}
+                      alt='Gruppe wählen' /
+                    >
+                    <div
+                      className='carousel-caption'
+                    >
+                      <h2>
+                        Gruppe wählen
+                      </h2>
+                    </div>
+                  </CarouselItem>
+                  <CarouselItem>
+                    <img
+                      src={adb02ArtSuchenImg}
+                      alt='Art suchen' /
+                    >
+                    <div
+                      className='carousel-caption'
+                    >
+                      <h2>
+                        Art suchen
+                      </h2>
+                    </div>
+                  </CarouselItem>
+                  <CarouselItem>
+                    <img
+                      src={adb03TaxonomieAnzeigenImg}
+                      alt='Taxonomie anzeigen' /
+                    >
+                    <div
+                      className='carousel-caption'
+                    >
+                      <h2>
+                        Taxonomie anzeigen
+                      </h2>
+                    </div>
+                  </CarouselItem>
+                  <CarouselItem>
+                    <img
+                      src={adb04DatensammlungAnzeigenImg}
+                      alt='Datensammlung anzeigen' /
+                    >
+                    <div
+                      className='carousel-caption'
+                    >
+                      <h2>
+                        Datensammlung anzeigen
+                      </h2>
+                    </div>
+                  </CarouselItem>
+                  <CarouselItem>
+                    <img
+                      src={adb05BeziehungenAnzeigenImg}
+                      alt='Beziehungen anzeigen' /
+                    >
+                    <div
+                      className='carousel-caption'
+                    >
+                      <h2>
+                        Beziehungen anzeigen
+                      </h2>
+                    </div>
+                  </CarouselItem>
+                  <CarouselItem>
+                    <img
+                      src={adb06ExportierenImg}
+                      alt='exportieren' /
+                    >
+                    <div
+                      className='carousel-caption'
+                    >
+                      <h2>
+                        exportieren
+                      </h2>
+                    </div>
+                  </CarouselItem>
+                  <CarouselItem>
+                    <img
+                      src={adb07ExportdatenWaehlenImg}
+                      alt='Felder zum exportieren wählen' /
+                    >
+                    <div
+                      className='carousel-caption'
+                    >
+                      <h2>
+                        Felder zum exportieren wählen
+                      </h2>
+                    </div>
+                  </CarouselItem>
                 </Carousel>
                 <p>
                   Mehr Informationen <a href='http://www.aln.zh.ch/internet/baudirektion/aln/de/naturschutz/naturschutzdaten/tools/arten_db.html#a-content' target='_blank'>auf der Webseite der Fachstelle Naturschutz des Kantons Zürich</a>
@@ -801,6 +811,69 @@ export default React.createClass({
                 </Carousel>
                 <p>
                   Mehr Informationen <a href='https://github.com/barbalex/EvabMobile' target='_blank'>auf GitHub</a>
+                </p>
+              </section>
+              <section
+                id='blue-borders'
+                className='projekt sektion anchor'
+              >
+                <img
+                  src={bbImg}
+                  alt=''
+                  height='51'
+                />
+                <h4>
+                  blue-borders.ch
+                </h4>
+                <p>
+                  Übersicht über die Migration durch das zentrale und östliche Mittelmeer.
+                </p>
+                <p>
+                  Grösste Stärke: rasche Übersicht über Migrationsströme und dazugehörige politische Ereignisse.
+                </p>
+                <Carousel>
+                  <CarouselItem>
+                    <img
+                      src={bb1Img}
+                      alt='Home' /
+                    >
+                    <div
+                      className='carousel-caption'
+                    >
+                      <h2>
+                        Home
+                      </h2>
+                    </div>
+                  </CarouselItem>
+                  <CarouselItem>
+                    <img
+                      src={bb2Img}
+                      alt='Ereignisse und Statistiken' /
+                    >
+                    <div
+                      className='carousel-caption'
+                    >
+                      <h2>
+                        Ereignisse und Statistiken
+                      </h2>
+                    </div>
+                  </CarouselItem>
+                  <CarouselItem>
+                    <img
+                      src={bb3Img}
+                      alt='Kommentare' /
+                    >
+                    <div
+                      className='carousel-caption'
+                    >
+                      <h2>
+                        Kommentare
+                      </h2>
+                    </div>
+                  </CarouselItem>
+                </Carousel>
+                <p>
+                  Schauen Sie selber <a href='http://blue-borders.ch' target='_blank'>blue-borders.ch</a>
                 </p>
               </section>
             </div>
