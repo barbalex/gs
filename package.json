@@ -63,9 +63,7 @@
       "images/*"
     ]
   },
-  "devDependencies": {
-    "npm-install-webpack-plugin": "3.0.0"
-  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git://github.com/barbalex/gs.git"

@@ -1,7 +1,6 @@
 'use strict'
 
 const getConfig = require('hjs-webpack')
-const NpmInstallPlugin = require('npm-install-webpack-plugin')
 
 let config = getConfig({
   in: 'src/app.js',
@@ -37,7 +36,5 @@ config.module.loaders.push(
     loader: 'babel'
   }
 )
-
-config.plugins.push(new NpmInstallPlugin({ save: true }))
 
 module.exports = config
