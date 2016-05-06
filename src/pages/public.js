@@ -40,7 +40,7 @@ export default React.createClass({
           className='row marketing'
         >
           <div
-            className='col-lg-4'
+            className='col-lg-4 col-md-6'
           >
             <div
               className='glyphicon glyphicon-cloud'
@@ -67,7 +67,7 @@ export default React.createClass({
             </ul>
           </div>
           <div
-            className='col-lg-4'
+            className='col-lg-4 col-md-6'
           >
             <div
               className='glyphicon glyphicon-hdd'
@@ -92,7 +92,7 @@ export default React.createClass({
             </ul>
           </div>
           <div
-            className='col-lg-4'
+            className='col-lg-4 col-md-12'
           >
             <div
               className='glyphicon glyphicon-comment'
