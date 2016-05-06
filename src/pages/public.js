@@ -30,6 +30,7 @@ export default React.createClass({
           </ul>
           <p
             className='lead'
+            style={{fontWeight: 400}}
           >
             ...damit Sie sich auf Ihre Arbeit konzen&shy;trieren können
           </p>
@@ -43,8 +44,8 @@ export default React.createClass({
           >
             <div
               className='glyphicon glyphicon-cloud'
-              style={{fontSize: 88}} /
-            >
+              style={{fontSize: 88}}
+            />
             <h4
               style={{marginTop: 0}}
             >
@@ -52,33 +53,41 @@ export default React.createClass({
             </h4>
             <ul>
               <li>
-                zweckmässige Datenbank&shy;technologie
+                mit Datenbank- und Anwendungs-Server
               </li>
               <li>
-                lokal installiert, im Intranet oder im Internet
+                im Intranet oder Internet
               </li>
               <li>
-                professionell aufgebaut und dokumentiert
+                nach Wunsch mobile und offline first
+              </li>
+              <li>
+                ideal für Geräte- oder Firmen-Übergreifende Zusammenarbeit
               </li>
             </ul>
           </div>
           <div
             className='col-lg-4'
           >
-            <img
-              src={accessImg}
-              height='82'
-              width='82' /
-            >
+            <div
+              className='glyphicon glyphicon-hdd'
+              style={{fontSize: 63, marginTop: 10, marginBottom: 7}}
+            />
             <h4>
-              Access-Anwendungen
+              Desktop-Anwendungen
             </h4>
             <ul>
               <li>
-                firmenintern
+                lokal installiert
               </li>
               <li>
-                rasche Entwicklung
+                auf Windows, Mac und Linux
+              </li>
+              <li>
+                besonders leistungsfähig oder:
+              </li>
+              <li>
+                beinahe Null-Unterhalts-Lösungen möglich
               </li>
             </ul>
           </div>
