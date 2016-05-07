@@ -84,7 +84,7 @@ export default React.createClass({
             className='col-lg-4'
           >
             <div
-              className='glyphicon glyphicon-screenshot'
+              className='glyphicon glyphicon-wrench'
               style={{fontSize: 40}} /
             >
             <h4>
