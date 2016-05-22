@@ -51,835 +51,829 @@ import bb1Img from '../../images/bb1.png'
 import bb2Img from '../../images/bb2.png'
 import bb3Img from '../../images/bb3.png'
 
-export default React.createClass({
-  displayName: 'ProjektePage',
-
-  handleClick () {
-    console.log('this was clicked:', this)
-  },
-
-  render () {
-    return (
+const ProjektePage = () => (
+  <div
+    id='projekte'
+    className='page projekte'
+  >
+    <div
+      className='row'
+    >
       <div
-        id='projekte'
-        className='page projekte'
+        className='col-lg-2'
       >
-        <div
-          className='row'
+        <Nav
+          className='affix'
         >
-          <div
-            className='col-lg-2'
+          <NavItem
+            href='projekte#apflora'
+            className='nav-a'
           >
-            <Nav
-              className='affix'
-            >
-              <NavItem
-                href='projekte#apflora'
-                className='nav-a'
-              >
-                apflora.ch
-              </NavItem>
-              <NavItem
-                href='projekte#artendb_web'
-                className='nav-a'
-              >
-                arteigenschaften.ch
-              </NavItem>
-              <NavItem
-                href='projekte#artendb_access'
-                className='nav-a'
-              >
-                ArtenDb
-              </NavItem>
-              <NavItem
-                href='projekte#evab_mobile'
-                className='nav-a'
-              >
-                evab mobile
-              </NavItem>
-              <NavItem
-                href='projekte#blue-borders'
-                className='nav-a'
-              >
-                blue-borders.ch
-              </NavItem>
-            </Nav>
-          </div>
+            apflora.ch
+          </NavItem>
+          <NavItem
+            href='projekte#artendb_web'
+            className='nav-a'
+          >
+            arteigenschaften.ch
+          </NavItem>
+          <NavItem
+            href='projekte#artendb_access'
+            className='nav-a'
+          >
+            ArtenDb
+          </NavItem>
+          <NavItem
+            href='projekte#evab_mobile'
+            className='nav-a'
+          >
+            evab mobile
+          </NavItem>
+          <NavItem
+            href='projekte#blue-borders'
+            className='nav-a'
+          >
+            blue-borders.ch
+          </NavItem>
+        </Nav>
+      </div>
 
-          <div
-            className='col-lg-10 marketing'
+      <div
+        className='col-lg-10 marketing'
+      >
+        <p
+          className='lead'
+        >
+          Eine Auswahl von Projekten:
+        </p>
+        <div
+          id='projekte_scrollspy'
+        >
+          <section
+            id='apflora'
+            className='projekt sektion anchor'
           >
+            <img
+              src={apfImg}
+              alt=''
+              height='51' /
+            >
+            <h4>
+              apflora.ch
+            </h4>
+            <h5>
+              Aktionsplan Flora der Fachstelle Naturschutz des Kantons Zürich
+            </h5>
             <p
-              className='lead'
+              style={{marginBottom: 0}}
             >
-              Eine Auswahl von Projekten:
+              Grösste Stärken:
             </p>
+            <ul>
+              <li>
+                Komplexe Projektstruktur im Strukturbaum darstellen
+              </li>
+              <li>
+                Jahresberichte auf Knopfdruck produzieren
+              </li>
+            </ul>
+            <Carousel>
+              <CarouselItem>
+                <img
+                  src={apfAnmeldenImg}
+                  alt='anmelden' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    anmelden
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={apfTpopImg}
+                  alt='Teilpopulationen beschreiben' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    Teilpopulationen beschreiben
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={apfFeldkontrImg}
+                  alt='Feldkontrollen beschreiben' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    Feldkontrollen beschreiben
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={apfGoogleKartenImg}
+                  alt='Teilpopulationen auf Google-Luftbildern darstellen' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    auf Google-Luftbildern darstellen
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={apfChkartenImg}
+                  alt='...oder auf CH-Karten' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    auf CH-Karten darstellen
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={apfUeberlagernImg}
+                  alt='Layer überlagern' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    Layer überlagern
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={apfRaeumlichAuswertenImg}
+                  alt='räumlich auswerten' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    räumlich auswerten
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={apfZuordnenKarteImg}
+                  alt='Beobachtungen zuordnen' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    Beobachtungen zuordnen
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={apfExportierenImg}
+                  alt='exportieren' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    exportieren
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={apfMenuImg}
+                  alt='Kontext-Menü' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    ...und mehr
+                  </h2>
+                </div>
+              </CarouselItem>
+            </Carousel>
+            <p>
+              Mehr Informationen <a href='https://github.com/FNSKtZH/apflora' target='_blank'>auf GitHub</a>
+            </p>
+          </section>
+          <section
+            id='artendb_web'
+            className='projekt sektion anchor'
+          >
             <div
-              id='projekte_scrollspy'
+              className='glyphicon glyphicon-info-sign'
+              style={{fontSize: 40}}
             >
-              <section
-                id='apflora'
-                className='projekt sektion anchor'
-              >
-                <img
-                  src={apfImg}
-                  alt=''
-                  height='51' /
-                >
-                <h4>
-                  apflora.ch
-                </h4>
-                <h5>
-                  Aktionsplan Flora der Fachstelle Naturschutz des Kantons Zürich
-                </h5>
-                <p
-                  style={{marginBottom: 0}}
-                >
-                  Grösste Stärken:
-                </p>
-                <ul>
-                  <li>
-                    Komplexe Projektstruktur im Strukturbaum darstellen
-                  </li>
-                  <li>
-                    Jahresberichte auf Knopfdruck produzieren
-                  </li>
-                </ul>
-                <Carousel>
-                  <CarouselItem>
-                    <img
-                      src={apfAnmeldenImg}
-                      alt='anmelden' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        anmelden
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={apfTpopImg}
-                      alt='Teilpopulationen beschreiben' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        Teilpopulationen beschreiben
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={apfFeldkontrImg}
-                      alt='Feldkontrollen beschreiben' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        Feldkontrollen beschreiben
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={apfGoogleKartenImg}
-                      alt='Teilpopulationen auf Google-Luftbildern darstellen' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        auf Google-Luftbildern darstellen
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={apfChkartenImg}
-                      alt='...oder auf CH-Karten' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        auf CH-Karten darstellen
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={apfUeberlagernImg}
-                      alt='Layer überlagern' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        Layer überlagern
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={apfRaeumlichAuswertenImg}
-                      alt='räumlich auswerten' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        räumlich auswerten
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={apfZuordnenKarteImg}
-                      alt='Beobachtungen zuordnen' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        Beobachtungen zuordnen
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={apfExportierenImg}
-                      alt='exportieren' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        exportieren
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={apfMenuImg}
-                      alt='Kontext-Menü' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        ...und mehr
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                </Carousel>
-                <p>
-                  Mehr Informationen <a href='https://github.com/FNSKtZH/apflora' target='_blank'>auf GitHub</a>
-                </p>
-              </section>
-              <section
-                id='artendb_web'
-                className='projekt sektion anchor'
-              >
-                <div
-                  className='glyphicon glyphicon-info-sign'
-                  style={{fontSize: 40}}
-                >
-                </div>
-                <h4>
-                  arteigenschaften.ch
-                </h4>
-                <h5>
-                  Naturschutzrelevante Informationen über Arten aus den Gruppen Fauna, Flora, Moose, Pilze und von Lebensräumen:
-                </h5>
-                <ul>
-                  <li>
-                    anzeigen
-                  </li>
-                  <li>
-                    importieren
-                  </li>
-                  <li>
-                    kombinieren
-                  </li>
-                  <li>
-                    exportieren
-                  </li>
-                  <li>
-                    Informationen von Synonymen verbinden
-                  </li>
-                  <li>
-                    über Artengruppen hinweg zusammenfassen
-                  </li>
-                  <li>
-                    in eigener Anwendung einbinden
-                  </li>
-                </ul>
-                <p>
-                  Grösste Stärke ist der einfache Import und Export von Daten. Die Absicht dahinter: Alle benötigten Daten können, sofern nicht schon enthalten, rasch ergänzt und für Auswertungen kombiniert werden.
-                </p>
-                <Carousel>
-                  <CarouselItem>
-                    <img
-                      src={adbWeb01GruppeWaehlenImg}
-                      alt='Gruppe wählen' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        Gruppe wählen
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={adbWeb02ArtSuchenImg}
-                      alt='Art suchen' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        Art suchen
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={adbWeb03AnzeigenEigenschaftenImg}
-                      alt='Eigenschaften anzeigen' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        Eigenschaften anzeigen
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={adbWeb04AnzeigenTaxonomieImg}
-                      alt='Taxonomie anzeigen' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        Taxonomie anzeigen
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={adbWeb05AnzeigenDatensammlungImg}
-                      alt='Datensammlung anzeigen' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        Datensammlung anzeigen
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={adbWeb06AnzeigenBezsammlungImg}
-                      alt='Beziehungssammlung anzeigen' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        Beziehungssammlung anzeigen
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={adbWeb07ExportierenImg}
-                      alt='exportieren' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        exportieren
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={adbWeb08ExportSchrittweiseImg}
-                      alt='... Schritt für Schritt' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        ... Schritt für Schritt
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={adbWeb09ExportGruppeWaehlenImg}
-                      alt='Gruppe wählen' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        Gruppe wählen
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={adbWeb10ExportEigenschWaehlenImg}
-                      alt='Eigenschaften wählen' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        Eigenschaften wählen
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={adbWeb11ExportdateiHerunterlaImg}
-                      alt='Datei herunterladen' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        Datei herunterladen
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={adbWeb12ImportierenImg}
-                      alt='importieren' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        importieren
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={adbWeb13ImportierenSchrittwImg}
-                      alt='... Schritt für Schritt' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        ... Schritt für Schritt
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                </Carousel>
-                <p>
-                  Mehr Informationen <a href='https://github.com/FNSKtZH/artendb' target='_blank'>auf GitHub</a>
-                </p>
-              </section>
-              <section
-                id='artendb_access'
-                className='projekt sektion anchor'
-              >
-                <div
-                  className='glyphicon glyphicon-info-sign'
-                  style={{fontSize: 40}}
-                >
-                </div>
-                <h4>
-                  ArtenDb <small>(Access-Anwendung)</small>
-                </h4>
-                <h5>
-                  Informationen über Arten und Lebensräume:
-                </h5>
-                <ul>
-                  <li>
-                    nachschlagen
-                  </li>
-                  <li>
-                    exportieren
-                  </li>
-                  <li>
-                    in eigener Anwendung einbinden
-                  </li>
-                </ul>
-                <Carousel>
-                  <CarouselItem>
-                    <img
-                      src={adb01GruppeWaehlenImg}
-                      alt='Gruppe wählen' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        Gruppe wählen
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={adb02ArtSuchenImg}
-                      alt='Art suchen' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        Art suchen
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={adb03TaxonomieAnzeigenImg}
-                      alt='Taxonomie anzeigen' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        Taxonomie anzeigen
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={adb04DatensammlungAnzeigenImg}
-                      alt='Datensammlung anzeigen' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        Datensammlung anzeigen
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={adb05BeziehungenAnzeigenImg}
-                      alt='Beziehungen anzeigen' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        Beziehungen anzeigen
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={adb06ExportierenImg}
-                      alt='exportieren' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        exportieren
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={adb07ExportdatenWaehlenImg}
-                      alt='Felder zum exportieren wählen' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        Felder zum exportieren wählen
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                </Carousel>
-                <p>
-                  Mehr Informationen <a href='http://www.aln.zh.ch/internet/baudirektion/aln/de/naturschutz/naturschutzdaten/tools/arten_db.html#a-content' target='_blank'>auf der Webseite der Fachstelle Naturschutz des Kantons Zürich</a>
-                </p>
-              </section>
-              <section
-                id='evab_mobile'
-                  className='projekt sektion anchor'
-              >
-                <div
-                  className='glyphicon glyphicon-eye-open'
-                  style={{fontSize: 40}}
-                >
-                </div>
-                <h4>
-                  evab mobile <small>(Web-Anwendung)</small>
-                </h4>
-                <p>
-                  Naturschutzprofis und ambitionierte Amateure erfassen Artbeobachtungen direkt im Feld auf Mobilgeräten.
-                </p>
-                <p>
-                  Grösste Stärke: NutzerInnen erstellen einfach und flexibel eigene, projektspezifische Datenstrukturen.
-                </p>
-                <Carousel>
-                  <CarouselItem>
-                    <img
-                      src={evm01EinfacheListenAnzeigenImg}
-                      alt='Einfache Liste anzeigen' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        einfache Liste anzeigen
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={evm02EinfachErfassenImg}
-                      alt='Im einfachen Modus erfassen' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        im einfachen Modus erfassen
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={evm03HierarchischErfassenImg}
-                      alt='Im hierarchischen Modus erfassen' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        im hierarchischen Modus erfassen
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={evm04ArtgruppeWaehlenImg}
-                      alt='Artgruppe wählen' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        Artgruppe wählen
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={evm05ArtWaehlenImg}
-                      alt='Art wählen' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        Art wählen
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={evm06ArtFilternImg}
-                      alt='Art filtern' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        Art filtern
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={evm07VerortenImg}
-                      alt='auf Luftbild anzeigen / verorten' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        auf Luftbild anzeigen / verorten
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={evm08FelderWaehlenImg}
-                      alt='Felder wählen' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        Felder wählen
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={evm09FelderAuflistenImg}
-                      alt='Felder auflisten' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        Felder auflisten
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={evm10EigeneFelderVerwaltenImg}
-                      alt='Eigene Felder erstellen' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        eigene Felder erstellen
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={evm11ExportierenImg}
-                      alt='Beobachtungen exportieren' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        Beobachtungen exportieren
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={evm12DatenschutzBestimmenImg}
-                      alt='Datenschutz bestimmen' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        Datenschutz bestimmen
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={evm13UndMehrImg}
-                      alt='... und mehr' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        ... und mehr
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                </Carousel>
-                <p>
-                  Mehr Informationen <a href='https://github.com/barbalex/EvabMobile' target='_blank'>auf GitHub</a>
-                </p>
-              </section>
-              <section
-                id='blue-borders'
-                className='projekt sektion anchor'
-              >
-                <img
-                  src={bbImg}
-                  alt=''
-                  height='51'
-                />
-                <h4>
-                  blue-borders.ch
-                </h4>
-                <p>
-                  Übersicht über die Migration durch das zentrale und östliche Mittelmeer.
-                </p>
-                <p>
-                  Grösste Stärke: rasche Übersicht über Migrationsströme und dazugehörige politische Ereignisse.
-                </p>
-                <Carousel>
-                  <CarouselItem>
-                    <img
-                      src={bb1Img}
-                      alt='Home' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        Home
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={bb2Img}
-                      alt='Ereignisse und Statistiken' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        Ereignisse und Statistiken
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <img
-                      src={bb3Img}
-                      alt='Kommentare' /
-                    >
-                    <div
-                      className='carousel-caption'
-                    >
-                      <h2>
-                        Kommentare
-                      </h2>
-                    </div>
-                  </CarouselItem>
-                </Carousel>
-                <p>
-                  Schauen Sie selber: <a href='http://blue-borders.ch' target='_blank'>blue-borders.ch</a>
-                </p>
-              </section>
             </div>
-          </div>
+            <h4>
+              arteigenschaften.ch
+            </h4>
+            <h5>
+              Naturschutzrelevante Informationen über Arten aus den Gruppen Fauna, Flora, Moose, Pilze und von Lebensräumen:
+            </h5>
+            <ul>
+              <li>
+                anzeigen
+              </li>
+              <li>
+                importieren
+              </li>
+              <li>
+                kombinieren
+              </li>
+              <li>
+                exportieren
+              </li>
+              <li>
+                Informationen von Synonymen verbinden
+              </li>
+              <li>
+                über Artengruppen hinweg zusammenfassen
+              </li>
+              <li>
+                in eigener Anwendung einbinden
+              </li>
+            </ul>
+            <p>
+              Grösste Stärke ist der einfache Import und Export von Daten. Die Absicht dahinter: Alle benötigten Daten können, sofern nicht schon enthalten, rasch ergänzt und für Auswertungen kombiniert werden.
+            </p>
+            <Carousel>
+              <CarouselItem>
+                <img
+                  src={adbWeb01GruppeWaehlenImg}
+                  alt='Gruppe wählen' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    Gruppe wählen
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={adbWeb02ArtSuchenImg}
+                  alt='Art suchen' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    Art suchen
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={adbWeb03AnzeigenEigenschaftenImg}
+                  alt='Eigenschaften anzeigen' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    Eigenschaften anzeigen
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={adbWeb04AnzeigenTaxonomieImg}
+                  alt='Taxonomie anzeigen' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    Taxonomie anzeigen
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={adbWeb05AnzeigenDatensammlungImg}
+                  alt='Datensammlung anzeigen' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    Datensammlung anzeigen
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={adbWeb06AnzeigenBezsammlungImg}
+                  alt='Beziehungssammlung anzeigen' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    Beziehungssammlung anzeigen
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={adbWeb07ExportierenImg}
+                  alt='exportieren' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    exportieren
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={adbWeb08ExportSchrittweiseImg}
+                  alt='... Schritt für Schritt' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    ... Schritt für Schritt
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={adbWeb09ExportGruppeWaehlenImg}
+                  alt='Gruppe wählen' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    Gruppe wählen
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={adbWeb10ExportEigenschWaehlenImg}
+                  alt='Eigenschaften wählen' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    Eigenschaften wählen
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={adbWeb11ExportdateiHerunterlaImg}
+                  alt='Datei herunterladen' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    Datei herunterladen
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={adbWeb12ImportierenImg}
+                  alt='importieren' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    importieren
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={adbWeb13ImportierenSchrittwImg}
+                  alt='... Schritt für Schritt' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    ... Schritt für Schritt
+                  </h2>
+                </div>
+              </CarouselItem>
+            </Carousel>
+            <p>
+              Mehr Informationen <a href='https://github.com/FNSKtZH/artendb' target='_blank'>auf GitHub</a>
+            </p>
+          </section>
+          <section
+            id='artendb_access'
+            className='projekt sektion anchor'
+          >
+            <div
+              className='glyphicon glyphicon-info-sign'
+              style={{fontSize: 40}}
+            >
+            </div>
+            <h4>
+              ArtenDb <small>(Access-Anwendung)</small>
+            </h4>
+            <h5>
+              Informationen über Arten und Lebensräume:
+            </h5>
+            <ul>
+              <li>
+                nachschlagen
+              </li>
+              <li>
+                exportieren
+              </li>
+              <li>
+                in eigener Anwendung einbinden
+              </li>
+            </ul>
+            <Carousel>
+              <CarouselItem>
+                <img
+                  src={adb01GruppeWaehlenImg}
+                  alt='Gruppe wählen' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    Gruppe wählen
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={adb02ArtSuchenImg}
+                  alt='Art suchen' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    Art suchen
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={adb03TaxonomieAnzeigenImg}
+                  alt='Taxonomie anzeigen' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    Taxonomie anzeigen
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={adb04DatensammlungAnzeigenImg}
+                  alt='Datensammlung anzeigen' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    Datensammlung anzeigen
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={adb05BeziehungenAnzeigenImg}
+                  alt='Beziehungen anzeigen' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    Beziehungen anzeigen
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={adb06ExportierenImg}
+                  alt='exportieren' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    exportieren
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={adb07ExportdatenWaehlenImg}
+                  alt='Felder zum exportieren wählen' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    Felder zum exportieren wählen
+                  </h2>
+                </div>
+              </CarouselItem>
+            </Carousel>
+            <p>
+              Mehr Informationen <a href='http://www.aln.zh.ch/internet/baudirektion/aln/de/naturschutz/naturschutzdaten/tools/arten_db.html#a-content' target='_blank'>auf der Webseite der Fachstelle Naturschutz des Kantons Zürich</a>
+            </p>
+          </section>
+          <section
+            id='evab_mobile'
+              className='projekt sektion anchor'
+          >
+            <div
+              className='glyphicon glyphicon-eye-open'
+              style={{fontSize: 40}}
+            >
+            </div>
+            <h4>
+              evab mobile <small>(Web-Anwendung)</small>
+            </h4>
+            <p>
+              Naturschutzprofis und ambitionierte Amateure erfassen Artbeobachtungen direkt im Feld auf Mobilgeräten.
+            </p>
+            <p>
+              Grösste Stärke: NutzerInnen erstellen einfach und flexibel eigene, projektspezifische Datenstrukturen.
+            </p>
+            <Carousel>
+              <CarouselItem>
+                <img
+                  src={evm01EinfacheListenAnzeigenImg}
+                  alt='Einfache Liste anzeigen' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    einfache Liste anzeigen
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={evm02EinfachErfassenImg}
+                  alt='Im einfachen Modus erfassen' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    im einfachen Modus erfassen
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={evm03HierarchischErfassenImg}
+                  alt='Im hierarchischen Modus erfassen' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    im hierarchischen Modus erfassen
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={evm04ArtgruppeWaehlenImg}
+                  alt='Artgruppe wählen' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    Artgruppe wählen
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={evm05ArtWaehlenImg}
+                  alt='Art wählen' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    Art wählen
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={evm06ArtFilternImg}
+                  alt='Art filtern' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    Art filtern
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={evm07VerortenImg}
+                  alt='auf Luftbild anzeigen / verorten' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    auf Luftbild anzeigen / verorten
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={evm08FelderWaehlenImg}
+                  alt='Felder wählen' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    Felder wählen
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={evm09FelderAuflistenImg}
+                  alt='Felder auflisten' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    Felder auflisten
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={evm10EigeneFelderVerwaltenImg}
+                  alt='Eigene Felder erstellen' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    eigene Felder erstellen
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={evm11ExportierenImg}
+                  alt='Beobachtungen exportieren' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    Beobachtungen exportieren
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={evm12DatenschutzBestimmenImg}
+                  alt='Datenschutz bestimmen' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    Datenschutz bestimmen
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={evm13UndMehrImg}
+                  alt='... und mehr' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    ... und mehr
+                  </h2>
+                </div>
+              </CarouselItem>
+            </Carousel>
+            <p>
+              Mehr Informationen <a href='https://github.com/barbalex/EvabMobile' target='_blank'>auf GitHub</a>
+            </p>
+          </section>
+          <section
+            id='blue-borders'
+            className='projekt sektion anchor'
+          >
+            <img
+              src={bbImg}
+              alt=''
+              height='51'
+            />
+            <h4>
+              blue-borders.ch
+            </h4>
+            <p>
+              Übersicht über die Migration durch das zentrale und östliche Mittelmeer.
+            </p>
+            <p>
+              Grösste Stärke: rasche Übersicht über Migrationsströme und dazugehörige politische Ereignisse.
+            </p>
+            <Carousel>
+              <CarouselItem>
+                <img
+                  src={bb1Img}
+                  alt='Home' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    Home
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={bb2Img}
+                  alt='Ereignisse und Statistiken' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    Ereignisse und Statistiken
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={bb3Img}
+                  alt='Kommentare' /
+                >
+                <div
+                  className='carousel-caption'
+                >
+                  <h2>
+                    Kommentare
+                  </h2>
+                </div>
+              </CarouselItem>
+            </Carousel>
+            <p>
+              Schauen Sie selber: <a href='http://blue-borders.ch' target='_blank'>blue-borders.ch</a>
+            </p>
+          </section>
         </div>
       </div>
-    )
-  }
-})
+    </div>
+  </div>
+)
+
+ProjektePage.displayName = 'ProjektePage'
+
+export default ProjektePage
