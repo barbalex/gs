@@ -1,64 +1,70 @@
-'use strict'
-
-import React from 'react'
+import React, { Component } from 'react'
 import ImageLoader from 'react-imageloader'
 import prepareGoogleMap from '../modules/prepareGoogleMap'
 import alexImg from '../../images/alex.jpg'
 
-export default React.createClass({
-  displayName: 'KontaktPage',
-
-  componentDidMount () {
+class KontaktPage extends Component {
+  componentDidMount() {
     prepareGoogleMap()
-  },
+  }
 
-  render () {
+  render() {
     return (
       <div
-        id='kontakt'
-        className='page kontakt'
+        id="kontakt"
+        className="page kontakt"
       >
         <div
-          className='row marketing'
+          className="row marketing"
         >
           <div
-            className='col-lg-3'
+            className="col-lg-3"
           >
             <ImageLoader
               src={alexImg}
-              className='js-alexImage'
+              className="js-alexImage"
             >
               (Sorry, das Bild wurde nicht geladen)
             </ImageLoader>
             <address
-              className='js-address'
+              className="js-address"
             >
-              <strong>Gabriel Software</strong><br/>
-              Alexander Gabriel<br/>
-              Bönirainstrasse 14<br/>
-              8800 Thalwil<br/>
-              079 372 51 64<br/>
-              <a href='mailto:#'>alex@gabriel-software.ch</a>
+              <strong>Gabriel Software</strong><br />
+              Alexander Gabriel<br />
+              Bönirainstrasse 14<br />
+              8800 Thalwil<br />
+              079 372 51 64<br />
+              <a href="mailto:#">alex@gabriel-software.ch</a>
             </address>
           </div>
           <div
-            className='col-lg-9'
+            className="col-lg-9"
           >
             <div
-              id='google_karte'
-              style={{width: 100 + '%', height: 370, position: 'relative'}}
+              id="google_karte"
+              style={{
+                width: '100%',
+                height: 370,
+                position: 'relative'
+              }}
             >
               <div
-                id='google_karten_div'
-                style={{width: 100 + '%', height: 100 + '%'}} /
-              >
+                id="google_karten_div"
+                style={{
+                  width: '100%',
+                  height: '100%'
+                }}
+              />
             </div>
             <div>
               <small>
                 <a
-                  href='https://maps.google.ch/maps/ms?msa=0&amp;msid=217393511380700194313.0004ec28f717b23f56ca5&amp;ie=UTF8&amp;t=h&amp;ll=47.283873,8.563963&amp;spn=0,0&amp;source=embed'
-                  style={{color: '#0000FF', textAlign: 'left'}}
-                  target='_blank'
+                  href="https://maps.google.ch/maps/ms?msa=0&amp;msid=217393511380700194313.0004ec28f717b23f56ca5&amp;ie=UTF8&amp;t=h&amp;ll=47.283873,8.563963&amp;spn=0,0&amp;source=embed"
+                  style={{
+                    color: '#0000FF',
+                    textAlign: 'left'
+                  }}
+                  target="_blank"
                 >
                   in Google Maps öffnen
                 </a>
@@ -69,4 +75,8 @@ export default React.createClass({
       </div>
     )
   }
-})
+}
+
+KontaktPage.displayName = 'KontaktPage'
+
+export default KontaktPage

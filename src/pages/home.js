@@ -1,107 +1,100 @@
-'use strict'
-
 import React from 'react'
 import Navbar from 'react-bootstrap/lib/Navbar'
 import { Link } from 'react-router'
 
-const Home = React.createClass({
-  displayName: 'Home',
-
-  render() {
-    return (
-      <div>
+const Home = (props) =>
+  <div>
+    <div
+      className="header"
+    >
+      <Navbar
+        inverse
+        fixedTop
+      >
         <div
-          className='header'
+          className="container"
         >
-          <Navbar
-            inverse
-            fixedTop
+          <div
+            className="navbar-header"
           >
-            <div
-              className='container'
+            <button
+              type="button"
+              className="navbar-toggle"
+              data-toggle="collapse"
+              data-target=".navbar-collapse"
             >
-              <div
-                className='navbar-header'
+              <span
+                className="sr-only"
               >
-                <button
-                  type='button'
-                  className='navbar-toggle'
-                  data-toggle='collapse'
-                  data-target='.navbar-collapse'
-                >
-                  <span
-                    className='sr-only'
-                  >
-                    Toggle navigation
-                  </span>
-                  <span className='icon-bar'/>
-                  <span className='icon-bar'/>
-                  <span className='icon-bar'/>
-                </button>
+                Toggle navigation
+              </span>
+              <span className="icon-bar" />
+              <span className="icon-bar" />
+              <span className="icon-bar" />
+            </button>
+            <Link
+              to="/"
+              className="navbar-brand"
+            >
+              Gabriel Software
+            </Link>
+          </div>
+          <div
+            className="collapse navbar-collapse"
+          >
+            <ul
+              className="nav navbar-nav"
+            >
+              <li>
                 <Link
-                  to='/'
-                  className='navbar-brand'
+                  to="leitbild"
+                  activeClassName="active"
                 >
-                  Gabriel Software
+                  Leitbild
                 </Link>
-              </div>
-              <div
-                className='collapse navbar-collapse'
+              </li>
+              <li>
+                <Link
+                  to="projekte"
+                  activeClassName="active"
+                >
+                  Projekte
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="technologien"
+                  activeClassName="active"
+                >
+                  Technologien
+                </Link>
+              </li>
+            </ul>
+            <ul
+              className="nav navbar-nav navbar-right"
+            >
+              <li
+                className="kontaktNav"
               >
-                <ul
-                  className='nav navbar-nav'
+                <Link
+                  to="kontakt"
+                  activeClassName="active"
                 >
-                  <li>
-                    <Link
-                      to='leitbild'
-                      activeClassName='active'
-                    >
-                      Leitbild
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to='projekte'
-                      activeClassName='active'
-                    >
-                      Projekte
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to='technologien'
-                      activeClassName='active'
-                    >
-                      Technologien
-                    </Link>
-                  </li>
-                </ul>
-                <ul
-                  className='nav navbar-nav navbar-right'
-                >
-                  <li
-                    className='kontaktNav'
-                  >
-                    <Link
-                      to='kontakt'
-                      activeClassName='active'
-                    >
-                      Kontakt
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </Navbar>
+                  Kontakt
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div
-          className='container'
-        >
-          {this.props.children}
-        </div>
-      </div>
-    )
-  }
-})
+      </Navbar>
+    </div>
+    <div
+      className="container"
+    >
+      {props.children}
+    </div>
+  </div>
+
+Home.displayName = 'Home'
 
 export default Home

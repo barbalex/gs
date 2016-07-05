@@ -1,50 +1,49 @@
-'use strict'
-
 import React from 'react'
 import kroneImage from '../../images/krone.png'
 
 const LeitbildPage = () => (
   <div
-    id='leitbild'
-    className='page leitbild'
+    id="leitbild"
+    className="page leitbild"
   >
     <p
-      className='lead'
+      className="lead"
     >
       Ich richte mich nach diesen Leitlinien:
     </p>
     <div
-      className='row marketing'
+      className="row marketing"
     >
       <div
-        className='col-lg-4'
+        className="col-lg-4"
       >
         <div
-          className='glyphicon glyphicon-question-sign'
-          style={{fontSize: 40}} /
-        >
+          className="glyphicon glyphicon-question-sign"
+          style={{ fontSize: 40 }}
+        />
         <h4>
           Verstehen, wie Sie arbeiten
         </h4>
         <p>
-          Je mehr ich Ihre Arbeit verstehe,<br/>
-          je genauer die Anwendung Ihre Arbeit abbildet,<br/>
+          Je mehr ich Ihre Arbeit verstehe,<br />
+          je genauer die Anwendung Ihre Arbeit abbildet,<br />
           desto besser "passt" sie.
         </p>
         <p>
           Und desto kleiner ist das Risiko bei der Einführung.
         </p>
         <p>
-          Wenn Menschen vom selben sprechen, verstehen nicht immer alle dasselbe. Klappt etwas nicht? Oft liegt der Hund hier begraben.
+          Wenn Menschen vom selben sprechen, verstehen nicht immer alle dasselbe.
+          Klappt etwas nicht? Oft liegt der Hund hier begraben.
         </p>
       </div>
       <div
-        className='col-lg-4'
+        className="col-lg-4"
       >
         <div
-          className='glyphicon glyphicon-retweet'
-          style={{fontSize: 40}} /
-        >
+          className="glyphicon glyphicon-retweet"
+          style={{ fontSize: 40 }}
+        />
         <h4>
           Sinn suchen
         </h4>
@@ -56,14 +55,14 @@ const LeitbildPage = () => (
         </p>
       </div>
       <div
-        className='col-lg-4'
+        className="col-lg-4"
       >
         <div
-          className='glyphicon glyphicon-ok-circle'
-          style={{fontSize: 40}} /
-        >
+          className="glyphicon glyphicon-ok-circle"
+          style={{ fontSize: 40 }}
+        />
         <h4>
-          So einfach wie möglich,<br/>
+          So einfach wie möglich,<br />
           so vollständig wie nötig
         </h4>
         <p>
@@ -77,12 +76,12 @@ const LeitbildPage = () => (
         </p>
       </div>
       <div
-        className='col-lg-4'
+        className="col-lg-4"
       >
         <div
-          className='glyphicon glyphicon-wrench'
-          style={{fontSize: 40}} /
-        >
+          className="glyphicon glyphicon-wrench"
+          style={{ fontSize: 40 }}
+        />
         <h4>
           Geeignete Technologie wählen
         </h4>
@@ -100,16 +99,17 @@ const LeitbildPage = () => (
         </p>
       </div>
       <div
-        className='col-lg-4'
+        className="col-lg-4"
       >
         <img
           src={kroneImage}
-          height='38'
-          width='50'
-          style={{marginTop: 3}} /
-        >
+          height="38"
+          width="50"
+          style={{ marginTop: 3 }}
+          alt="Krone"
+        />
         <h4
-          style={{marginTop: 13}}
+          style={{ marginTop: 13 }}
         >
           Der Kunde ist König
         </h4>
