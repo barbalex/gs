@@ -1,5 +1,3 @@
-'use strict'
-
 import React from 'react'
 import { render } from 'react-dom'
 import { Router, Route, IndexRoute, browserHistory } from 'react-router'
@@ -17,32 +15,32 @@ export default function () {
       history={browserHistory}
     >
       <Route
-        path='/'
+        path="/"
         component={Home}
       >
         <IndexRoute
-          component={PublicPage}/
-        >
+          component={PublicPage}
+        />
         <Route
-          path='leitbild'
-          component={LeitbildPage} /
-        >
+          path="leitbild"
+          component={LeitbildPage}
+        />
         <Route
-          path='projekte'
-          component={ProjektePage} /
-        >
+          path="projekte"
+          component={ProjektePage}
+        />
         <Route
-          path='technologien'
-          component={TechnologienPage} /
-        >
+          path="technologien"
+          component={TechnologienPage}
+        />
         <Route
-          path='kontakt'
-          component={KontaktPage} /
-        >
+          path="kontakt"
+          component={KontaktPage}
+        />
         <Route
-          path='*'
-          component={FourOhFourPage} /
-        >
+          path="*"
+          component={FourOhFourPage}
+        />
       </Route>
     </Router>,
     document.getElementById('root')
