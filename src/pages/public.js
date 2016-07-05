@@ -5,8 +5,8 @@ import Jumbotron from 'react-bootstrap/lib/Jumbotron'
 
 const PublicPage = () => (
   <div
-    id='home'
-    className='page home'
+    id="home"
+    className="page home"
   >
     <Jumbotron>
       <h1>
@@ -24,25 +24,25 @@ const PublicPage = () => (
         </li>
       </ul>
       <p
-        className='lead'
-        style={{fontWeight: 400}}
+        className="lead"
+        style={{ fontWeight: 400 }}
       >
         ...damit Sie sich auf Ihre Arbeit konzen&shy;trieren können
       </p>
     </Jumbotron>
 
     <div
-      className='row marketing'
+      className="row marketing"
     >
       <div
-        className='col-lg-4 col-md-6'
+        className="col-lg-4 col-md-6"
       >
         <div
-          className='glyphicon glyphicon-cloud'
-          style={{fontSize: 88}}
+          className="glyphicon glyphicon-cloud"
+          style={{ fontSize: 88 }}
         />
         <h4
-          style={{marginTop: 0}}
+          style={{ marginTop: 0 }}
         >
           Web-Anwendungen
         </h4>
@@ -62,11 +62,15 @@ const PublicPage = () => (
         </ul>
       </div>
       <div
-        className='col-lg-4 col-md-6'
+        className="col-lg-4 col-md-6"
       >
         <div
-          className='glyphicon glyphicon-hdd'
-          style={{fontSize: 63, marginTop: 10, marginBottom: 7}}
+          className="glyphicon glyphicon-hdd"
+          style={{
+            fontSize: 63,
+            marginTop: 10,
+            marginBottom: 7
+          }}
         />
         <h4>
           Desktop-Anwendungen
@@ -87,11 +91,11 @@ const PublicPage = () => (
         </ul>
       </div>
       <div
-        className='col-lg-4 col-md-12'
+        className="col-lg-4 col-md-12"
       >
         <div
-          className='glyphicon glyphicon-comment'
-          style={{fontSize: 78}}
+          className="glyphicon glyphicon-comment"
+          style={{ fontSize: 78 }}
         >
         </div>
         <h4>
@@ -102,7 +106,7 @@ const PublicPage = () => (
             Bedürfnisse abklären...
           </li>
           <li>
-            ...und in den 'Fachjargon' von Software&shy;ingenieuren übersetzen
+            ...und in den "Fachjargon" von Software&shy;ingenieuren übersetzen
           </li>
           <li>
             Risiken minimieren

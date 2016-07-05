@@ -1,5 +1,3 @@
-'use strict'
-
 import React from 'react'
 import { Nav, NavItem, Carousel, CarouselItem } from 'react-bootstrap'
 import apfImg from '../../images/apflora.png'
@@ -53,45 +51,45 @@ import bb3Img from '../../images/bb3.png'
 
 const ProjektePage = () => (
   <div
-    id='projekte'
-    className='page projekte'
+    id="projekte"
+    className="page projekte"
   >
     <div
-      className='row'
+      className="row"
     >
       <div
-        className='col-lg-2'
+        className="col-lg-2"
       >
         <Nav
-          className='affix'
+          className="affix"
         >
           <NavItem
-            href='projekte#apflora'
-            className='nav-a'
+            href="projekte#apflora"
+            className="nav-a"
           >
             apflora.ch
           </NavItem>
           <NavItem
-            href='projekte#artendb_web'
-            className='nav-a'
+            href="projekte#artendb_web"
+            className="nav-a"
           >
             arteigenschaften.ch
           </NavItem>
           <NavItem
-            href='projekte#artendb_access'
-            className='nav-a'
+            href="projekte#artendb_access"
+            className="nav-a"
           >
             ArtenDb
           </NavItem>
           <NavItem
-            href='projekte#evab_mobile'
-            className='nav-a'
+            href="projekte#evab_mobile"
+            className="nav-a"
           >
             evab mobile
           </NavItem>
           <NavItem
-            href='projekte#blue-borders'
-            className='nav-a'
+            href="projekte#blue-borders"
+            className="nav-a"
           >
             blue-borders.ch
           </NavItem>
@@ -99,25 +97,25 @@ const ProjektePage = () => (
       </div>
 
       <div
-        className='col-lg-10 marketing'
+        className="col-lg-10 marketing"
       >
         <p
-          className='lead'
+          className="lead"
         >
           Eine Auswahl von Projekten:
         </p>
         <div
-          id='projekte_scrollspy'
+          id="projekte_scrollspy"
         >
           <section
-            id='apflora'
-            className='projekt sektion anchor'
+            id="apflora"
+            className="projekt sektion anchor"
           >
             <img
               src={apfImg}
-              alt=''
-              height='51' /
-            >
+              alt="apflora"
+              height={51}
+            />
             <h4>
               apflora.ch
             </h4>
@@ -125,7 +123,7 @@ const ProjektePage = () => (
               Aktionsplan Flora der Fachstelle Naturschutz des Kantons Zürich
             </h5>
             <p
-              style={{marginBottom: 0}}
+              style={{ marginBottom: 0 }}
             >
               Grösste Stärken:
             </p>
@@ -141,10 +139,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={apfAnmeldenImg}
-                  alt='anmelden' /
-                >
+                  alt="anmelden"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     anmelden
@@ -154,10 +152,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={apfTpopImg}
-                  alt='Teilpopulationen beschreiben' /
-                >
+                  alt="Teilpopulationen beschreiben"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     Teilpopulationen beschreiben
@@ -167,10 +165,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={apfFeldkontrImg}
-                  alt='Feldkontrollen beschreiben' /
-                >
+                  alt="Feldkontrollen beschreiben"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     Feldkontrollen beschreiben
@@ -180,10 +178,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={apfGoogleKartenImg}
-                  alt='Teilpopulationen auf Google-Luftbildern darstellen' /
-                >
+                  alt="Teilpopulationen auf Google-Luftbildern darstellen"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     auf Google-Luftbildern darstellen
@@ -193,10 +191,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={apfChkartenImg}
-                  alt='...oder auf CH-Karten' /
-                >
+                  alt="...oder auf CH-Karten"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     auf CH-Karten darstellen
@@ -206,10 +204,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={apfUeberlagernImg}
-                  alt='Layer überlagern' /
-                >
+                  alt="Layer überlagern"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     Layer überlagern
@@ -219,10 +217,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={apfRaeumlichAuswertenImg}
-                  alt='räumlich auswerten' /
-                >
+                  alt="räumlich auswerten"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     räumlich auswerten
@@ -232,10 +230,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={apfZuordnenKarteImg}
-                  alt='Beobachtungen zuordnen' /
-                >
+                  alt="Beobachtungen zuordnen"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     Beobachtungen zuordnen
@@ -245,10 +243,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={apfExportierenImg}
-                  alt='exportieren' /
-                >
+                  alt="exportieren"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     exportieren
@@ -258,10 +256,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={apfMenuImg}
-                  alt='Kontext-Menü' /
-                >
+                  alt="Kontext-Menü"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     ...und mehr
@@ -270,23 +268,30 @@ const ProjektePage = () => (
               </CarouselItem>
             </Carousel>
             <p>
-              Mehr Informationen <a href='https://github.com/FNSKtZH/apflora' target='_blank'>auf GitHub</a>
+              Mehr Informationen&nbsp;
+              <a
+                href="https://github.com/FNSKtZH/apflora"
+                target="_blank"
+              >
+                auf GitHub
+              </a>
             </p>
           </section>
           <section
-            id='artendb_web'
-            className='projekt sektion anchor'
+            id="artendb_web"
+            className="projekt sektion anchor"
           >
             <div
-              className='glyphicon glyphicon-info-sign'
-              style={{fontSize: 40}}
+              className="glyphicon glyphicon-info-sign"
+              style={{ fontSize: 40 }}
             >
             </div>
             <h4>
               arteigenschaften.ch
             </h4>
             <h5>
-              Naturschutzrelevante Informationen über Arten aus den Gruppen Fauna, Flora, Moose, Pilze und von Lebensräumen:
+              Naturschutzrelevante Informationen über Arten aus den Gruppen
+              Fauna, Flora, Moose, Pilze und von Lebensräumen:
             </h5>
             <ul>
               <li>
@@ -312,16 +317,18 @@ const ProjektePage = () => (
               </li>
             </ul>
             <p>
-              Grösste Stärke ist der einfache Import und Export von Daten. Die Absicht dahinter: Alle benötigten Daten können, sofern nicht schon enthalten, rasch ergänzt und für Auswertungen kombiniert werden.
+              Grösste Stärke ist der einfache Import und Export von Daten.
+              Die Absicht dahinter: Alle benötigten Daten können,
+              sofern nicht schon enthalten, rasch ergänzt und für Auswertungen kombiniert werden.
             </p>
             <Carousel>
               <CarouselItem>
                 <img
                   src={adbWeb01GruppeWaehlenImg}
-                  alt='Gruppe wählen' /
-                >
+                  alt="Gruppe wählen"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     Gruppe wählen
@@ -331,10 +338,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={adbWeb02ArtSuchenImg}
-                  alt='Art suchen' /
-                >
+                  alt="Art suchen"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     Art suchen
@@ -344,10 +351,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={adbWeb03AnzeigenEigenschaftenImg}
-                  alt='Eigenschaften anzeigen' /
-                >
+                  alt="Eigenschaften anzeigen"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     Eigenschaften anzeigen
@@ -357,10 +364,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={adbWeb04AnzeigenTaxonomieImg}
-                  alt='Taxonomie anzeigen' /
-                >
+                  alt="Taxonomie anzeigen"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     Taxonomie anzeigen
@@ -370,10 +377,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={adbWeb05AnzeigenDatensammlungImg}
-                  alt='Datensammlung anzeigen' /
-                >
+                  alt="Datensammlung anzeigen"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     Datensammlung anzeigen
@@ -383,10 +390,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={adbWeb06AnzeigenBezsammlungImg}
-                  alt='Beziehungssammlung anzeigen' /
-                >
+                  alt="Beziehungssammlung anzeigen"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     Beziehungssammlung anzeigen
@@ -396,10 +403,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={adbWeb07ExportierenImg}
-                  alt='exportieren' /
-                >
+                  alt="exportieren"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     exportieren
@@ -409,10 +416,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={adbWeb08ExportSchrittweiseImg}
-                  alt='... Schritt für Schritt' /
-                >
+                  alt="... Schritt für Schritt"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     ... Schritt für Schritt
@@ -422,10 +429,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={adbWeb09ExportGruppeWaehlenImg}
-                  alt='Gruppe wählen' /
-                >
+                  alt="Gruppe wählen"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     Gruppe wählen
@@ -435,10 +442,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={adbWeb10ExportEigenschWaehlenImg}
-                  alt='Eigenschaften wählen' /
-                >
+                  alt="Eigenschaften wählen"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     Eigenschaften wählen
@@ -448,10 +455,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={adbWeb11ExportdateiHerunterlaImg}
-                  alt='Datei herunterladen' /
-                >
+                  alt="Datei herunterladen"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     Datei herunterladen
@@ -461,10 +468,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={adbWeb12ImportierenImg}
-                  alt='importieren' /
-                >
+                  alt="importieren"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     importieren
@@ -474,10 +481,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={adbWeb13ImportierenSchrittwImg}
-                  alt='... Schritt für Schritt' /
-                >
+                  alt="... Schritt für Schritt"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     ... Schritt für Schritt
@@ -486,16 +493,22 @@ const ProjektePage = () => (
               </CarouselItem>
             </Carousel>
             <p>
-              Mehr Informationen <a href='https://github.com/FNSKtZH/artendb' target='_blank'>auf GitHub</a>
+              Mehr Informationen&nbsp;
+              <a
+                href="https://github.com/FNSKtZH/artendb"
+                target="_blank"
+              >
+                auf GitHub
+              </a>
             </p>
           </section>
           <section
-            id='artendb_access'
-            className='projekt sektion anchor'
+            id="artendb_access"
+            className="projekt sektion anchor"
           >
             <div
-              className='glyphicon glyphicon-info-sign'
-              style={{fontSize: 40}}
+              className="glyphicon glyphicon-info-sign"
+              style={{ fontSize: 40 }}
             >
             </div>
             <h4>
@@ -519,10 +532,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={adb01GruppeWaehlenImg}
-                  alt='Gruppe wählen' /
-                >
+                  alt="Gruppe wählen"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     Gruppe wählen
@@ -532,10 +545,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={adb02ArtSuchenImg}
-                  alt='Art suchen' /
-                >
+                  alt="Art suchen"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     Art suchen
@@ -545,10 +558,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={adb03TaxonomieAnzeigenImg}
-                  alt='Taxonomie anzeigen' /
-                >
+                  alt="Taxonomie anzeigen"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     Taxonomie anzeigen
@@ -558,10 +571,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={adb04DatensammlungAnzeigenImg}
-                  alt='Datensammlung anzeigen' /
-                >
+                  alt="Datensammlung anzeigen"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     Datensammlung anzeigen
@@ -571,10 +584,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={adb05BeziehungenAnzeigenImg}
-                  alt='Beziehungen anzeigen' /
-                >
+                  alt="Beziehungen anzeigen"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     Beziehungen anzeigen
@@ -584,10 +597,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={adb06ExportierenImg}
-                  alt='exportieren' /
-                >
+                  alt="exportieren"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     exportieren
@@ -597,10 +610,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={adb07ExportdatenWaehlenImg}
-                  alt='Felder zum exportieren wählen' /
-                >
+                  alt="Felder zum exportieren wählen"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     Felder zum exportieren wählen
@@ -609,35 +622,37 @@ const ProjektePage = () => (
               </CarouselItem>
             </Carousel>
             <p>
-              Mehr Informationen <a href='http://www.aln.zh.ch/internet/baudirektion/aln/de/naturschutz/naturschutzdaten/tools/arten_db.html#a-content' target='_blank'>auf der Webseite der Fachstelle Naturschutz des Kantons Zürich</a>
+              Mehr Informationen <a href="http://www.aln.zh.ch/internet/baudirektion/aln/de/naturschutz/naturschutzdaten/tools/arten_db.html#a-content" target="_blank">auf der Webseite der Fachstelle Naturschutz des Kantons Zürich</a>
             </p>
           </section>
           <section
-            id='evab_mobile'
-              className='projekt sektion anchor'
+            id="evab_mobile"
+            className="projekt sektion anchor"
           >
             <div
-              className='glyphicon glyphicon-eye-open'
-              style={{fontSize: 40}}
+              className="glyphicon glyphicon-eye-open"
+              style={{ fontSize: 40 }}
             >
             </div>
             <h4>
               evab mobile <small>(Web-Anwendung)</small>
             </h4>
             <p>
-              Naturschutzprofis und ambitionierte Amateure erfassen Artbeobachtungen direkt im Feld auf Mobilgeräten.
+              Naturschutzprofis und ambitionierte Amateure erfassen Artbeobachtungen
+              direkt im Feld auf Mobilgeräten.
             </p>
             <p>
-              Grösste Stärke: NutzerInnen erstellen einfach und flexibel eigene, projektspezifische Datenstrukturen.
+              Grösste Stärke: NutzerInnen erstellen einfach und flexibel eigene,
+              projektspezifische Datenstrukturen.
             </p>
             <Carousel>
               <CarouselItem>
                 <img
                   src={evm01EinfacheListenAnzeigenImg}
-                  alt='Einfache Liste anzeigen' /
-                >
+                  alt="Einfache Liste anzeigen"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     einfache Liste anzeigen
@@ -647,10 +662,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={evm02EinfachErfassenImg}
-                  alt='Im einfachen Modus erfassen' /
-                >
+                  alt="Im einfachen Modus erfassen"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     im einfachen Modus erfassen
@@ -660,10 +675,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={evm03HierarchischErfassenImg}
-                  alt='Im hierarchischen Modus erfassen' /
-                >
+                  alt="Im hierarchischen Modus erfassen"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     im hierarchischen Modus erfassen
@@ -673,10 +688,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={evm04ArtgruppeWaehlenImg}
-                  alt='Artgruppe wählen' /
-                >
+                  alt="Artgruppe wählen"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     Artgruppe wählen
@@ -686,10 +701,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={evm05ArtWaehlenImg}
-                  alt='Art wählen' /
-                >
+                  alt="Art wählen"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     Art wählen
@@ -699,10 +714,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={evm06ArtFilternImg}
-                  alt='Art filtern' /
-                >
+                  alt="Art filtern"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     Art filtern
@@ -712,10 +727,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={evm07VerortenImg}
-                  alt='auf Luftbild anzeigen / verorten' /
-                >
+                  alt="auf Luftbild anzeigen / verorten"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     auf Luftbild anzeigen / verorten
@@ -725,10 +740,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={evm08FelderWaehlenImg}
-                  alt='Felder wählen' /
-                >
+                  alt="Felder wählen"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     Felder wählen
@@ -738,10 +753,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={evm09FelderAuflistenImg}
-                  alt='Felder auflisten' /
-                >
+                  alt="Felder auflisten"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     Felder auflisten
@@ -751,10 +766,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={evm10EigeneFelderVerwaltenImg}
-                  alt='Eigene Felder erstellen' /
-                >
+                  alt="Eigene Felder erstellen"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     eigene Felder erstellen
@@ -764,10 +779,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={evm11ExportierenImg}
-                  alt='Beobachtungen exportieren' /
-                >
+                  alt="Beobachtungen exportieren"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     Beobachtungen exportieren
@@ -777,10 +792,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={evm12DatenschutzBestimmenImg}
-                  alt='Datenschutz bestimmen' /
-                >
+                  alt="Datenschutz bestimmen"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     Datenschutz bestimmen
@@ -790,10 +805,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={evm13UndMehrImg}
-                  alt='... und mehr' /
-                >
+                  alt="... und mehr"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     ... und mehr
@@ -802,17 +817,23 @@ const ProjektePage = () => (
               </CarouselItem>
             </Carousel>
             <p>
-              Mehr Informationen <a href='https://github.com/barbalex/EvabMobile' target='_blank'>auf GitHub</a>
+              Mehr Informationen&nbsp;
+              <a
+                href="https://github.com/barbalex/EvabMobile"
+                target="_blank"
+              >
+                auf GitHub
+              </a>
             </p>
           </section>
           <section
-            id='blue-borders'
-            className='projekt sektion anchor'
+            id="blue-borders"
+            className="projekt sektion anchor"
           >
             <img
               src={bbImg}
-              alt=''
-              height='51'
+              alt="blue borders"
+              height={51}
             />
             <h4>
               blue-borders.ch
@@ -821,16 +842,17 @@ const ProjektePage = () => (
               Übersicht über die Migration durch das zentrale und östliche Mittelmeer.
             </p>
             <p>
-              Grösste Stärke: rasche Übersicht über Migrationsströme und dazugehörige politische Ereignisse.
+              Grösste Stärke: rasche Übersicht über Migrationsströme
+              und dazugehörige politische Ereignisse.
             </p>
             <Carousel>
               <CarouselItem>
                 <img
                   src={bb1Img}
-                  alt='Home' /
-                >
+                  alt="Home"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     Home
@@ -840,10 +862,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={bb2Img}
-                  alt='Ereignisse und Statistiken' /
-                >
+                  alt="Ereignisse und Statistiken"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     Ereignisse und Statistiken
@@ -853,10 +875,10 @@ const ProjektePage = () => (
               <CarouselItem>
                 <img
                   src={bb3Img}
-                  alt='Kommentare' /
-                >
+                  alt="Kommentare"
+                />
                 <div
-                  className='carousel-caption'
+                  className="carousel-caption"
                 >
                   <h2>
                     Kommentare
@@ -865,7 +887,13 @@ const ProjektePage = () => (
               </CarouselItem>
             </Carousel>
             <p>
-              Schauen Sie selber: <a href='http://blue-borders.ch' target='_blank'>blue-borders.ch</a>
+              Schauen Sie selber:&nbsp;
+              <a
+                href="http://blue-borders.ch"
+                target="_blank"
+              >
+                blue-borders.ch
+              </a>
             </p>
           </section>
         </div>
