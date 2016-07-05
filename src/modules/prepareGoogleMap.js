@@ -1,5 +1,3 @@
-'use strict'
-
 import showGoogleMap from '../modules/showGoogleMap'
 
 window.showGoogleMap = showGoogleMap

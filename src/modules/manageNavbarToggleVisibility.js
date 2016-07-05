@@ -3,8 +3,6 @@
  * TODO: do this the react way
  */
 
-'use strict'
-
 import $ from 'jquery'
 
 const closeNavbarCollapse = ($navbarCollapse) => {
@@ -17,11 +15,11 @@ const closeNavbarCollapse = ($navbarCollapse) => {
 export default function () {
   // bootstrap managt die navbar nicht
   // selber machen!
-  $(document).on('click.nav', '.navbar-nav', function() {
+  $(document).on('click.nav', '.navbar-nav', function clickNavbarNav() {
     const $navbarCollapse = $(this).closest('.navbar-collapse')
     closeNavbarCollapse($navbarCollapse)
   })
-  $(document).on('click.nav', '.navbar-toggle', function() {
+  $(document).on('click.nav', '.navbar-toggle', function clickNavbarToggle() {
     const $navbarCollapse = $(this)
       .parent()
       .parent()
@@ -34,7 +32,7 @@ export default function () {
     }
   })
   // man soll auch auf den Titel klicken können und das Menü schliesst
-  $(document).on('click.nav', '.navbar-brand', function() {
+  $(document).on('click.nav', '.navbar-brand', function clickNavbarBrand() {
     const $navbarCollapse = $(this)
       .parent()
       .parent()
