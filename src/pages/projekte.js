@@ -48,6 +48,12 @@ import bbImg from '../../images/bb.png'
 import bb1Img from '../../images/bb1.png'
 import bb2Img from '../../images/bb2.png'
 import bb3Img from '../../images/bb3.png'
+import zhLoeweImg from '../../images/zhLoewe.png'
+import gsListeImg from '../../images/gs_liste.png'
+import gsFilternImg from '../../images/gs_filtern.png'
+import gsBearbImg from '../../images/gs_bearb.png'
+import gsBerichteImg from '../../images/gs_berichte.png'
+import gsExportImg from '../../images/gs_export.png'
 
 const ProjektePage = () => (
   <div
@@ -92,6 +98,12 @@ const ProjektePage = () => (
             className="nav-a"
           >
             blue-borders.ch
+          </NavItem>
+          <NavItem
+            href="projekte#kapla"
+            className="nav-a"
+          >
+            Kapla
           </NavItem>
         </Nav>
       </div>
@@ -895,6 +907,93 @@ const ProjektePage = () => (
                 blue-borders.ch
               </a>
             </p>
+          </section>
+          <section
+            id="kapla"
+            className="projekt sektion anchor"
+          >
+            <img
+              src={zhLoeweImg}
+              alt="Kapla"
+              height={51}
+            />
+            <h4>
+              Kapla
+            </h4>
+            <p>
+              Mit Kapla verwaltet die Abteilung Recht des AWEL (Amt für Abfall, Wasser, Energie und Luft)
+              des Kantons Zürich ihre Geschäfte.
+            </p>
+            <p>
+              Grösste Stärken: Benutzerfreundlichkeit, geringer Unterhaltsbedarf.
+            </p>
+            <Carousel>
+              <CarouselItem>
+                <img
+                  src={gsListeImg}
+                  alt="Geschäfte auflisten"
+                />
+                <div
+                  className="carousel-caption"
+                >
+                  <h2>
+                    Geschäfte auflisten
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={gsFilternImg}
+                  alt="Geschäfte filtern und sortieren"
+                />
+                <div
+                  className="carousel-caption"
+                >
+                  <h2>
+                    Geschäfte filtern und sortieren
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={gsBearbImg}
+                  alt="Geschäfte bearbeiten"
+                />
+                <div
+                  className="carousel-caption"
+                >
+                  <h2>
+                    Geschäfte bearbeiten
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={gsBerichteImg}
+                  alt="Geschäfte drucken"
+                />
+                <div
+                  className="carousel-caption"
+                >
+                  <h2>
+                    Geschäfte drucken
+                  </h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <img
+                  src={gsExportImg}
+                  alt="Geschäfte exportieren"
+                />
+                <div
+                  className="carousel-caption"
+                >
+                  <h2>
+                    Geschäfte exportieren
+                  </h2>
+                </div>
+              </CarouselItem>
+            </Carousel>
           </section>
         </div>
       </div>
