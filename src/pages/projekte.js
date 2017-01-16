@@ -994,6 +994,15 @@ const ProjektePage = () => (
                 </div>
               </CarouselItem>
             </Carousel>
+            <p>
+              Mehr Informationen&nbsp;
+              <a
+                href="https://github.com/barbalex/kapla3"
+                target="_blank"
+              >
+                auf GitHub
+              </a>
+            </p>
           </section>
         </div>
       </div>
